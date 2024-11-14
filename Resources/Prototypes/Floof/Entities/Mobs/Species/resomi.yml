@@ -51,7 +51,15 @@
       sprite: Floof/Mobs/Effects/onfire.rsi
       normalState: Resomi_minor_burning
       alternateState: Resomi_burning
-    - type: Hands
+    - type: Speech
+    speechVerb: Parrot
+    speechSounds: MaleAvali
+  - type: Vocal
+    sounds:
+      Male: MaleAvali
+      Unsexed: MaleAvali
+      Female: FemaleAvali
+  - type: Hands
       handDisplacement:
         sizeMaps:
           32:
