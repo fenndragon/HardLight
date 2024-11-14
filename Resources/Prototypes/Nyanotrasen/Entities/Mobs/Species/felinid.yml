@@ -100,3 +100,10 @@
   components:
   - type: HumanoidAppearance
     species: Felinid
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

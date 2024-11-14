@@ -122,13 +122,13 @@
   noSpawn: true
   description: A dummy resomi meant to be used in character setup.
   components:
-    - type: HumanoidAppearance
-      species: Resomi
-    - type: Inventory
-      speciesId: Resomi
-      displacements:
-        jumpsuit:
-          sizeMaps:
-            32:
-              sprite: Floof/Mobs/Species/Resomi/displacement.rsi
-              state: jumpsuit
+  - type: HumanoidAppearance
+    species: Resomi
+  - type: Inventory
+    speciesId: Resomi
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Floof/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit

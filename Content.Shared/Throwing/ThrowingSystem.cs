@@ -227,7 +227,7 @@ public sealed class ThrowingSystem : EntitySystem
             const float massLimit = 5f;
 
             if (!msg.Cancelled)
-                
+
                 // Frontier: apply impulse to buckled object if buckled
                 if (TryComp<BuckleComponent>(user, out var buckle) && buckle.BuckledTo is not null)
                 {
