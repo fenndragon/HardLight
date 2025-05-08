@@ -6,6 +6,11 @@ on:
   pull_request_target:
     types: [opened]
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   add_label:
     runs-on: ubuntu-latest
@@ -14,3 +19,4 @@ jobs:
       if: join(github.event.issue.labels) == ''
       with:
         labels: "S: Untriaged"
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
