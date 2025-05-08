@@ -60,7 +60,7 @@
       movement:
         state: miner
   - type: BorgChassis
-    maxModules: 4
+    maxModules: 5
     moduleWhitelist:
       tags:
       - BorgModuleGeneric
