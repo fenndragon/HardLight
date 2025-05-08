@@ -59,11 +59,35 @@
     autoRechargeRate: 30
 
 - type: entity
-  parent: WeaponXrayCannon
+  parent: BaseWeaponBattery
   suffix: Robot
   id: BorgWeaponXrayCannon
   description: A weapon that is almost as infamous as its users.
   components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: XrayLaser
+    fireCost: 200
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Battery
+    maxCharge: 4000
+    startingCharge: 4000
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 30

@@ -6,7 +6,7 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-  CHANGELOG_DIR: Resources/Changelog/Frontier.yml # Frontier: Changelog.yml<Frontier.yml
+  CHANGELOG_DIR: Resources/Changelog/Frontier.yml
   PR_NUMBER: ${{ github.event.number }}
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Master
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
           ref: master
 
       - name: Setup Git

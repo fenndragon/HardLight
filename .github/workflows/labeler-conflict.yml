@@ -8,6 +8,10 @@ on:
       - reopened
       - ready_for_review
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   Label:
     if: ( github.event.pull_request.draft == false ) && ( github.actor != 'PJBot' ) && ( github.actor != 'FrontierATC' ) # Frontier

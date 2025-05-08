@@ -19,9 +19,6 @@
   - type: Battery
     maxCharge: 700
     startingCharge: 700
-  - type: HitscanBatteryAmmoProvider
-    proto: PulseWeak
-    fireCost: 100
   - type: Construction
     deconstructionTarget: null
     graph: Energyweapon

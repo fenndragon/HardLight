@@ -7,6 +7,7 @@ permissions:
   pull-requests: write
   issues: write
 
+
 jobs:
   size-label:
     runs-on: ubuntu-latest
