@@ -52,14 +52,14 @@
       normalState: Resomi_minor_burning
       alternateState: Resomi_burning
     - type: Speech
-    speechVerb: Parrot
-    speechSounds: MaleAvali
-  - type: Vocal
-    sounds:
-      Male: MaleAvali
-      Unsexed: MaleAvali
-      Female: FemaleAvali
-  - type: Hands
+      speechVerb: Parrot
+      speechSounds: MaleAvali
+    - type: Vocal
+      sounds:
+        Male: MaleAvali
+        Unsexed: MaleAvali
+        Female: FemaleAvali
+    - type: Hands
       handDisplacement:
         sizeMaps:
           32:
