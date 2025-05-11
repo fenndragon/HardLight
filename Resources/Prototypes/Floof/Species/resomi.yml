@@ -6,6 +6,11 @@
   sprites: MobResomiSprites
   defaultSkinTone: "#faf7f7"
   markingLimits: MobResomiMarkingLimits
+  maleFirstNames: names_reptilian_male
+  femaleFirstNames: names_reptilian_female
+  # maleFirstNames: names_resomi_male
+  # femaleFirstNames: names_resomi_female
+  naming: First
   dollPrototype: MobResomiDummy
   skinColoration: Hues
   maleFirstNames: names_resomi_male
@@ -17,9 +22,7 @@
   id: MobResomiSprites
   sprites:
     Head: MobResomiHead
-    Hair: MobHumanoidAnyMarking
-    FacialHair: MobHumanoidAnyMarking
-    Snout: MobHumanoidAnyMarking
+    Hair: MobResomiHair
     Chest: MobResomiTorso
     Eyes: MobResomiEyes
     LArm: MobResomiLArm
@@ -31,8 +34,6 @@
     LFoot: MobResomiLFoot
     RFoot: MobResomiRFoot
     Tail: MobHumanoidAnyMarking
-    HeadTop: MobHumanoidAnyMarking
-    HeadSide: MobHumanoidAnyMarking
 
 - type: markingPoints
   id: MobResomiMarkingLimits
@@ -42,25 +43,19 @@
       points: 1
       required: false
     Tail:
-      points: 1
+      points: 2
       required: true
       defaultMarkings: [ ResomiTail, ResomiTailFeathers ]
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
     Head:
       points: 2
       required: false
     Chest:
-      points: 1
-      required: false
-    RightFoot:
-      points: 1
-      required: false
-    LeftFoot:
-      points: 1
-      required: false
-    RightHand:
-      points: 1
-      required: false
-    LeftHand:
       points: 1
       required: false
 
@@ -69,6 +64,9 @@
   baseSprite:
     sprite: Floof/Mobs/Customization/eyes.rsi
     state: resomi
+
+- type: humanoidBaseSprite
+  id: MobResomiHair
 
 - type: humanoidBaseSprite
   id: MobResomiHead

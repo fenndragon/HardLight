@@ -20,7 +20,7 @@
 - type: marking
   id: ResomiLArmFeathers
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [Resomi]
   sprites:
   - sprite: Floof/Mobs/Customization/resomi_parts.rsi
@@ -29,7 +29,7 @@
 - type: marking
   id: ResomiLLegFeathers
   bodyPart: LFoot
-  markingCategory: LeftFoot
+  markingCategory: Legs
   speciesRestriction: [Resomi]
   sprites:
   - sprite: Floof/Mobs/Customization/resomi_parts.rsi
@@ -38,7 +38,7 @@
 - type: marking
   id: ResomiRArmFeathers
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [Resomi]
   sprites:
   - sprite: Floof/Mobs/Customization/resomi_parts.rsi
@@ -47,7 +47,7 @@
 - type: marking
   id: ResomiRLegFeathers
   bodyPart: RFoot
-  markingCategory: RightFoot
+  markingCategory: Legs
   speciesRestriction: [Resomi]
   sprites:
   - sprite: Floof/Mobs/Customization/resomi_parts.rsi

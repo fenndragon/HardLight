@@ -9,6 +9,8 @@
     species: Vulpkanin
   - type: Hunger
   - type: Carriable # Carrying system from nyanotrasen.
+  - type: Inventory # Allows vulps to wear properly shaped helmets
+    speciesId: vulpkanin
   - type: Thirst
   - type: Icon
     sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi
@@ -119,11 +121,3 @@
   components:
   - type: HumanoidAppearance
     species: Vulpkanin
-  - type: Inventory
-    speciesId: vulpkanin
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Human/displacement.rsi
-            state: jumpsuit-female
