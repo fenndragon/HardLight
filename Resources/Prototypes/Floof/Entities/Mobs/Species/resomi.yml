@@ -5,6 +5,30 @@
   id: BaseMobResomi
   abstract: true
   components:
+    - type: HumanoidAppearance
+      species: Resomi
+    - type: Hunger
+    - type: Puller
+    - type: Thirst
+    - type: Icon
+      sprite: Floof/Mobs/Species/Resomi/parts.rsi
+      state: full
+    - type: Body
+      prototype: Resomi
+      requiredLegs: 2
+    - type: Butcherable
+      butcheringType: Spike
+      spawned:
+      - id: FoodMeatLizard
+        amount: 5
+    - type: MeleeWeapon
+      soundHit:
+        collection: AlienClaw
+      angle: 30
+      animation: WeaponArcClaw
+      damage:
+        types:
+          Slash: 5
     - type: Fixtures
       fixtures:
         fix1:
@@ -27,22 +51,6 @@
       sprite: Floof/Mobs/Effects/onfire.rsi
       normalState: Resomi_minor_burning
       alternateState: Resomi_burning
-    - type: HumanoidAppearance
-      species: Resomi
-    - type: Icon
-      sprite: Floof/Mobs/Species/Resomi/parts.rsi
-      state: full
-    - type: Body
-      prototype: Resomi
-      requiredLegs: 2
-    - type: MeleeWeapon
-      soundHit:
-        collection: AlienClaw
-      angle: 30
-      animation: WeaponArcClaw
-      damage:
-        types:
-          Slash: 5
     - type: Hands
       handDisplacement:
         sizeMaps:
