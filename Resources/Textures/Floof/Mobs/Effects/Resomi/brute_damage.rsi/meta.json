@@ -28,6 +28,10 @@
             "name": "Chest_Brute_10",
             "directions": 4
         },
+		{
+            "name": "Chest_Brute_100",
+            "directions": 4
+        },
         {
             "name": "Head_Brute_30",
             "directions": 4
