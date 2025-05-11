@@ -13,7 +13,6 @@
   maleFirstNames: names_resomi_male
   femaleFirstNames: names_resomi_female
   naming: First
-  customName: true
   sexes:
   - Unsexed
 
