@@ -5,6 +5,10 @@ on:
     paths:
       - '**.rsi/**.png'
 
+permissions: # Explicitly define permissions
+  contents: read
+  pull-requests: write
+
 jobs:
   diff:
     name: Diff
@@ -12,13 +16,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.6.0
+        with: # Ensure the correct ref is checked out
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Get changed files
         id: files
         uses: Ana06/get-changed-files@v2.3.0
         with:
           format: 'space-delimited'
-          filter: | 
+          filter: |
             **.rsi
             **.png
 
