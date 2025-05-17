@@ -115,7 +115,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             ExpeditionSpawnCompleteEvent ev = new(Station, success, _missionParams.Index);
             _entManager.EventBus.RaiseLocalEvent(Station, ev);
             if (errorStackTrace != null)
-                Logger.ErrorS("salvage", $"Expedition generation failed with exception: {errorStackTrace}!");
+                ISawmill.Error("salvage", $"Expedition generation failed with exception: {errorStackTrace}!");
             if (!success)
             {
                 // Invalidate station, expedition cancellation will be handled by task handler

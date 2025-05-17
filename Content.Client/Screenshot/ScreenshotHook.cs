@@ -83,7 +83,7 @@ namespace Content.Client.Screenshot
                 }
             }
 
-            Logger.ErrorS("screenshot", "Unable to save screenshot.");
+            ISawmill.Error("screenshot", "Unable to save screenshot.");
         }
     }
 

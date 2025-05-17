@@ -318,7 +318,7 @@ public sealed class NFAdventureRuleSystem : GameRuleSystem<NFAdventureRuleCompon
         var reply = await request.Content.ReadAsStringAsync();
         if (!request.IsSuccessStatusCode)
         {
-            Logger.ErrorS("mining", $"Discord returned bad status code when posting message: {request.StatusCode}\nResponse: {reply}");
+            ISawmill.Error("mining", $"Discord returned bad status code when posting message: {request.StatusCode}\nResponse: {reply}");
         }
     }
 

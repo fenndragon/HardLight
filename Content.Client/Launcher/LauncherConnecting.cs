@@ -120,7 +120,7 @@ namespace Content.Client.Launcher
             }
             catch (Exception ex)
             {
-                Logger.ErrorS("launcher-ui", $"Redial exception: {ex}");
+                ISawmill.Error("launcher-ui", $"Redial exception: {ex}");
             }
             return false;
         }
