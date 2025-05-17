@@ -55,3 +55,21 @@
     - Doubloon
     balance:
       Doubloon: 0
+
+- type: entity
+  id: StorePresetMercenaryUplink
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-merc-uplink
+    categories:
+    - UplinkMercenaryHardsuits
+    - UplinkMercenaryWeapons
+    - UplinkMercenaryAmmo
+    - UplinkMercenaryUtility
+    - UplinkMercenaryExplosives
+    - UplinkMercenaryBundles
+    currencyWhitelist:
+    - MercCoin
+    balance:
+      MercCoin: 0

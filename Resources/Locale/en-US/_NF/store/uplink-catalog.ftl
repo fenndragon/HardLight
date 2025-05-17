@@ -216,3 +216,21 @@ uplink-pirate-greengrenade-name = Green Pirate Grenade
 uplink-pirate-greengrenade-desc = A foul-smelling grenade that makes you feel fuzzy.
 uplink-pirate-graygrenade-name = Gray Pirate Grenade
 uplink-pirate-graygrenade-desc = A solid grenade that feels like a cannonball.
+
+store-category-mercenaryhardsuits = EVA Suits
+store-category-mercenaryweapons = Weapons
+store-category-mercenaryutility = Utility
+store-category-mercenaryammo = Ammunition
+store-category-mercenaryexplosives = Explosives
+store-category-mercenarybundles = Bundles
+
+uplink-mercenary-scafhardsuit-name = SCAF Hardsuit
+uplink-mercenary-scafhardsuit-desc = A suit of vacuum-proof armor highly resistant to projectile weaponry.
+uplink-mercenary-hardsuit-name = Merc Hardsuit
+uplink-mercenary-hardsuit-desc = A suit of space-proof vacuum armor that protects against general damage.
+uplink-mercenary-rifle1-name = Surplus Lecter
+uplink-mercenary-rifle1-desc = A tried and true surplus automatic rifle. The benchmark.
+uplink-mercenary-shotgun1-name = Surplus Kammerer
+uplink-mercenary-shotgun1-desc = Old reliable, rack and shoot. Marked for Suplus.
+uplink-mercenary-smg1-name = Surplus Drozd
+uplink-mercenary-smg1-desc = Based on an old design, this SMG is still more than capable of putting rounds down-range.

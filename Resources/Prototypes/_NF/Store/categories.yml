@@ -48,3 +48,27 @@
   id: UplinkPirateExplosives
   name: store-category-pirateexplosives
 
+#mercenary
+- type: storeCategory
+  id: UplinkMercenaryBundles
+  name: store-category-mercenarybundles
+
+- type: storeCategory
+  id: UplinkMercenaryHardsuits
+  name: store-category-mercenaryhardsuits
+
+- type: storeCategory
+  id: UplinkMercenaryWeapons
+  name: store-category-mercenaryweapons
+
+- type: storeCategory
+  id: UplinkMercenaryAmmo
+  name: store-category-mercenaryammo
+
+- type: storeCategory
+  id: UplinkMercenaryUtility
+  name: store-category-mercenaryutility
+
+- type: storeCategory
+  id: UplinkMercenaryExplosives
+  name: store-category-mercenaryexplosives

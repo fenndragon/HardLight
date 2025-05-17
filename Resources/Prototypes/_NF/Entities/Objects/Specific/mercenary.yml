@@ -1,0 +1,91 @@
+- type: entity
+  name: merc coin
+  parent: BaseItem
+  id: MercCoin
+  suffix: 20 MC
+  description: A plastic chip given from Expeditionary rewards for Mercenaries for their hard work. It can be exchanged at a Mercenary Vending Machine for a variety of items.
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Specific/Mercenary/merc_coin.rsi
+    state: merc_coin
+  - type: Item
+    sprite: _NF/Objects/Specific/Mercenary/merc_coin.rsi
+    size: Tiny
+  - type: Stack
+    count: 20
+    stackType: MercCoin
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      MercCoin: 1
+
+- type: entity
+  parent: MercCoin
+  id: MercCoin1
+  suffix: 1 MC
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: MercCoin
+  id: MercCoin5
+  suffix: 5 MC
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
+  parent: MercCoin
+  id: MercCoin10
+  suffix: 10 MC
+  components:
+  - type: Stack
+    count: 10
+
+# Uplinks
+- type: entity
+  parent: [ BaseItem, StorePresetMercenaryUplink ]
+  id: BaseMercenaryUplinkRadio
+  name: mercenary uplink
+  description: Retro looking old radio... But like, Merc-flavored...
+  suffix: Empty
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: old-radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Tag
+    tags:
+    - MercenaryUplink
+
+- type: entity
+  parent: BaseMercenaryUplinkRadio
+  id: BaseMercenaryUplinkRadioDebug
+  suffix: Mercenary, DEBUG
+  components:
+  - type: Store
+    balance:
+      MercCoin: 99999
+
+- type: entity
+  parent: BaseMercenaryUplinkRadio
+  id: BaseMercenaryUplinkRadioEmptyTesting
+  suffix: Mercenary, Empty (Testing)
+  components:
+  - type: Store
+    balance:
+      MercCoin: 0

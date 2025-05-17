@@ -13,5 +13,21 @@
   suffix: Non-lethal
   components:
   - type: BallisticAmmoProvider
-    capacity: 4
+    capacity: 5
     proto: ShellShotgunBeanbag
+
+# Suplus
+- type: entity
+  parent: [ BaseC1Contraband, WeaponShotgunKammerer]
+  id: WeaponShotgunSurpKammerer
+  suffix: Surplus
+  components:
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,4,0
+    sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump_inhands_64x.rsi
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi

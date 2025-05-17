@@ -110,25 +110,19 @@
     sprite: _NF/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine]
+  parent: [BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine]
   id: VendingMachineSyndieContraband
   name: ContraVend
   description: Wanted across multiple sectors!
   components:
   - type: VendingMachine
-    pack: ContraVendInventory
-    dispenseOnHitChance: 0
-    dispenseOnHitThreshold: 2
+    cashSlot: Null
     offState: off
     brokenState: broken
     normalState: normal-unshaded
     ejectState: eject-unshaded
     denyState: deny-unshaded
     screenState: screen
-    ejectDelay: 3
-    ejectRandomMax: 0
-    ejectRandomCounter: 0
-#    initialStockQuality: 0.5
   - type: Advertise
     pack: SyndieDrobeAds
   - type: Sprite
@@ -148,8 +142,63 @@
     radius: 1.5
     energy: 1.3
     color: "#ad2c2b"
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 5 # Small initial balance
   - type: AccessReader
     access: [["NuclearOperative"], ["SyndicateAgent"]]
+
+- type: entity
+  parent: [BaseStructureDisableAnchoring, StorePresetMercenaryUplink, VendingMachine]
+  id: VendingMachineMercVend
+  name: MercVend
+  description: For every sophant a rifle.
+  components:
+  - type: VendingMachine
+    cashSlot: Null
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+#   screenState: screen
+  - type: Sprite
+    sprite: _NF/Structures/Machines/VendingMachines/mercvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+#   - state: "screen"
+#     map: ["enum.VendingMachineVisualLayers.Screen"]
+#     shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.3
+    color: "#0492c2"
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Tag
+    tags:
+    - MercenaryUplink
+#  - type: Store
+#    balance:
+#      MercCoin: 0 # Waits for the player to put in money
+  - type: AccessReader
+    access: [["NuclearOperative"], ["SyndicateAgent"], ["Pilot"], ["Mercenary"]]
 
 - type: entity
   parent: VendingMachine

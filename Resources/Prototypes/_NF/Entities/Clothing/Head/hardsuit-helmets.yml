@@ -18,6 +18,8 @@
     sprite: _NF/Clothing/Head/Hardsuits/mercenary.rsi
   - type: PointLight
     color: "#ffeead"
+    radius: 6
+    energy: 2
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000

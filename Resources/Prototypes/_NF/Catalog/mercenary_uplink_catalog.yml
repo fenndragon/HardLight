@@ -1,0 +1,79 @@
+- type: listing
+  id: UplinkMercenaryHardsuit
+  name:  uplink-mercenary-hardsuit-name
+  description: uplink-mercenary-hardsuit-desc
+  productEntity: ClothingOuterHardsuitMercenary
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi, state: icon }
+  cost:
+    MercCoin: 5
+  categories:
+    - UplinkMercenaryHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryHardsuitScaf
+  name:  uplink-mercenary-scafhardsuit-name
+  description: uplink-mercenary-scafhardsuit-desc
+  productEntity: ClothingOuterHardsuitScaf
+  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi, state: icon }
+  cost:
+    MercCoin: 20
+  categories:
+    - UplinkMercenaryHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenaryWeaponSurpLecter
+  name:  uplink-mercenary-rifle1-name
+  description: uplink-mercenary-rifle1-desc
+  productEntity: WeaponRifleSurpLecter
+  icon: { sprite: _NF/Objects/Weapons/Guns/Rifles/surplecter.rsi, state: icon }
+  cost:
+    MercCoin: 8
+  categories:
+    - UplinkMercenaryWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenarySurpKammerer
+  name:  uplink-mercenary-shotgun1-name
+  description: uplink-mercenary-shotgun1-desc
+  productEntity: WeaponShotgunSurpKammerer
+  icon: { sprite: _NF/Objects/Weapons/Guns/Shotguns/surppump.rsi, state: icon }
+  cost:
+    MercCoin: 9
+  categories:
+    - UplinkMercenaryWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink
+
+- type: listing
+  id: UplinkMercenarySurpDrozd
+  name:  uplink-mercenary-smg1-name
+  description: uplink-mercenary-smg1-desc
+  productEntity: WeaponSubMachineGunSurpDrozd
+  icon: { sprite: _NF/Objects/Weapons/Guns/SMGs/surpdrozd.rsi, state: icon }
+  cost:
+    MercCoin: 6
+  categories:
+    - UplinkMercenaryWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - MercenaryUplink

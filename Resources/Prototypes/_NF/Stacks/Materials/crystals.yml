@@ -9,3 +9,9 @@
   name: doubloon
   icon: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
   spawn: Doubloon1
+
+- type: stack
+  id: MercCoin
+  name: merccoin
+  icon: _NF/Objects/Specific/Mercenary/merc_coin.rsi
+  spawn: MercCoin1

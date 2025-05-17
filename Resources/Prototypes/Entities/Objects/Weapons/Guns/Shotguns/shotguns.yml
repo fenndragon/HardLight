@@ -177,8 +177,10 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: Gun
+    fireRate: 1.5
   - type: BallisticAmmoProvider
-    capacity: 4
+    capacity: 5
   - type: Tag
     tags:
     - WeaponShotgunKammerer
