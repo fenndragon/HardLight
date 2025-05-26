@@ -559,7 +559,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisablerSmg # Frontier
+    proto: BulletDisablerSmg # Frontier
     fireCost: 25
   - type: MagazineVisuals
     magState: mag
@@ -597,7 +597,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletTaser # Frontier
+    proto: BulletTaser # Frontier
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -626,7 +626,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedMediumLaser # Frontier
+    proto: RedMediumLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -673,7 +673,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedMediumLaser # Frontier
+    proto: RedMediumLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -714,19 +714,19 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
     # Frontier: moved to NF variants
-  # - type: ProjectileBatteryAmmoProvider
-  #   proto: AnomalousParticleDeltaStrong
-  #   fireCost: 100
-  # - type: BatteryWeaponFireModes
-  #   fireModes:
-  #   - proto: AnomalousParticleDeltaStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleEpsilonStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleZetaStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleSigmaStrong
-  #     fireCost: 100
+  - type: ProjectileBatteryAmmoProvider
+    proto: AnomalousParticleDeltaStrong
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: AnomalousParticleDeltaStrong
+      fireCost: 100
+    - proto: AnomalousParticleEpsilonStrong
+      fireCost: 100
+    - proto: AnomalousParticleZetaStrong
+      fireCost: 100
+    - proto: AnomalousParticleSigmaStrong
+      fireCost: 100
     # End Frontier: moved to NF variants
   - type: Construction
     graph: UpgradeWeaponPistolCHIMP
@@ -741,18 +741,18 @@
   description: This C.H.I.M.P. seems to have a greater punch than is usual...
   components:
   - type: BatteryWeaponFireModes
-    # Frontier: moved to NF variants
-    # fireModes:
-    # - proto: AnomalousParticleDeltaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleEpsilonStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleOmegaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleZetaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleSigmaStrong
-    #   fireCost: 100
+    Frontier: moved to NF variants
+    fireModes:
+    - proto: AnomalousParticleDeltaStrong
+      fireCost: 100
+    - proto: AnomalousParticleEpsilonStrong
+      fireCost: 100
+    - proto: AnomalousParticleOmegaStrong
+      fireCost: 100
+    - proto: AnomalousParticleZetaStrong
+      fireCost: 100
+    - proto: AnomalousParticleSigmaStrong
+      fireCost: 100
     # Frontier: moved to NF variants
 
 - type: entity
@@ -771,7 +771,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_clown.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaser # Frontier
+    proto: RedLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -868,14 +868,14 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BoltTempgunCold # Frontier
+    proto: BoltTempgunCold # Frontier
     fireCost: 100
   - type: BatteryWeaponFireModes
-    fireModes: [] # Frontier: add empty list
-    # - proto: BoltTempgunCold # Frontier
-    #   fireCost: 100 # Frontier
-    # - proto: BoltTempgunHot # Frontier
-    #   fireCost: 100 # Frontier
+    fireModes:
+      - proto: BoltTempgunCold # Frontier
+        fireCost: 100 # Frontier
+      - proto: BoltTempgunHot # Frontier
+        fireCost: 100 # Frontier
   - type: Battery
     maxCharge: 1000
     startingCharge: 1000
