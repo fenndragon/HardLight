@@ -1,0 +1,45 @@
+# Author Info
+# GitHub: Phoenix51505
+# Discord: phoebe_the_phoenix0227
+
+# Maintainer Info
+# GitHub: Phoenix51505
+# Discord: phoebe_the_phoenix0227
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Equinox
+  parent: BaseVessel
+  name: PCY Equinox
+  description: A demilitarized variant of the Phantom Advanced Ground Support Vessel, featuring expedition capability, extended habitation ameneties, and a RnD department
+  price: 85000
+  category: Medium
+  group: Expedition 
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/equinox.yml
+  guidebookPage: Null 
+  class: 
+  - Science
+  - Expedition
+  engine:
+  - AME
+
+- type: gameMap
+  id: Equinox
+  mapName: 'Equinox'
+  mapPath: /Maps/_NF/Shuttles/Expedition/equinox.yml
+  minPlayers: 0
+  stations:
+    Equinox:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Equinox {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
