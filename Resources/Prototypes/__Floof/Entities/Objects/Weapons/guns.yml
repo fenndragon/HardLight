@@ -6,7 +6,7 @@
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
     - type: ProjectileBatteryAmmoProvider
-      proto: BulletDisabler
+      proto: NFBulletDisabler
       fireCost: 50
     - type: BatterySelfRecharger
       autoRecharge: true
@@ -84,7 +84,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: XrayLaser
+    proto: NFXrayLaser
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -118,7 +118,7 @@
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
     # fireOnDropChance: 0.5
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletPistol
+    proto: NFBulletPistol
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -149,7 +149,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletLaserSpread
+    proto: NFBulletLaserSpread
     fireCost: 150
   - type: BatteryWeaponFireModes
     fireModes:
