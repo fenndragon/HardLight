@@ -185,7 +185,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLightLaser # Frontier
+    proto: RedLightLaser # Frontier
     fireCost: 62.5
   - type: Battery
     maxCharge: 500
@@ -212,7 +212,7 @@
       params:
         variation: 0.2
   - type: ProjectileBatteryAmmoProvider
-    # proto: TeslaGunBullet # Frontier
+    proto: TeslaGunBullet # Frontier
     fireCost: 300
   - type: MagazineVisuals
     magState: mag
@@ -246,7 +246,7 @@
     availableModes:
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaserPractice # Frontier
+    proto: RedLaserPractice # Frontier
     fireCost: 62.5
   - type: StaticPrice
     price: 300
@@ -260,7 +260,7 @@
   - type: StaticPrice
     price: 420
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaser # Frontier
+    proto: RedLaser # Frontier
     fireCost: 62.5
 
 - type: entity
@@ -292,7 +292,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 200
   - type: Battery
     maxCharge: 2000
@@ -329,7 +329,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 200
   - type: Battery
     maxCharge: 5000
@@ -362,7 +362,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 100
   - type: Battery
     maxCharge: 40000
@@ -395,7 +395,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedHeavyLaser # Frontier
+    proto: RedHeavyLaser # Frontier
     fireCost: 100
   - type: Tag
     tags:
@@ -426,7 +426,7 @@
         params:
           pitch: 2
     - type: ProjectileBatteryAmmoProvider
-      # proto: AntiParticlesProjectile # Frontier
+      proto: AntiParticlesProjectile # Frontier
       fireCost: 500
     - type: Battery
       maxCharge: 10000
@@ -453,7 +453,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: XrayLaser # Frontier
+    proto: XrayLaser # Frontier
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -496,7 +496,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisablerPractice # Frontier
+    proto: BulletDisablerPractice # Frontier
     fireCost: 50
   - type: Tag
     tags:
@@ -524,7 +524,7 @@
       - suitStorage
       - Belt
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisabler # Frontier
+    proto: BulletDisabler # Frontier
     fireCost: 50
   - type: GuideHelp
     guides:
