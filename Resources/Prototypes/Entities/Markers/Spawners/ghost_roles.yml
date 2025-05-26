@@ -211,23 +211,23 @@
     - sprite: Mobs/Aliens/paradox_clone.rsi
       state: preview
 
-- type: entity
-  categories: [ HideSpawnMenu, Spawner ]
-  parent: BaseAntagSpawner
-  id: SpawnPointGhostDerelictCyborg
-  components:
-  - type: GhostRole
-    name: ghost-role-information-derelict-cyborg-name
-    description: nf-ghost-role-information-derelict-cyborg-description # Frontier
-    rules: ghost-role-information-silicon-rules
-    raffle:
-      settings: default
-  - type: Sprite
-    sprite: Markers/jobs.rsi
-    layers:
-    - state: green
-    - sprite: Mobs/Silicon/chassis.rsi
-      state: derelict_icon
+# - type: entity
+#  categories: [ HideSpawnMenu, Spawner ]
+#  parent: BaseAntagSpawner
+#  id: SpawnPointGhostDerelictCyborg
+#  components:
+#  - type: GhostRole
+#    name: ghost-role-information-derelict-cyborg-name
+#    description: nf-ghost-role-information-derelict-cyborg-description # Frontier
+#    rules: ghost-role-information-silicon-rules
+#    raffle:
+#      settings: default
+#  - type: Sprite
+#    sprite: Markers/jobs.rsi
+#    layers:
+#    - state: green
+#    - sprite: Mobs/Silicon/chassis.rsi
+#      state: derelict_icon
 
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]

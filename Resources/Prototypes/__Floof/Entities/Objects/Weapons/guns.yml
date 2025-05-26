@@ -5,6 +5,9 @@
   id: WeaponBorgDisabler
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletDisabler
+      fireCost: 50
     - type: BatterySelfRecharger
       autoRecharge: true
       autoRechargeRate: 30

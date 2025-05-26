@@ -1,48 +1,6 @@
 <div class="header" align="center">
-<img alt="Frontier Station" height="300" src="https://github.com/new-frontiers-14/frontier-station-14/blob/master/Resources/Textures/_NF/Logo/logo.png?raw=true" />
+<img alt="Frontier Station" height="300" src="https://github.com/fenndragon/HardLight/blob/master/Resources/Textures/_NF/Logo/logo.png?raw=true" />
 </div>
-
-Frontier Station is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
-
-This is the primary repo for Frontier Station.
-
-If you want to host or create content for Frontier Station, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
-
-## Links
-
-<div class="header" align="center">  
-[Discord](https://discord.gg/tpuAT7d3zm/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Patreon](https://www.patreon.com/frontierstation14) | [Wiki](https://frontierstation.wiki.gg/)
-</div>
-
-## Documentation/Wiki
-
-Our [wiki](https://frontierstation.wiki.gg/) has documentation on Frontier Station's content.
-
-## Contributing
-
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of ideas](https://discord.com/channels/1123826877245694004/1127017858833068114) that can be done and anybody can pick them up. Don't be afraid to ask for help either!
-
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language, consider creating a fork or contributing to a fork.
-
-If you make any contributions, please make sure to read the markers section in [MARKERS.md](https://github.com/new-frontiers-14/frontier-station-14/blob/master/MARKERS.md)
-Any changes made to files belonging to our upstream should be properly marked in accordance to what is specified there.
-
-## Building
-
-1. Clone this repo:
-```shell
-git clone https://github.com/new-frontiers-14/frontier-station-14.git
-```
-2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
-```shell
-cd frontier-station-14
-python RUN_THIS.py
-```
-3. Compile the solution:  
-
-Build the server using `dotnet build`.
-
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
 
 ## License
 

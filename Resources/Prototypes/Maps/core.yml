@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Core
+  id: Core1
   mapName: 'Hardlight Core Station'
   mapPath: /Maps/core.yml
   minPlayers: 0

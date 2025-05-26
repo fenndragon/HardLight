@@ -1,89 +1,198 @@
-﻿[head=3][color=#ff0000]You must be 17 or older to play. Users under 17 will be banned immediately.[/head][/color]
+﻿[head=3][color=#ff0000]WARNING: You must be 18 or older to play. Users under 18 will be banned immediately.[/head][/color]
 
-[color=#99ff99]Frontier Station is a Medium Roleplay server. Try to immerse yourself into your character. This includes doing your job as a station or ship crew member and delegating tasks that are outside of that description, or striking out upon space as a Captain of your ship. This does not imply you’re forced to play the whole round; Frontier Station is designed with pop-in-and-out gameplay in mind, where some players will come and go but their bank account remains persistent across server restarts.[/color]
+[color=#99ff99]Hard Light is an english speaking 18+ medium roleplay server[/color]
 
-[color=#99ff99]You can access more information about the game using the Guidebook (NUMPAD 0).[/color]
+[color=#a4885c][head=3]0. Implimentation and interpretation of the rules is up to the sole discretion of the Admins.[/head][/color]
+	
+	• Admins will instead be held accountable through use of the Admin code of conduct. 
 
-[color=#a4885c][head=3]0. Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large.[/head][/color]
-	• They will of course be held fully accountable for their actions if they exercise this privilege.
+[color=#ffff00]If you have any questions about these rules, please use the Admin help menu by hitting F1 in-game, or clicking the "AHelp" button in the lobby, or alternatively, ask for assistance on the discord.[/color]
 
-[color=#a4885c][head=3]0.1. All of these rules apply as they are intended.[/head][/color]
-	• Every example of a rule break cannot be defined as written, therefore, enforcement of the rules is subject to staff interpretation of the rule's intention.
+[head=3][color=#ff0000]rules marked in Hardlight's [color=#00fffb]color[/color] will be enforced at all times. Other rules will only be enforced upon recieving a user report.[/head][/color]
+  # Core Rules
+  These rules apply at all times, including between rounds.
 
-[color=#a4885c][head=3]0.2. Staff is not obligated to cover player losses, deaths or delays.[/head][/color]
-	• This includes but is not limited to ship deeds, money, respawns or revivals. Any action taken will depend on the circumstances at hand.
+  Each section contains its own list of rules. Click on the section name to view the full version.
 
-[color=#a4885c][head=3]1. Follow the community expectations. This includes both in game and elsewhere in our community.[/head][/color]
-	• Don't be a dick nor harass other players.
-	• Do not evade bans.
-	• Don't be racist or bigoted.
-	• Do not attempt to cause lag to the server.
-	• Do not grief as a non-antagonist; this includes against AFK and SSD/Catatonic Players.
-	• Do not leave the server to avoid punishment from Admin staff.
-	• Do not respawn to avoid punishment from Security Forces, or respawn as the same character if given a permanent confinement sentence.
-	• Exploits, abusing bugs, cheating, power-gaming, and other extremely lame behavior are forbidden.
+  - [textlink="Section 1. Behavioral Rules" link="RuleC1"]
+  - [textlink="Section 2. Gameplay Rules" link="RuleC2"]
+  - [textlink="Section 3. Metagaming Rules" link="RuleC3"]
+  - [textlink="Section 4. New-life Rules" link="RuleC4"]
+  - [textlink="Section 5. Character Naming Rules" link="RuleC5"]
+  - [textlink="Section 6. Roleplay Rules" link="RuleC6"]
+  - [textlink="Section 7. Powergaming Rules" link="RuleC7"]
+  - [textlink="Section 8. End-Of-Round (EOR) Rules" link="RuleC8"]
+  - [textlink="Section 9. Erotic-Role-Play (ERP) Rules" link="RuleC9"]
+  - [textlink="Section 10. Command and Security Rules" link="RuleC10"]
+  - [textlink="Section 11. Antagonist Rules" link="RuleC11"]
+  - [textlink="Section 12. Escalation Guidelines" link="RuleC12"]
+  
+  [color=#ffff00][head=3]Severity guidelines:[/head][/color]
+	
+	• *1
+	
+	Minor infraction
+	
+	•[color=#f1c232]*2[/color]
+	
+	Major infraction
+	
+	•[color=#cc0000]*3[/color]
+	
+	Extreme infraction
+	
+[color=#ffff00][head=3]Section 1: Behavior Rules[/head][/color]
 
-[color=#a4885c][head=3]2. Do not use information gained outside of in-character means, and do not say In Character (IC) things in the Local Out Of Character (LOOC) chat channel.[/head][/color]
-	• Voice Chat with other players currently playing on the server is [color=#ff0000]not allowed under any circumstance. [/color]
-	• I.e. metagaming. This especially refers to communication between players outside of the game via things like Discord, known as meta-comms. Characters are otherwise allowed to know everything about in-game mechanics or antagonists, as well as keep persistent friendships and relationships with other characters when not for the purpose of unfair advantage by teaming up together for little IC reason.
-	• Do not say LOOC things in IC either, like saying you “need to go afk because your dog wants to go outside,” in the IC chat.
+[color=#a4885c]1.1[/color] Be respectful to others OOC. *1
 
-[color=#a4885c][head=3]3. After cloning, respawning, or taking a ghost role, you must follow the new life rule.[/head][/color]
-	• If cloned, resuscitated, or respawned, you don't have amnesia, but you can only recall vague details of who or what had killed you.
-	• If taking a ghost role, you have no memories from any past lives for the duration of playing as a ghost role.
-	• A 15 minute non-aggression period is required after respawning, so you can’t immediately get in a ship and try to go kill whoever killed you.
-	• Don't act on anything you saw while ghosted.
+[color=#a4885c]1.2[/color] Don't use hate speech, racism, or bigoted comments. *1 
 
-[color=#a4885c][head=3]4. Follow Chat Guidelines[/head][/color]
-	• Only speak in English.
-	• Do not spam.
-	• Do not advertise.
-	• Do not use Netspeak (i.e. LOL, ROFL, XD, FR).
-	• Hate speech, slurs and bigotry are [color=#ff0000]not allowed.[/color] Words that are closely tied to, or intended to replace/imitate, real life slurs are [color=#ff0000]not allowed.[/color]
+[color=#a4885c]1.3[/color] [color=#00fffb]Don't metagame.[/color] *1
 
-[color=#a4885c][head=3]5. Follow Roleplay Guidelines[/head][/color]
-	• Your IC name must be realistic and fit into the game's setting. Avoid joke names and names of locations, brands, fictional/real people or names parodying off from them (e.g. Baul Sadman, Tom Ford.) Additionally:
-		- Do not use numbers, symbols, titles or adjectives (i.e Mr ,Dr ,Big ,Old).
-		- Avoid using character names of other well-known players, do not impersonate players this way.
-		- All species have a naming convention, be sure to generally follow it.
-	• Treat your character as a separate entity from you, the player. Your character's actions, feelings, and knowledge in-game should be based solely on the character's experiences and not your own as the player. Low roleplay actions that have no regard for your character or the setting (Memes, silly copy paste spam IC) are not acceptable.
-	• Previous experiences with other characters are allowed to lead to meta-friending, but you may not meta-grudge another character.
+[color=#a4885c]1.4[/color] Don't spam or advertise. *1
 
-[color=#a4885c][head=3]6. Follow Antagonist Guidelines[/head][/color]
-	• All ghost roles have a set description for how the role should be played, you must follow the ghost role description unless told otherwise by an admin. Spamming ahelp asking for an exception will likely lead to being banned.
-	• Antagonists are not necessarily your friends. Traitors, rat kings, and sometimes wizards are free agents, but no one should be working together with xenomorphs, nuclear operatives, space dragons, or zombies.
-	• Non-pirates may not assist or work with pirate crews, examples are such as watching mass scanners and tipping them off who to attack, pretending to be hostages, or knowingly funding the pirates for equipment/ships.
+[color=#a4885c]1.5[/color] Do not intentionally take actions that would negatively impact or disrupt others enjoyment of the game. *1
 
-[color=#a4885c][head=3]7. Follow Station Safezone Guidelines[/head][/color]
-	• [color=#ff0000] The immediate 200 meters around the Frontier and the Frontier itself is considered a safe zone and absolutely no antag activity or griefing is permitted within that zone.[/color] This includes but is not limited to destruction, modification, removal, or otherwise restriction of use of any machine or device designed for public use, and the structure of the station itself.
-	• For any non-antagonistic or roleplay modifications of the station, Station Rep's approval is always required.
-	• Fights and confrontations is completely disallowed on the safezone such as shooting, attacking or any forms of harm.
-	• Pirate actions may not begin on the Frontier. This includes stowing away while at the Frontier with intentions to steal the ship, outright stealing the ship or its cargo from the dock, selling someone else’s ship you hadn’t pirated outside the safe zone, or joining the crew under false pretenses with the intention to mutiny and take the ship.
-	• Dangerous research like artifacts and anomalies must not be done while inside the safezone boundaries.
-	• Do not transport any kind of creature or objects with the intent to cause harm/death, or bait into a conflict inside of the frontier.
+[color=#a4885c]1.6[/color] Avoid controversial topics such as self harm/rape in public. *2 
 
-[color=#a4885c][head=3]8. Security Forces and Station Staff roles are held to a higher standard of roleplay and are strictly non-antagonists.[/head][/color]
-	• Security Forces roleplaying as ‘bad cops’ and intentionally violating space law is forbidden. Space Law is not optional for these roles, and strong knowledge is required before taking a security position.
-	• Civilian and Security staff are expected to maintain a minimum of competency and performance on their jobs. Security staff must follow NFSD Standard Operating Procedure (see Wiki in the menu for more details).
-	• Assets seized from criminals may only be used to make victims whole and to pay for any fines under the law. Any excess financials received from the sale of criminal assets is to be returned to their original owners, and are not to be plundered or extorted by security forces. This is a strict zero-tolerance policy.
-	• All players that are hired on as crew to the station as security or service staff, or through other direct jobs working for paychecks from the station, are considered non-antags and official Nanotrasen employees. Engaging in any hostile antagonistic activities, or abuse of the equipment provided while working in these roles, is strictly prohibited.
+[color=#a4885c]1.7[/color][color=#00fffb]Don't evade bans. [/color]*2 
 
-[color=#a4885c][head=3]9. Sector Command roles such as Station Rep and Sheriff are vital to the operation of the sector and are held to a much higher degree of roleplay and role handling.[/head][/color]
-	• Sector Command is expected and [color=#ff0000]required [/color] to maintain pay for their respective staff as a part of their job. Payroll should be a minimum of 10,000 for station crew, 20,000 for Station Rep and Sheriff, and 15,000 for security per hour. Embezzlement of station funds is strictly forbidden.
-	• Both of these roles have higher access to station resources than should be allowed for most crew members. As such, if you must ever end your shift early, always bring your ID with you, and always return to cryosleep so that your access cannot be stolen and the station funds embezzled. If for any reason you cannot (disconnect, crash, power outage, etc.) Please ping the game admins in Discord and we will handle your in-game character accordingly.
-	• Sector Command is permitted and expected to issue and enforce any docking fines related to loitering in the terminal for shuttles that have been idle for more than 10 minutes in the station docks without a valid reason, up to and including forced eviction of shuttles.  Fines collected in this way are permitted to be used as payroll or the acquisition of station supplies. Time spent docked and waiting at the station is to be kept at a minimum.
-	• You may not tax, lease, rent, or otherwise reserve the free and fair use of station resources and space to the detriment of the public or for personal gain. This includes, but is not limited to: charging docking fees, granting docking extensions, vending access, and moving station resources behind access locked doors to restrict access.
+[color=#a4885c]1.8[/color] Don't self antag. *2 
 
-[color=#a4885c][head=3]10. Follow Escalation Guidelines[/head][/color]
-	• Antagonistic ghost roles, and pest ghost roles like mice are always fair game for attack. Don't grief nanotrasen-aligned ghost roles like familiars, drones, or pets without provocation.
-	• Do not attack another player without a legitimate, explainable roleplay reason that could be applied in a similar, real-life scenario. A fistfight does not suddenly escalate into a gunfight.
-	• If a fight results in someone being critically injured or killed, seek medical help for them.
-	• If at any point combat is disengaged and both parties leave the area, you cannot skip escalation and plunge back into a fight. What’s done is done.
-	• Security Forces are expected to resolve situations with non-lethal force and to de-escalate IC confrontation except in cases where there is a reasonable chance of harm/death.
-	• Do not End of Round Grief (EORG), attacking/killing/griefing other players is not permitted after the shift ends.
+[color=#a4885c]1.9[/color][color=#00fffb] Don't ragequit/disconnect to avoid consequences. [/color]*2 
 
-[color=#a4885c][head=3]11. Follow PVP & Piracy Guidelines[/head][/color]
-	• Pirates/antagonists must ahelp before starting a crew and receive permission to begin antag activity. Spamming ahelp asking to be a pirate or pirating without permission will likely lead to being banned.
-	• Pirate crews may never exceed a total force of four members, including the Captain.
-	• Non-hostile vessels that surrender: cannot be killed, left stranded, completely bankrupt, or otherwise. The safety of non-hostile merchant vessels is to be guaranteed by all parties. All vessels being boarded must first attempt to negotiate before any hostile actions may take place.
-	• Hostile forces that are known, declared, and confirmed, may be considered 'belligerent', boarded non-conventionally, and have their systems disabled in attempts to bring them to justice. All suspects taken alive must be adequately cared for and unharmed according to Space Law.
+[color=#a4885c]1.10[/color][color=#00fffb] Cheating and exploits are forbidden. [/color]*3 
+
+[color=#a4885c]1.11[/color][color=#00fffb] Respect others OOC consent and preferences. [/color]*3 
+
+
+[color=#ffff00][head=3]Section 2: Game Server Rules[/head][/color]
+
+[color=#a4885c]2.1[/color] [color=#00fffb]If you are banned from a role or department, you may not play that role. This includes seeking or accepting promotions into roles you are banned from or taking Ghost roles which hold the role in question. [/color]*2
+
+[color=#a4885c]2.2[/color] Do not make yourself a major problem, annoyance, or disruption for the crew while not being an antagonist (i.e. self-antagging). *2
+
+[color=#a4885c]2.3[/color] [color=#00fffb]It is strictly forbidden to livestream rounds to others or share recorded gameplay outside of Hardlight without consent of all parties involved. [/color]*2
+
+[color=#a4885c]2.4[/color] Ghosting with with the sole intent of spying on others personal activities is not permitted. *2
+
+
+[color=#ffff00][head=3]Section 3: Metagaming Rules[/head][/color]
+
+[color=#a4885c]3.1[/color] Use the chat channels for their intended purposes. *1
+
+[color=#a4885c]3.2[/color] Characters do not retain any knowledge of what happened while they were dead. *1
+
+[color=#a4885c]3.3[/color] Do not use any information gained by meta-communication. *1
+
+[color=#a4885c]3.4[/color] [color=#00fffb]discussion about the current round is allowed on the Hardlight Discord server HOWEVER acting on information gained through this method is considered metagaming. [/color]*1
+
+[color=#a4885c]3.5[/color] Do not meta-grudge or meta-friend. (Using in or out of character information to give unfair treatment or advantages to others.) *1
+
+[color=#a4885c]3.6[/color] [color=#00fffb]Do NOT antag-roll. (Intentionally ghosting or cryoing to look for antag roles.)[/color]*1
+
+
+[color=#ffff00][head=3]Section 4: New-Life Rules[/head][/color]
+
+[color=#a4885c]4.1[/color] Players maintain all in character memory up until going critical. *1
+
+[color=#a4885c]4.2[/color] If a player is brought back to life they cannot recall more than foggy concepts of how they died. *1
+
+
+[color=#a4885c][head=3]Section 5: Naming Rules[/head][/color]
+
+[color=#a4885c]5.1[/color] Don't make meta references. *1
+
+Try to be creative by picking a believable and fitting name and/or surname.
+
+Leeway is given to theatrical roles such as the clown, boxer, and mime; these roles are allowed stage names with some amount of freedom.
+
+
+[color=#ffff00][head=3]Section 6: Roleplay Rules[/head][/color]
+
+[color=#a4885c]6.1[/color] Your character is a separate entity from you, the player. Your character's actions, feelings, and knowledge in-game should be based solely on the character's experiences rather than your own as the player. *1
+
+[color=#a4885c]6.2[/color] Do not play excessively hostile or provocative characters. Playing a character accurately should never result in rulebreaks.  - Ahelp for any questions relating to this. *1
+
+[color=#a4885c]6.3[/color] If you choose a job on shift, you are required to participate in the round as said job when necessary. *1
+
+[color=#a4885c]6.4[/color] Do not intentionally break roleplay to gain an unfair advantage while someone is typing. *1
+
+[color=#a4885c]6.5[/color][color=#00fffb] Respect other people's consent, dignity and boundaries. IF SOMEBODY ASKS YOU TO STOP BOTHERING THEM LOOC (local-out-of-character), do so. If this rule is abused, Ahelp right away. [/color]*2
+
+[color=#a4885c]6.6[/color] Do not dismantle key portions of station infrastructure (IE. escape pods.) *2
+
+[color=#a4885c]6.7[/color][color=#00fffb]Roleplaying an underage character is strictly forbidden. So is talk of such activities. [/color]*3
+
+
+[color=#ffff00][head=3]Section 7: Powergaming Rules[/head][/color]
+
+[color=#a4885c]7.1[/color] Do not hide Antag objective items. *1
+
+[color=#a4885c]7.2[/color] Do not make active use of known bugs in the game. *1
+
+
+[color=#ffff00][head=3]Section 8: End-of-Round (EOR) Rules[/head][/color]
+
+[color=#a4885c]8.1[/color] End-of-round-griefing (EORG) is not allowed under any circumstance. This includes but is not limited to: fighting, explosives, chemicals, destruction of property, or any other disruptive behavior. *1
+
+[color=#a4885c]8.2[/color] Arrivals as well as the Evac shuttle (and evac hallway) are considered Safezones in which this rule takes effect. *1
+
+
+[color=#ffff00][head=3]Section 9: Erotic-Role-Play (ERP) Rules[/head][/color]
+
+[color=#a4885c]9.1[/color] ERP does not take priority over your job. If you are requested or needed, you must respond or return to your duties ASAP. *1
+
+[color=#a4885c]9.2[/color] DO NOT use ERP as bait for kill objectives, unless done with OOC consent of all parties involved. After the ERP is complete, a grace period of 5 minutes is in effect, during which you are still NOT allowed to kill the target. *1
+
+[color=#a4885c]9.3[/color] Do not kinkshame. *1
+
+[color=#a4885c]9.4[/color] You MUST use the (-) subtle command for any and all erotic roleplay material. *1
+
+[color=#a4885c]9.5[/color] Do not spam or pollute radio channels (including the telepath channel) with NSFW topics. Mind you, this does NOT mean that you are not allowed to speak or discuss such. There should not be a cringy spamfest of: shitposting, hornyposting, or depression posting. *1
+
+[color=#a4885c]9.6[/color] Do not engage in, nor discuss, ‘extreme’ sexual fetishes in public. Public includes: any radio channel (including the telepath channel), out loud speech or overt actions in actual public physical locations, or doing so on camera. *1
+
+[color=#a4885c]9.7[/color][color=#00fffb] Engaging in ERP with a non-sentient creature is prohibited. The creature must be player-controlled; consent in OOC, and pass the Harkness test in character. [/color]*2
+
+[color=#a4885c]9.8[/color][color=#00fffb] When roleplaying another person's character, OOC consent from the original (the owner of said character) is required before you engage in ERP. [/color]*2
+
+[color=#a4885c]9.9[/color][color=#00fffb] Be very mindful of in-character and out-of-character consent. If your (out-of-character) OOC consent is not respected, immediately Ahelp or open a ticket. [/color]*3
+
+[color=#a4885c]9.10[/color] Extreme acts like snuff, abuse, noncon, and other extreme kinks are only allowed if all parties consented OOC, Ahelp if you need clarification (Keep it private). *3
+
+
+[color=#ffff00][head=3]Section 10: Command and Security Rules[/head][/color]
+
+[color=#a4885c]10.1[/color] Security and Command roles are expected to know and perform their jobs to the best of their ability. You will be held to a higher standard in these roles. *1
+
+[color=#a4885c]10.2[/color] Both Security and Command are required to Know Space Law, Standard Operating Procedures, Alert Procedure, and Company Policy. *1
+
+[color=#a4885c]10.3[/color] Don't abuse your position of power. *1
+
+[color=#a4885c]10.4[/color] You are expected to roleplay with others, this includes antagonists. *1
+
+[color=#a4885c]10.5[/color] If you're in Command, inform your department and Command before cryoing or disconnecting. *1
+
+
+[color=#ffff00][head=3]Section 11: Antagonist Guidelines[/head][/color]
+
+[color=#a4885c]11.1[/color] Antagonists are held to a higher standard, similar to Command. *1
+
+[color=#a4885c]11.2[/color] Antagonists are expected to roleplay with others, this includes Security and Command. *1
+
+[color=#a4885c]11.3[/color] The damage that an antagonist is allowed to cause must be proportional to their objectives. *1
+
+[color=#a4885c]11.4[/color] Ghost roles have their own independent rules that must be followed. *1
+
+
+[color=#ffff00][head=3]Section 12: Escalation Guidelines[/head][/color]
+
+[color=#a4885c]12.1[/color] Lethal force against players should be a last resort. *1 
+
+[color=#a4885c]12.2[/color] Don't disproportionately escalate in response to others' actions. *1
+
+[color=#a4885c]12.3[/color] Don't ignore critical or dead players unless related to an objective. *1
+
+[color=#a4885c]12.4[/color] Don't intentionally round remove other players unless related to an objective. *1
+
