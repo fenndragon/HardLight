@@ -1,0 +1,13 @@
+﻿- type: entity
+  id: HLSuitStorageCaptain
+  parent: SuitStorageBase
+  suffix: HL, Captain
+  components:
+  - type: StorageFill
+    contents:
+    - id: ClothingOuterHardsuitCap
+    - id: ClothingMaskGasCaptain
+    - id: JetpackCaptainFilled
+    - id: NFTankO2N2EqualFilled
+  - type: AccessReader
+    access: [["Command"]]

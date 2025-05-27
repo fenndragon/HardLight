@@ -170,7 +170,7 @@
 - type: entity
   parent: BaseMobDragon
   id: MobDragon
-  abstract: true # Frontier: use NF variants
+  # abstract: true # Frontier: use NF variants
   components:
   - type: Dragon
     spawnRiftAction: ActionSpawnRift
@@ -205,7 +205,7 @@
     projectileSpeed: 5
 
 - type: entity
-  abstract: true # Frontier: use NF variant
+  # abstract: true # Frontier: use NF variant
   parent: [BaseMobDragon, MobNonHumanHostileBase]
   id: MobDragonDungeon
   suffix: Dungeon

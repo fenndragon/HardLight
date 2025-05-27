@@ -20,7 +20,7 @@
 
 - type: cargoProduct
   id: CargoLuxuryHardsuit
-  abstract: true # Frontier - Moved to cargo locker
+  # abstract: true # Frontier - Moved to cargo locker
   icon:
     sprite: Clothing/Head/Hardsuits/luxury.rsi
     state: icon

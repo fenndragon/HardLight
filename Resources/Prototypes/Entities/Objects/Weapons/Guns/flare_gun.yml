@@ -51,7 +51,7 @@
 
 
 - type: entity
-  abstract: true # Frontier: use NF variant
+  # abstract: true # Frontier: use NF variant
   name: security shell gun
   parent: [WeaponFlareGun, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: WeaponFlareGunSecurity

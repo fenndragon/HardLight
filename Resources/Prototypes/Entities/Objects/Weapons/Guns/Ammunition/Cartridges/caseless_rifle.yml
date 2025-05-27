@@ -29,7 +29,7 @@
   description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
   components:
   - type: CartridgeAmmo
-    # proto: BulletCaselessRifle # Frontier
+    proto: BulletCaselessRifle # Frontier
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -39,7 +39,7 @@
   description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Chalk ammunition is generally non-harmful, used for practice.
   components:
   - type: CartridgeAmmo
-    # proto: BulletCaselessRiflePractice # Frontier
+    proto: BulletCaselessRiflePractice # Frontier
   - type: Sprite
     layers:
       - state: base

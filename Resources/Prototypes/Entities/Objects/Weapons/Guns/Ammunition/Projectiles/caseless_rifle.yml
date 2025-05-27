@@ -1,5 +1,5 @@
 - type: entity
-  abstract: true # Frontier: use _NF variants
+  # abstract: true # Frontier: use _NF variants
   id: BulletCaselessRifle
   name: bullet (.25 caseless)
   parent: BaseBullet
@@ -11,7 +11,7 @@
         Piercing: 19
 
 - type: entity
-  abstract: true # Frontier: use _NF variants
+  # abstract: true # Frontier: use _NF variants
   id: BulletCaselessRiflePractice
   name: bullet (.25 caseless practice)
   parent: BaseBulletPractice
@@ -23,7 +23,7 @@
         Blunt: 2
 
 - type: entity
-  abstract: true # Frontier: use _NF variants
+  # abstract: true # Frontier: use _NF variants
   id: BulletCaselessRifleRubber
   name: bullet (.25 caseless rubber)
   parent: BaseBulletRubber

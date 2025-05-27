@@ -114,8 +114,8 @@
   showInVote: false #4boring4vote
   description: greenshift-description
   rules:
-#   - SpaceTrafficControlFriendlyEventScheduler
-#   - BasicRoundstartVariation
+   - SpaceTrafficControlFriendlyEventScheduler
+   - BasicRoundstartVariation
 
 - type: gamePreset
   id: Secret
@@ -168,7 +168,17 @@
   showInVote: false # Not suitable for use without admin intervention, since entity spamming can quickly crash a server
   maxPlayers: 5
   rules:
-#    - Sandbox
+    - BasicStationEventScheduler
+    - MeteorSwarmScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation
+    - NFAdventure
+    - NFBasicStationEventScheduler
+    - BluespaceEventScheduler
+    - BluespaceDungeonEventScheduler
+    - BluespaceSalvageEventScheduler
+    - SmugglingEventScheduler
+    - NFRoundstartVariation
 
 - type: gamePreset
   id: Traitor
@@ -196,16 +206,23 @@
 
 - type: gamePreset
   id: Deathmatch
-  alias:
-    - deathmatch
-    - dm
-  name: death-match-title
-  description: death-match-description
-  maxPlayers: 15
-  showInVote: false # Frontier: true < false
-  supportedMaps: DeathMatchMapPool
+  name: deathmatch-title
+  description: deathmatch-description
+  showInVote: false
   rules:
-#    - DeathMatch31
+    - DummyNonAntagChance
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - MeteorSwarmScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation
+    - NFAdventure
+    - NFBasicStationEventScheduler
+    - BluespaceEventScheduler
+    - BluespaceDungeonEventScheduler
+    - BluespaceSalvageEventScheduler
+    - SmugglingEventScheduler
+    - NFRoundstartVariation
 
 - type: gamePreset
   id: Nukeops

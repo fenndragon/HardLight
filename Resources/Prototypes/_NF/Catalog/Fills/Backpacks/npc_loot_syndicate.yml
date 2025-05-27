@@ -414,7 +414,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunAtreides
+      - id: NFWeaponSubMachineGunAtreidesExpedition
       - id: NFMagazineSubMachineGun35
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
@@ -445,7 +445,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunC20r
+      - id: NFWeaponSubMachineGunC20rExpedition
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
       - id: SpaceCash500

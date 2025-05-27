@@ -98,7 +98,7 @@
   #longRange: true # Frontier - Move to server on cove
 
 - type: radioChannel
-  abstract: true # Frontier
+  # abstract: true # Frontier
   id: Xenoborg
   name: chat-radio-xenoborg
   keycode: 'x'
@@ -108,7 +108,7 @@
   longRange: true
 
 - type: radioChannel
-  abstract: true # Frontier
+  # abstract: true # Frontier
   id: Mothership
   name: chat-radio-mothership
   keycode: 'z'

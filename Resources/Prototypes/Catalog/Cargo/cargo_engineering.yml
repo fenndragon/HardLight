@@ -1,6 +1,6 @@
 - type: cargoProduct
   id: EngineeringCableLv
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/cable-coils.rsi
     state: coillv-30
@@ -11,7 +11,7 @@
 
 - type: cargoProduct
   id: EngineeringCableMv
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/cable-coils.rsi
     state: coilmv-30
@@ -22,7 +22,7 @@
 
 - type: cargoProduct
   id: EngineeringCableHv
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/cable-coils.rsi
     state: coilhv-30
@@ -33,7 +33,7 @@
 
 - type: cargoProduct
   id: EngineeringFoamGrenade
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Weapons/Grenades/metalfoam.rsi
     state: icon
@@ -44,7 +44,7 @@
 
 - type: cargoProduct
   id: EngineeringCableBulk
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/cable-coils.rsi
     state: coilall-30
@@ -55,7 +55,7 @@
 
 - type: cargoProduct
   id: EngineeringElectricalSupplies
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
@@ -66,7 +66,7 @@
 
 - type: cargoProduct
   id: StationBeaconBundle
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Devices/station_beacon.rsi
     state: icon
@@ -77,7 +77,7 @@
 
 - type: cargoProduct
   id: EngineeringJetpack
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tanks/Jetpacks/blue.rsi
     state: icon
@@ -88,7 +88,7 @@
 
 - type: cargoProduct
   id: EngineeringMiniJetpack
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tanks/Jetpacks/mini.rsi
     state: icon
@@ -99,7 +99,7 @@
 
 - type: cargoProduct
   id: AirlockKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
     state: icon
@@ -110,7 +110,7 @@
 
 - type: cargoProduct
   id: EvaKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Clothing/Head/Helmets/eva.rsi
     state: icon
@@ -121,7 +121,7 @@
 
 - type: cargoProduct
   id: EngineeringRCDAmmo
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Tools/rcd.rsi # Frontier
     state: ammo
@@ -132,7 +132,7 @@
 
 - type: cargoProduct
   id: EngineeringRCD
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Tools/rcd.rsi # Frontier
     state: icon
@@ -143,11 +143,11 @@
 
 - type: cargoProduct
   id: EngineeringParticleDecelerators
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
     state: base
-  # product: CrateParticleDecelerators # Frontier
+  product: CrateParticleDecelerators # Frontier
   cost: 15000
   category: cargoproduct-category-name-engineering
   group: market

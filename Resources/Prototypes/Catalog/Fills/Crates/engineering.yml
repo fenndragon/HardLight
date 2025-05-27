@@ -196,7 +196,7 @@
     - id: RCD
 
 - type: entity
-  abstract: true # Frontier
+  # abstract: true # Frontier
   id: CrateParticleDecelerators
   parent: CrateEngineeringSecure
   name: particle decelerators crate

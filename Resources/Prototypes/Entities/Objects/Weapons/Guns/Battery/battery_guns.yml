@@ -185,7 +185,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLightLaser # Frontier
+    proto: RedLightLaser # Frontier
     fireCost: 62.5
   - type: Battery
     maxCharge: 500
@@ -212,7 +212,7 @@
       params:
         variation: 0.2
   - type: ProjectileBatteryAmmoProvider
-    # proto: TeslaGunBullet # Frontier
+    proto: TeslaGunBullet # Frontier
     fireCost: 300
   - type: MagazineVisuals
     magState: mag
@@ -246,7 +246,7 @@
     availableModes:
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaserPractice # Frontier
+    proto: RedLaserPractice # Frontier
     fireCost: 62.5
   - type: StaticPrice
     price: 300
@@ -260,7 +260,7 @@
   - type: StaticPrice
     price: 420
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaser # Frontier
+    proto: RedLaser # Frontier
     fireCost: 62.5
 
 - type: entity
@@ -292,7 +292,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 200
   - type: Battery
     maxCharge: 2000
@@ -329,7 +329,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 200
   - type: Battery
     maxCharge: 5000
@@ -362,7 +362,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: Pulse # Frontier
+    proto: Pulse # Frontier
     fireCost: 100
   - type: Battery
     maxCharge: 40000
@@ -395,7 +395,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedHeavyLaser # Frontier
+    proto: RedHeavyLaser # Frontier
     fireCost: 100
   - type: Tag
     tags:
@@ -426,7 +426,7 @@
         params:
           pitch: 2
     - type: ProjectileBatteryAmmoProvider
-      # proto: AntiParticlesProjectile # Frontier
+      proto: AntiParticlesProjectile # Frontier
       fireCost: 500
     - type: Battery
       maxCharge: 10000
@@ -453,7 +453,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: XrayLaser # Frontier
+    proto: XrayLaser # Frontier
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -496,7 +496,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisablerPractice # Frontier
+    proto: BulletDisablerPractice # Frontier
     fireCost: 50
   - type: Tag
     tags:
@@ -524,7 +524,7 @@
       - suitStorage
       - Belt
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisabler # Frontier
+    proto: BulletDisabler # Frontier
     fireCost: 50
   - type: GuideHelp
     guides:
@@ -559,7 +559,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletDisablerSmg # Frontier
+    proto: BulletDisablerSmg # Frontier
     fireCost: 25
   - type: MagazineVisuals
     magState: mag
@@ -597,7 +597,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletTaser # Frontier
+    proto: BulletTaser # Frontier
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -626,7 +626,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedMediumLaser # Frontier
+    proto: RedMediumLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -673,7 +673,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedMediumLaser # Frontier
+    proto: RedMediumLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -714,19 +714,19 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
     # Frontier: moved to NF variants
-  # - type: ProjectileBatteryAmmoProvider
-  #   proto: AnomalousParticleDeltaStrong
-  #   fireCost: 100
-  # - type: BatteryWeaponFireModes
-  #   fireModes:
-  #   - proto: AnomalousParticleDeltaStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleEpsilonStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleZetaStrong
-  #     fireCost: 100
-  #   - proto: AnomalousParticleSigmaStrong
-  #     fireCost: 100
+  - type: ProjectileBatteryAmmoProvider
+    proto: AnomalousParticleDeltaStrong
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: AnomalousParticleDeltaStrong
+      fireCost: 100
+    - proto: AnomalousParticleEpsilonStrong
+      fireCost: 100
+    - proto: AnomalousParticleZetaStrong
+      fireCost: 100
+    - proto: AnomalousParticleSigmaStrong
+      fireCost: 100
     # End Frontier: moved to NF variants
   - type: Construction
     graph: UpgradeWeaponPistolCHIMP
@@ -742,17 +742,17 @@
   components:
   - type: BatteryWeaponFireModes
     # Frontier: moved to NF variants
-    # fireModes:
-    # - proto: AnomalousParticleDeltaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleEpsilonStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleOmegaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleZetaStrong
-    #   fireCost: 100
-    # - proto: AnomalousParticleSigmaStrong
-    #   fireCost: 100
+    fireModes:
+    - proto: AnomalousParticleDeltaStrong
+      fireCost: 100
+    - proto: AnomalousParticleEpsilonStrong
+      fireCost: 100
+    - proto: AnomalousParticleOmegaStrong
+      fireCost: 100
+    - proto: AnomalousParticleZetaStrong
+      fireCost: 100
+    - proto: AnomalousParticleSigmaStrong
+      fireCost: 100
     # Frontier: moved to NF variants
 
 - type: entity
@@ -771,7 +771,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_clown.ogg
   - type: HitscanBatteryAmmoProvider
-    # proto: RedLaser # Frontier
+    proto: RedLaser # Frontier
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -868,14 +868,14 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    # proto: BoltTempgunCold # Frontier
+    proto: BoltTempgunCold # Frontier
     fireCost: 100
   - type: BatteryWeaponFireModes
-    fireModes: [] # Frontier: add empty list
-    # - proto: BoltTempgunCold # Frontier
-    #   fireCost: 100 # Frontier
-    # - proto: BoltTempgunHot # Frontier
-    #   fireCost: 100 # Frontier
+    fireModes:
+      - proto: BoltTempgunCold # Frontier
+        fireCost: 100 # Frontier
+      - proto: BoltTempgunHot # Frontier
+        fireCost: 100 # Frontier
   - type: Battery
     maxCharge: 1000
     startingCharge: 1000

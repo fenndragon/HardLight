@@ -1,6 +1,6 @@
 - type: cargoProduct
   id: MedicalSupplies
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: firstaid
@@ -31,7 +31,7 @@
 
 - type: cargoProduct
   id: EmergencyBurnKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: burnkit
@@ -42,7 +42,7 @@
 
 - type: cargoProduct
   id: EmergencyToxinKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: toxinkit
@@ -53,7 +53,7 @@
 
 - type: cargoProduct
   id: EmergencyO2Kit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: o2kit
@@ -64,7 +64,7 @@
 
 - type: cargoProduct
   id: EmergencyBruteKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: brutekit
@@ -75,7 +75,7 @@
 
 - type: cargoProduct
   id: EmergencyAdvancedKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: advkit
@@ -86,7 +86,7 @@
 
 - type: cargoProduct
   id: EmergencyRadiationKit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: radkit
@@ -97,7 +97,7 @@
 
 - type: cargoProduct
   id: MedicalBodybags
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
     state: bag_folded
@@ -108,7 +108,7 @@
 
 - type: cargoProduct
   id: MedicalBiosuit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Clothing/Head/Hoods/Bio/bio.rsi
     state: icon
@@ -119,7 +119,7 @@
 
 - type: cargoProduct
   id: MedicalMindShieldImplants
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: implanter0
@@ -130,7 +130,7 @@
 
 - type: cargoProduct
   id: ChemistryP
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon
@@ -141,7 +141,7 @@
 
 - type: cargoProduct
   id: ChemistryS
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon
@@ -152,7 +152,7 @@
 
 - type: cargoProduct
   id: CrateChemistryD
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon

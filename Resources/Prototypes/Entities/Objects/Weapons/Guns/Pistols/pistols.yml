@@ -128,7 +128,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: ProjectileBatteryAmmoProvider
-    # proto: BulletPistol # Frontier
+    proto: BulletPistol # Frontier
     fireCost: 100
   - type: Battery
     maxCharge: 1000

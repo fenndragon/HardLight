@@ -20,7 +20,7 @@
 
 - type: cargoProduct
   id: AtmosphericsLiquidOxygen
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen_liquid # Frontier blue<oxygen_liquid
@@ -41,7 +41,7 @@
 
 - type: cargoProduct
   id: AtmosphericsLiquidNitrogen
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen_liquid # Frontier red<nitrogen_liquid
@@ -52,7 +52,7 @@
 
 - type: cargoProduct
   id: AtmosphericsCarbonDioxide
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon # Frontier black<carbon
@@ -63,7 +63,7 @@
 
 - type: cargoProduct
   id: AtmosphericsLiquidCarbonDioxide
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon_liquid # Frontier black<carbon_liquid
@@ -94,7 +94,7 @@
 
 - type: cargoProduct
   id: AtmosphericsPlasma
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: plasma # Frontier orange<plasma

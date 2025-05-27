@@ -8,5 +8,5 @@
     whitelist:
       tags:
         - BulletFoam
-    # proto: BulletFoam # Frontier
+    proto: BulletFoam # Frontier
     capacity: 100

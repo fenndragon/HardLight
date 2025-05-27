@@ -39,6 +39,31 @@
     minAngle: -10.9
     maxAngle: -21.8
 
+#region manufacturer
+- type: entity
+  id: NFBaseWeaponFrameShotgunNanotrasen
+  parent: NFBaseWeaponFrameShotgunWieldable
+  abstract: true
+  components:
+  - type: Gun
+    minAngle: 6.8
+    maxAngle: 26
+    fireRate: 2.2
+  - type: NFWeaponDetails
+    manufacturer: weapon-details-manufacturer-nanotrasen-munitions
+
+- type: entity
+  id: NFBaseWeaponFrameShotgunGorlex
+  parent: NFBaseWeaponFrameShotgunWieldable
+  abstract: true
+  components:
+  - type: Gun
+    minAngle: 6.8
+    maxAngle: 35
+    fireRate: 3
+  - type: NFWeaponDetails
+    manufacturer: weapon-details-manufacturer-nanotrasen-munitions
+
 #region chamber
 - type: entity
   id: NFBaseWeaponShotgunChamber50

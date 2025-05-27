@@ -27,7 +27,7 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 10
-    # proto: CartridgeLightRifle # Frontier
+    proto: CartridgeLightRifle # Frontier
     whitelist:
       tags:
       - CartridgeLightRifle
@@ -72,7 +72,7 @@
       tags:
       - CartridgeAntiMateriel
     capacity: 5
-    # proto: CartridgeAntiMateriel # Frontier
+    proto: CartridgeAntiMateriel # Frontier
   - type: SpeedModifiedOnWield
     walkModifier: 0.25
     sprintModifier: 0.25
@@ -109,7 +109,7 @@
       tags:
       - CartridgeAntiMateriel
     capacity: 1
-    # proto: CartridgeAntiMateriel # Frontier
+    proto: CartridgeAntiMateriel # Frontier
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
@@ -151,7 +151,7 @@
       tags:
         - CartridgeMagnum # changed from Anti-material rifle rounds because it's a flintlock pistol not a Hristov
     capacity: 1
-    # proto: CartridgeMagnum # Frontier
+    proto: CartridgeMagnum # Frontier
   - type: StaticPrice
     price: 0
 

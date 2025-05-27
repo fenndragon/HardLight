@@ -111,7 +111,7 @@
       - MagazinePistolSubMachineGunTopMounted
   - type: BallisticAmmoProvider
     mayTransfer: true
-    # proto: CartridgePistol # Frontier
+    proto: CartridgePistol # Frontier
     whitelist:
       tags:
       - CartridgePistol
@@ -150,7 +150,7 @@
   description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistol # Frontier
+    proto: CartridgePistol # Frontier
   - type: Sprite
     layers:
     - state: red
@@ -184,7 +184,7 @@
   description: 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolIncendiary # Frontier
+    proto: CartridgePistolIncendiary # Frontier
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -194,7 +194,7 @@
   description: 10-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolPractice # Frontier
+    proto: CartridgePistolPractice # Frontier
   - type: Sprite
     layers:
     - state: practice
@@ -210,7 +210,7 @@
   description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolUranium # Frontier
+    proto: CartridgePistolUranium # Frontier
   - type: Sprite
     layers:
     - state: uranium
@@ -241,7 +241,7 @@
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistol # Frontier
+    proto: CartridgePistol # Frontier
   - type: Sprite
     layers:
     - state: red
@@ -256,7 +256,7 @@
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistol # Frontier
+    proto: CartridgePistol # Frontier
   - type: Sprite
     layers:
     - state: practice
@@ -272,7 +272,7 @@
   description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistol # Frontier
+    proto: CartridgePistol # Frontier
     whitelist:
       tags:
         - CartridgePistol
@@ -310,7 +310,7 @@
   description: 30-round double-stack magazine for submachine guns. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolPractice # Frontier
+    proto: CartridgePistolPractice # Frontier
   - type: Sprite
     layers:
     - state: practice
@@ -326,7 +326,7 @@
   description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolUranium # Frontier
+    proto: CartridgePistolUranium # Frontier
   - type: Sprite
     layers:
     - state: uranium
@@ -342,4 +342,4 @@
   description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgePistolIncendiary # Frontier
+    proto: CartridgePistolIncendiary # Frontier

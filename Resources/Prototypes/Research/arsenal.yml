@@ -40,7 +40,7 @@
   - MagazineBoxMagnumIncendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
-  - SpeedLoaderRifleHeavyIncendiary # Frontier
+#  - SpeedLoaderRifleHeavyIncendiary # Frontier
 
 - type: technology
   id: WeaponizedLaserManipulation
@@ -73,7 +73,7 @@
   - MagazineBoxLightRifleUranium
   - MagazineBoxRifleUranium
   - BoxShotgunUranium
-  - SpeedLoaderRifleHeavyUranium # Frontier
+#  - SpeedLoaderRifleHeavyUranium # Frontier
   - AmmoTechFabCircuitboard
   - MercenaryTechFabCircuitboardNF
   

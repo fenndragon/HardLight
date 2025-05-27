@@ -9,7 +9,7 @@
       - Cartridge
       - CartridgePistol
   - type: CartridgeAmmo
-    # proto: BulletPistol # Frontier
+    proto: BulletPistol # Frontier
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -28,7 +28,7 @@
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
-    # proto: BulletPistol # Frontier
+    proto: BulletPistol # Frontier
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -38,7 +38,7 @@
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
-    # proto: BulletPistolPractice # Frontier
+    proto: BulletPistolPractice # Frontier
   -  type: Sprite
      layers:
        - state: base
@@ -55,7 +55,7 @@
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
-    # proto: BulletPistolIncendiary # Frontier
+    proto: BulletPistolIncendiary # Frontier
   - type: Sprite
     layers:
       - state: base
@@ -72,7 +72,7 @@
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
-    # proto: BulletPistolUranium # Frontier
+    proto: BulletPistolUranium # Frontier
   - type: Sprite
     layers:
       - state: base

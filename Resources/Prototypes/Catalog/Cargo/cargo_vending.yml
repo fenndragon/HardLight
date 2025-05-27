@@ -8,7 +8,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockBooze
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -19,7 +19,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChefvend
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -30,7 +30,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockClothes
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -41,7 +41,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockAutoDrobe
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -52,7 +52,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDinnerware
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -63,7 +63,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockCondimentStation
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -74,7 +74,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockEngineering
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -85,7 +85,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockGames
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -96,7 +96,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockHotDrinks
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -107,7 +107,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockMedical
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -118,7 +118,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChemVend
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -129,7 +129,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockNutriMax
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -140,7 +140,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockPTech
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -151,7 +151,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockRobustSoftdrinks
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -162,7 +162,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSalvageEquipment
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -173,7 +173,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSecTech
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -184,7 +184,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSeeds
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -195,7 +195,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSmokes
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -206,7 +206,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockVendomat
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -217,7 +217,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockRobotics
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -228,7 +228,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockTankDispenser
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -239,7 +239,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockHappyHonk
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -250,7 +250,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockGetmoreChocolateCorp
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -261,7 +261,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChang
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -272,7 +272,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDiscountDans
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -283,7 +283,7 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDonut
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base

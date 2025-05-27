@@ -20,7 +20,7 @@
 
 - type: cargoProduct
   id: RandomArtifact
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
     state: ano13
@@ -31,7 +31,7 @@
 
 - type: cargoProduct
   id: ScienceBiosuit
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Clothing/Head/Hoods/Bio/scientist.rsi
     state: icon
@@ -42,7 +42,7 @@
 
 - type: cargoProduct
   id: CrewMonitoring
-  abstract: true # Frontier
+  # abstract: true # Frontier
   icon:
     sprite: Structures/Machines/server.rsi
     state: server

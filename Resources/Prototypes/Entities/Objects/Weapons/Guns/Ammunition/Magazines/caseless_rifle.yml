@@ -12,7 +12,7 @@
     whitelist:
       tags:
         - CartridgeCaselessRifle
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 30
   - type: Item
     size: Small
@@ -40,7 +40,7 @@
   abstract: true
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 10
   - type: Item
     size: Tiny
@@ -66,7 +66,7 @@
     whitelist:
       tags:
         - CartridgeCaselessRifle
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 10
   - type: Item
     size: Small
@@ -90,7 +90,7 @@
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 99
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/10x24.rsi
@@ -107,7 +107,7 @@
   description: 10-round magazine for the Cobra pistol. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 10
   - type: Sprite
     slayers:
@@ -129,7 +129,7 @@
   description: 10-round magazine for the Cobra pistol. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRiflePractice # Frontier
+    proto: CartridgeCaselessRiflePractice # Frontier
     capacity: 10
   - type: Sprite
     layers:
@@ -150,7 +150,7 @@
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
   - type: Sprite
     layers:
     - state: red
@@ -165,7 +165,7 @@
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRiflePractice # Frontier
+    proto: CartridgeCaselessRiflePractice # Frontier
   - type: Sprite
     layers:
     - state: practice
@@ -180,7 +180,7 @@
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRifle # Frontier
+    proto: CartridgeCaselessRifle # Frontier
     capacity: 20
   - type: Sprite
     layers:
@@ -196,7 +196,7 @@
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeCaselessRiflePractice # Frontier
+    proto: CartridgeCaselessRiflePractice # Frontier
     capacity: 20
   - type: Sprite
     layers:

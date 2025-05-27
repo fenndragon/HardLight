@@ -1,0 +1,19 @@
+# - type: soundCollection
+  # id: Yip
+  # files:
+  # - /Audio/_Floof/Voice/Reptilian/yip.ogg
+
+# - type: soundCollection
+  # id: ReptilianHiss
+  # files:
+  # - /Audio/_Floof/Voice/Reptilian/hiss.ogg
+
+# - type: soundCollection
+  # id: VulpkaninYap
+  # files:
+  # - /Audio/_Floof/Voice/Vulpkanin/yap.ogg
+
+- type: soundCollection
+  id: RodentiaScreams
+  files:
+  - /Audio/_DV/Voice/Rodentia/Rat_Scream_01.ogg

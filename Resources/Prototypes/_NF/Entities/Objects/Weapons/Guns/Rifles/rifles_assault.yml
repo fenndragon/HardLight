@@ -8,6 +8,8 @@
   components:
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
+  - type: Gun
+    fireRate: 3.5
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/solandmoss.rsi
   - type: MagazineVisuals
@@ -20,8 +22,10 @@
   parent: [ NFBaseWeaponRifleAssaultChamber20, NFBaseWeaponFrameRifleAssaultCybersun ]
   name: M-90gl
   description: |-
-    An older bullpup carbine model, with an attached underbarrel grenade launcher. An illegal firearm often used by Syndicate agents.
+    An older bullpup carbine model, with an attached underbarrel grenade launcher. An illegal firearm often used by Syndicate agents. Sadly, this ones grenade launcher is rusted shut.
   components:
+  - type: Gun
+    fireRate: 4.5
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
   - type: Sprite
@@ -113,9 +117,9 @@
   - type: Item
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Gun
-    burstFireRate: 5
-    shotsPerBurst: 2
-    burstCooldown: 0.8
+    burstFireRate: 4.5
+    shotsPerBurst: 3
+    burstCooldown: 0.7
     selectedMode: Burst
     availableModes:
       - Burst
@@ -134,6 +138,7 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
   - type: Gun
+    fireRate: 4
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto

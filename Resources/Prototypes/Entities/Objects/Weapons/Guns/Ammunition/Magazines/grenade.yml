@@ -52,7 +52,7 @@
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
-    # proto: GrenadeFrag # Frontier
+    proto: GrenadeFrag # Frontier
 
 - type: entity
   id: MagazineGrenadeEMP
@@ -60,7 +60,7 @@
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
-    # proto: GrenadeEMP # Frontier
+    proto: GrenadeEMP # Frontier
 
 - type: entity
   id: MagazineGrenadeFlash
@@ -68,7 +68,7 @@
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
-    # proto: GrenadeFlash # Frontier
+    proto: GrenadeFlash # Frontier
 
 - type: entity
   id: MagazineGrenadeBlast
@@ -76,7 +76,7 @@
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
-    # proto: GrenadeBlast # Frontier
+    proto: GrenadeBlast # Frontier
 
 - type: entity
   id: MagazineGrenadeBaton
@@ -84,4 +84,4 @@
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
-    # proto: GrenadeBaton # Frontier
+    proto: GrenadeBaton # Frontier

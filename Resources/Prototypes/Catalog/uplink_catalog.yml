@@ -2,7 +2,7 @@
 # Guns
 
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkPistolViper
   name: uplink-pistol-viper-name
   description: uplink-pistol-viper-desc
@@ -16,7 +16,7 @@
   - UplinkWeaponry
 
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkRevolverPython
   name: uplink-revolver-python-name
   description: uplink-revolver-python-desc
@@ -31,7 +31,7 @@
 
 # Inbuilt suppressor so it's sneaky + more expensive.
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkPistolCobra
   name: uplink-pistol-cobra-name
   description: uplink-pistol-cobra-desc
@@ -46,7 +46,7 @@
 
 # Poor accuracy, slow to fire, cheap option
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkRifleMosin
   name: uplink-rifle-mosin-name
   description: uplink-rifle-mosin-desc
@@ -467,7 +467,7 @@
 # Ammo
 
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkPistol9mmMagazine
   name: uplink-pistol-magazine-name
   description: uplink-pistol-magazine-desc
@@ -480,7 +480,7 @@
 
 # For the C20R
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkMagazinePistolSubMachineGun
   name: uplink-pistol-magazine-c20r-name
   description: uplink-pistol-magazine-c20r-desc
@@ -493,7 +493,7 @@
 
 # For the Cobra
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkMagazinePistolCaselessRifle
   name: uplink-pistol-magazine-caseless-name
   description: uplink-pistol-magazine-caseless-desc
@@ -506,7 +506,7 @@
 
 # For the Python
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkSpeedLoaderMagnumAP
   name: uplink-speedloader-magnum-name
   description: uplink-speedloader-magnu-desc
@@ -519,7 +519,7 @@
 
 # For the mosin
 - type: listing
-  abstract: true # Frontier: moved to _NF uplink catalog
+  # abstract: true # Frontier: moved to _NF uplink catalog
   id: UplinkMosinAmmo
   name: uplink-mosin-ammo-name
   description: uplink-mosin-ammo-desc

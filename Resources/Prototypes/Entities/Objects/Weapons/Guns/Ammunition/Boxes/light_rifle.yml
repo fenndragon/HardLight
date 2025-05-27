@@ -9,7 +9,7 @@
     whitelist:
       tags:
         - CartridgeLightRifle
-    # proto: CartridgeLightRifle # Frontier
+    proto: CartridgeLightRifle # Frontier
     capacity: 60
   - type: Item
     size: Small
@@ -26,7 +26,7 @@
 
 # Boxes
 - type: entity
-  abstract: true # Frontier: use NF ammo
+  # abstract: true # Frontier: use NF ammo
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
   name: ammunition box (.30 rifle)
@@ -34,7 +34,7 @@
   components:
   - type: BallisticAmmoProvider
     capacity: 200
-    # proto: CartridgeLightRifle # Frontier
+    proto: CartridgeLightRifle # Frontier
   - type: Sprite
     layers:
     - state: base
@@ -43,7 +43,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  abstract: true # Frontier: use NF ammo
+  # abstract: true # Frontier: use NF ammo
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
   name: ammunition box (.30 rifle)
@@ -58,13 +58,13 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  abstract: true # Frontier: use NF ammo
+  # abstract: true # Frontier: use NF ammo
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
   name: ammunition box (.30 rifle practice)
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeLightRiflePractice # Frontier
+    proto: CartridgeLightRiflePractice # Frontier
   - type: Sprite
     layers:
     - state: base
@@ -74,13 +74,13 @@
     - state: practice
 
 - type: entity
-  abstract: true # Frontier: use NF ammo
+  # abstract: true # Frontier: use NF ammo
   id: MagazineBoxLightRifleIncendiary
   parent: BaseMagazineBoxLightRifle
   name: ammunition box (.30 rifle incendiary)
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeLightRifleIncendiary # Frontier
+    proto: CartridgeLightRifleIncendiary # Frontier
   - type: Sprite
     layers:
     - state: base
@@ -90,13 +90,13 @@
     - state: incendiary
 
 - type: entity
-  abstract: true # Frontier: use NF ammo
+  # abstract: true # Frontier: use NF ammo
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
   name: ammunition box (.30 rifle uranium)
   components:
   - type: BallisticAmmoProvider
-    # proto: CartridgeLightRifleUranium # Frontier
+    proto: CartridgeLightRifleUranium # Frontier
   - type: Sprite
     layers:
     - state: base
