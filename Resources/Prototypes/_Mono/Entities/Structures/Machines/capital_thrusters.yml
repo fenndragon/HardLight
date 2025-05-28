@@ -1,0 +1,133 @@
+- type: entity
+  id: ThrusterTSFMCLarge
+  name: thruster
+  parent: BaseThruster
+  suffix: TSFMC, 2x2
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: Sprite
+    sprite: _NF/Structures/Shuttles/thrusternfsd.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 1
+    scale: 2, 2
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1,-1,1,1"
+        density: 1500 # fat mf
+  - type: DeviceNetwork # frontier
+    deviceNetId: Wireless # frontier
+    receiveFrequencyId: BasicDevice # frontier
+  - type: WirelessNetworkConnection # frontier
+    range: 200 # frontier
+  - type: DeviceLinkSink # frontier
+    ports: # frontier
+    - On # frontier
+    - Off # frontier
+    - Toggle # frontier
+  - type: PirateBountyItem # Frontier
+    id: Thruster # Frontier
+  - type: Thruster
+    baseThrust: 2500
+    Thrust: 2500
+  - type: Anchorable
+    delay: 240
+  - type: RadarBlip # Mono
+    radarColor: "#99FF99"
+    scale: 2
+    shape: diamond
+
+- type: entity
+  id: ThrusterTSFMCCapital
+  name: thruster
+  parent: BaseThruster
+  suffix: TSFMC, 3x3
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: Sprite
+    sprite: _NF/Structures/Shuttles/thrusternfsd.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 1
+    scale: 3, 3
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.5,-1.5,1.5,1.5"
+        density: 1500 # fat mf
+  - type: DeviceNetwork # frontier
+    deviceNetId: Wireless # frontier
+    receiveFrequencyId: BasicDevice # frontier
+  - type: WirelessNetworkConnection # frontier
+    range: 200 # frontier
+  - type: DeviceLinkSink # frontier
+    ports: # frontier
+    - On # frontier
+    - Off # frontier
+    - Toggle # frontier
+  - type: PirateBountyItem # Frontier
+    id: Thruster # Frontier
+  - type: Thruster
+    baseThrust: 7500
+    Thrust: 7500
+  - type: Anchorable
+    delay: 480
+  - type: RadarBlip # Mono
+    radarColor: "#99FF99"
+    scale: 3
+    shape: diamond
