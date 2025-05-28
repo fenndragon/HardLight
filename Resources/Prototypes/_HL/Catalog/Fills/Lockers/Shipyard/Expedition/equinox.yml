@@ -16,7 +16,7 @@
   price: 85000
   category: Medium
   group: Expedition 
-  shuttlePath: /Maps/__HL/Shuttles/Expedition/equinox.yml
+  shuttlePath: /Maps/_HL/Shuttles/Expedition/equinox.yml
   guidebookPage: Null 
   class: 
   - Science
