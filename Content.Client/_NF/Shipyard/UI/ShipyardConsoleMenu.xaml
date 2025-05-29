@@ -46,10 +46,15 @@
                 <!-- Vessels get added here by code -->
             </BoxContainer>
         </ScrollContainer>
-        <GridContainer Columns="3" HorizontalExpand="True" Margin="0 8 0 2">
+        <GridContainer Columns="4" HorizontalExpand="True" Margin="0 8 0 2">
             <Button Name="TargetIdButton" Access="Public"/>
-            <Button Name="SellShipButton"
+            <controls:ConfirmButton Name="SellShipButton"
                 Text="Sell"
+                ConfirmationText="{Loc 'shipyard-console-confirm-unassign'}"
+                Disabled="True" />
+            <controls:ConfirmButton Name="UnassignDeedButton"
+                Text="{Loc 'shipyard-console-unassign-deed'}"
+                ConfirmationText="{Loc 'shipyard-console-confirm-unassign'}"
                 Disabled="True" />
             <BoxContainer Orientation="Vertical">
                 <Label Text="{Loc 'shipyard-console-deed-label'}" />

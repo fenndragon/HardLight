@@ -3,7 +3,6 @@
 // See AGPLv3.txt for details.
 using Content.Client.Shuttles.UI;
 using Content.Shared._NF.Shuttles.Events;
-using Content.Shared.Shuttles.Components;
 
 namespace Content.Client.Shuttles.BUI
 {
@@ -13,7 +12,8 @@ namespace Content.Client.Shuttles.BUI
         {
             _window ??= new ShuttleConsoleWindow();
             _window.OnInertiaDampeningModeChanged += OnInertiaDampeningModeChanged;
-            _window.OnServiceFlagsChanged += OnServiceFlagsChanged;
+            _window.OnMaxShuttleSpeedChanged += OnMaxShuttleSpeedChanged;
+            _window.OnNetworkPortButtonPressed += OnNetworkPortButtonPressed;
         }
         private void OnInertiaDampeningModeChanged(NetEntity? entityUid, InertiaDampeningMode mode)
         {
@@ -24,14 +24,22 @@ namespace Content.Client.Shuttles.BUI
             });
         }
 
-        private void OnServiceFlagsChanged(NetEntity? entityUid, ServiceFlags flags)
+        private void OnMaxShuttleSpeedChanged(NetEntity? entityUid, float maxSpeed)
         {
-            SendMessage(new SetServiceFlagsRequest
+            SendMessage(new SetMaxShuttleSpeedRequest
             {
                 ShuttleEntityUid = entityUid,
-                ServiceFlags = flags,
+                MaxSpeed = maxSpeed,
             });
         }
-
+        
+        private void OnNetworkPortButtonPressed(string sourcePort, string targetPort)
+        {
+            SendMessage(new ShuttlePortButtonPressedMessage
+            {
+                SourcePort = sourcePort,
+                TargetPort = targetPort
+            });
+        }
     }
 }
