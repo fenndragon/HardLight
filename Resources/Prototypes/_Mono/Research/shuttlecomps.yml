@@ -1,0 +1,26 @@
+- type: technology
+  id: ShuttleArmamentComponentsResearch
+  name: research-technology-shuttle-armaments-components
+  icon:
+    sprite: _Mono/Structures/ShuttleComponents/shield.rsi
+    state: control
+  discipline: Arsenal
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - ShieldControlComputerCircuitboard
+  - MachineShieldMS225Circuitboard
+  - GunneryControlComputerCircuitboard
+  - MachineGCSCircuitboard
+
+- type: technology
+  id: ShuttleCtla25DriveResearch
+  name: research-technology-bluespace-drive-ctla25
+  icon:
+    sprite: _Mono/Structures/ShuttleComponents/drive.rsi
+    state: control
+  discipline: Experimental
+  tier: 3
+  cost: 12500
+  recipeUnlocks:
+  - MachineDriveCTLA25Circuitboard

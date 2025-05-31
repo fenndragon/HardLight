@@ -1,0 +1,198 @@
+# ADMP-27 VESPERA
+
+- type: entity
+  id: WeaponTurretVespera
+  name: ADMP-27 VESPERA Rapid-Fire Pod
+  parent: BallisticArtillery
+  description: A rapid-fire swarm missile pod manufactured by Aetherion Dynamics. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: StaticPrice
+    price: 2000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/vespera.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 40000
+    startingCharge: 40000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 3
+    projectileSpeed: 100
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rocket_launcher.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 200
+  - type: SpaceArtillery
+    powerChargeRate: 200
+    powerUsePassive: 750
+    powerUseActive: 0
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipMissileASM417
+    fireCost: 867
+  - type: RadarBlip
+    radarColor: "#FCBA03"
+    scale: 2
+  - type: ShipGunType
+    shipType: Missile
+
+
+# ASM-501 Smerchs
+
+- type: entity
+  id: WeaponTurretASM501
+  name: ASM-501 pod
+  parent: BallisticArtillery
+  description: ASM-501 Smerchs heavy torpedo launcher. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: StaticPrice
+    price: 7500
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/vanyk.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 40000
+    startingCharge: 40000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rocket_launcher.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: SpaceArtillery
+    powerChargeRate: 250
+    powerUsePassive: 200
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 60
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipMissileASM501
+    fireCost: 350
+  - type: RadarBlip
+    radarColor: "#FCBA03"
+    scale: 2.5
+  - type: ShipGunType
+    shipType: Missile
+
+# ASM-302 Vanyk
+
+- type: entity
+  id: WeaponTurretVanyk
+  name: ASM-302 pod
+  parent: BallisticArtillery
+  description: ASM-302 Vanyk basic guided missile pod. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: StaticPrice
+    price: 5000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/vanyk.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 40000
+    startingCharge: 40000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.8
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rocket_launcher.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 60
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipMissileASM302
+    fireCost: 300
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 600
+    powerUseActive: 0
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 800
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: RadarBlip
+    radarColor: "#FCBA03"
+    scale: 1.5
+  - type: ShipGunType
+    shipType: Missile
+
+# ADMX-23 TOVEK
+
+- type: entity
+  id: WeaponTurretTovek
+  name: ADMX-23 TOVEK Hybrid EMP Pod
+  parent: BallisticArtillery
+  description: A hybrid EMP missile pod manufactured by Aetherion Dynamics. Deals both physical and EMP damage. Can be remotely activated, or linked up to a GCS.
+  components:
+  - type: StaticPrice
+    price: 3000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/tovek.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 40000
+    startingCharge: 40000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 1.5
+    projectileSpeed: 40
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rocket_launcher.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 500
+  - type: SpaceArtillery
+    powerChargeRate: 500
+    powerUsePassive: 2500
+    powerUseActive: 0
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipMissileASM557
+    fireCost: 17500
+  - type: RadarBlip
+    radarColor: "#035EFC"
+    scale: 2
+  - type: ShipGunType
+    shipType: Missile

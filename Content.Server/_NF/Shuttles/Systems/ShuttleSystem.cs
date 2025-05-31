@@ -5,7 +5,6 @@ using Content.Server._NF.Station.Components;
 using Content.Server.Shuttles.Components;
 using Content.Shared._NF.Shuttles.Events;
 using Content.Shared._NF.Shipyard.Components;
-using Content.Shared.Shuttles.Components;
 using Robust.Shared.Physics.Components;
 
 namespace Content.Server.Shuttles.Systems;
@@ -17,7 +16,7 @@ public sealed partial class ShuttleSystem
     private void NfInitialize()
     {
         SubscribeLocalEvent<ShuttleConsoleComponent, SetInertiaDampeningRequest>(OnSetInertiaDampening);
-        SubscribeLocalEvent<ShuttleConsoleComponent, SetServiceFlagsRequest>(NfSetServiceFlags);
+        SubscribeLocalEvent<ShuttleConsoleComponent, SetMaxShuttleSpeedRequest>(OnSetMaxShuttleSpeed);
     }
 
     private bool SetInertiaDampening(EntityUid uid, PhysicsComponent physicsComponent, ShuttleComponent shuttleComponent, TransformComponent transform, InertiaDampeningMode mode)
@@ -76,6 +75,29 @@ public sealed partial class ShuttleSystem
             component.DampeningMode = args.Mode;
     }
 
+    private void OnSetMaxShuttleSpeed(EntityUid uid, ShuttleConsoleComponent component, SetMaxShuttleSpeedRequest args)
+    {
+        // Ensure that the entity requested is a valid shuttle
+        if (!EntityManager.TryGetComponent(uid, out TransformComponent? transform) ||
+            !transform.GridUid.HasValue ||
+            !EntityManager.TryGetComponent(transform.GridUid, out ShuttleComponent? shuttleComponent))
+        {
+            return;
+        }
+
+        // Clamp the speed between 0 and 30
+        var maxSpeed = Math.Clamp(args.MaxSpeed, 0f, 30f);
+        
+        // Don't do anything if the value didn't change
+        if (Math.Abs(shuttleComponent.BaseMaxLinearVelocity - maxSpeed) < 0.01f)
+            return;
+            
+        shuttleComponent.BaseMaxLinearVelocity = maxSpeed;
+        
+        // Refresh the shuttle consoles to update the UI
+        _console.RefreshShuttleConsoles(transform.GridUid.Value);
+    }
+
     public InertiaDampeningMode NfGetInertiaDampeningMode(EntityUid entity)
     {
         if (!EntityManager.TryGetComponent<TransformComponent>(entity, out var xform))
@@ -124,46 +146,6 @@ public sealed partial class ShuttleSystem
                 SetInertiaDampening(uid, physicsComponent, shuttleComponent, transform, component.DampeningMode);
             }
         }
-    }
-
-    /// <summary>
-    /// Get the current service flags for this grid.
-    /// </summary>
-    public ServiceFlags NfGetServiceFlags(EntityUid uid)
-    {
-        var transform = Transform(uid);
-        // Get the grid entity from the console transform
-        if (!transform.GridUid.HasValue)
-            return ServiceFlags.None;
-
-        var gridUid = transform.GridUid.Value;
-
-        // Set the service flags on the IFFComponent.
-        if (!EntityManager.TryGetComponent<IFFComponent>(gridUid, out var iffComponent))
-            return ServiceFlags.None;
-
-        return iffComponent.ServiceFlags;
-    }
-
-    /// <summary>
-    /// Set the service flags for this grid.
-    /// </summary>
-    public void NfSetServiceFlags(EntityUid uid, ShuttleConsoleComponent component, SetServiceFlagsRequest args)
-    {
-        var transform = Transform(uid);
-        // Get the grid entity from the console transform
-        if (!transform.GridUid.HasValue)
-            return;
-
-        var gridUid = transform.GridUid.Value;
-
-        // Set the service flags on the IFFComponent.
-        if (!EntityManager.TryGetComponent<IFFComponent>(gridUid, out var iffComponent))
-            return;
-
-        iffComponent.ServiceFlags = args.ServiceFlags;
-        _console.RefreshShuttleConsoles(gridUid);
-        Dirty(gridUid, iffComponent);
     }
 
 }

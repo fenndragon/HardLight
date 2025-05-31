@@ -1,0 +1,20 @@
+<Document>
+  # M220 RUBICON EMP Launcher
+
+A heavy [color=MediumVioletRed]energy[/color]-based launcher, firing EMP projectiles with similar trajectory to plasma projectiles. Non-lethal, and good for apprehension.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponTurretM220"/>
+  </Box>
+
+## Gun Specifications
+
+- Firerate: [color=crimson] 12 RPM [/color]/[color=deepskyblue] 0.2 RPS [/color]
+- Sell Value: [color=greenyellow][bold]2500 Spesos[/bold][/color]
+- Muzzle Velocity: [color=orange]40 m/s[/color]
+- Range: [color=orange]400m[/color]
+- Capacitor Storage: [color=orange]40000u[/color]
+- Capacitor Recharge: [color=turquoise]350u/s[/color]
+- Capacitor Fire Cost: [color=turquoise]500u[/color]
+
+</Document>

@@ -13,14 +13,14 @@ public sealed partial class ShipyardConsoleComponent : Component
 {
     public static string TargetIdCardSlotId = "ShipyardConsole-targetId";
 
-    [DataField]
+    [DataField("targetIdSlot")]
     public ItemSlot TargetIdSlot = new();
 
-    [DataField]
+    [DataField("soundError")]
     public SoundSpecifier ErrorSound =
         new SoundPathSpecifier("/Audio/Effects/Cargo/buzz_sigh.ogg");
 
-    [DataField]
+    [DataField("soundConfirm")]
     public SoundSpecifier ConfirmSound =
         new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg");
 
@@ -28,21 +28,21 @@ public sealed partial class ShipyardConsoleComponent : Component
     /// The comms channel that announces the ship purchase. The purchase is *always* announced
     /// on this channel.
     /// </summary>
-    [DataField]
+    [DataField("shipyardChannel")]
     public ProtoId<RadioChannelPrototype> ShipyardChannel = "Traffic";
 
     /// <summary>
     /// A second comms channel that announces the ship purchase, with some information redacted.
     /// Currently used for black market and syndicate shipyards to alert the NFSD.
     /// </summary>
-    [DataField]
+    [DataField("secretShipyardChannel")]
     public ProtoId<RadioChannelPrototype>? SecretShipyardChannel = null;
 
     /// <summary>
     /// If non-empty, specifies the new job title that should be given to the owner of the ship.
     /// </summary>
     [DataField]
-    public LocId? NewJobTitle;
+    public string? NewJobTitle = null;
 
     /// <summary>
     /// Access levels to be added to the owner's ID card.

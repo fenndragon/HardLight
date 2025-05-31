@@ -1,0 +1,20 @@
+<Document>
+  # MARAUDER Plasma Launcher
+
+A abandoned concept for a [color=MediumVioletRed]energy[/color]-based launcher, firing explosive but slow moving globs of plasma.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponTurretType35"/>
+  </Box>
+
+## Gun Specifications
+
+- Firerate: [color=crimson] 30 RPM [/color]/[color=deepskyblue] 0.5 RPS [/color]
+- Sell Value: [color=greenyellow][bold]2500 Spesos[/bold][/color]
+- Muzzle Velocity: [color=orange]60 m/s[/color]
+- Range: [color=orange]600m[/color]
+- Capacitor Storage: [color=orange]40000u[/color]
+- Capacitor Recharge: [color=turquoise]350u/s[/color]
+- Capacitor Fire Cost: [color=turquoise]500u[/color]
+
+</Document>

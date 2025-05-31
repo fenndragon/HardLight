@@ -1,7 +1,9 @@
-namespace Content.Server._NF.Explosion.Components;
+namespace Content.Server.Explosion.Components;
 
 /// <summary>
-/// Triggers an entity when it's being gibbed.
+/// Triggers a gun when attempting to shoot while it's empty
 /// </summary>
 [RegisterComponent]
-public sealed partial class TriggerOnBeingGibbedComponent : Component;
+public sealed partial class TriggerOnBeingGibbedComponent : Component
+{
+}

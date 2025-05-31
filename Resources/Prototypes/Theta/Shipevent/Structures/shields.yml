@@ -1,0 +1,108 @@
+- type: entity
+  id: CircularShieldConsole
+  name: shield control console
+  parent: BaseComputerAiAccess # Mono
+  suffix: Theta, CircularShield # Mono
+  components:
+    - type: CircularShieldConsole
+    - type: ActivatableUI
+      key: enum.CircularShieldConsoleUiKey.Key
+    - type: UserInterface
+      interfaces:
+        enum.CircularShieldConsoleUiKey.Key:
+          type: CircularShieldConsoleBoundUserInterface
+    - type: RadarConsole
+    - type: PointLight
+      radius: 1.5
+      energy: 1.6
+      color: "#43ccb5"
+    - type: ApcPowerReceiver
+      needsPower: false
+    - type: Sprite
+      layers:
+        - map: ["computerLayerBody"]
+          state: computer
+        - map: ["computerLayerKeyboard"]
+          state: generic_keyboard
+        - map: ["computerLayerScreen"]
+          state: comm_syndie
+        - map: ["computerLayerKeys"]
+          state: syndie_key
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+    - type: WirelessNetworkConnection
+      range: 200
+    - type: DeviceLinkSource
+      ports:
+        - CircularShieldConsoleSender
+    - type: Computer # Mono
+      board: ShieldControlComputerCircuitboard
+
+- type: entity
+  id: CircularShieldBase
+  name: MS-225 shield generator
+  parent: BaseStructure
+  suffix: Theta, CircularShield # Mono
+  components:
+    - type: CircularShield
+      consumptionPerM2: 0.35 # Mono - too much at 1
+      maxWidth: 360
+      maxRadius: 100 # Mono - 2x
+      color: "#00DEFE"
+      effects:
+        - !type:CircularShieldTempSpeedChangeEffect
+          speedModifier: 0.1
+    - type: ExtensionCableReceiver
+    - type: ApcPowerReceiver
+      needsPower: true
+    - type: Anchorable
+      delay: 10
+    - type: Sprite
+      sprite: _Mono/Structures/ShuttleComponents/shield.rsi
+      snapCardinals: true
+      layers:
+      - state: control
+      - state: control_on
+        map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+        visible: false
+        shader: unshaded
+    - type: DeviceNetwork
+      deviceNetId: Wireless
+    - type: WirelessNetworkConnection
+      range: 200
+    - type: DeviceLinkSink
+      ports:
+        - CircularShieldConsoleReceiver
+    - type: AmbientOnPowered
+    - type: AmbientSound
+      volume: -9
+      range: 5
+      sound:
+        path: /Audio/Ambience/Objects/anomaly_generator.ogg
+    - type: GenericVisualizer
+      visuals:
+        enum.PowerDeviceVisuals.Powered:
+          enum.PowerDeviceVisualLayers.Powered:
+            True: { visible: true }
+            False: { visible: false }
+    - type: PointLight
+      enabled: false
+      color: "#FF0040"
+      radius: 2.0
+      energy: 1.5
+    - type: LitOnPowered
+    - type: InteractionOutline
+    - type: Machine
+      board: MachineShieldMS225Circuitboard
+    - type: Construction # Mono
+      graph: Machine
+      node: machine
+      containers:
+      - machine_board
+      - machine_parts
+    - type: ContainerContainer # Mono
+      containers:
+        machine_board: !type:Container
+        machine_parts: !type:Container
+    - type: PirateBountyItem
+      id: ShipShield

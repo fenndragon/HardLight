@@ -2,14 +2,14 @@
 // Copyright (c) 2024 New Frontiers Contributors
 // See AGPLv3.txt for details.
 using Content.Shared._NF.Shuttles.Events;
-using Content.Shared.Shuttles.Components;
 
 namespace Content.Client.Shuttles.UI
 {
     public sealed partial class ShuttleConsoleWindow
     {
         public event Action<NetEntity?, InertiaDampeningMode>? OnInertiaDampeningModeChanged;
-        public event Action<NetEntity?, ServiceFlags>? OnServiceFlagsChanged;
+        public event Action<NetEntity?, float>? OnMaxShuttleSpeedChanged;
+        public event Action<string, string>? OnNetworkPortButtonPressed;
 
         private void NfInitialize()
         {
@@ -17,11 +17,16 @@ namespace Content.Client.Shuttles.UI
             {
                 OnInertiaDampeningModeChanged?.Invoke(entity, mode);
             };
-            NavContainer.OnServiceFlagsChanged += (entity, flags) =>
+
+            NavContainer.OnMaxShuttleSpeedChanged += (entityUid, maxSpeed) =>
             {
-                OnServiceFlagsChanged?.Invoke(entity, flags);
+                OnMaxShuttleSpeedChanged?.Invoke(entityUid, maxSpeed);
+            };
+            
+            NavContainer.OnNetworkPortButtonPressed += (sourcePort, targetPort) =>
+            {
+                OnNetworkPortButtonPressed?.Invoke(sourcePort, targetPort);
             };
         }
-
     }
 }
