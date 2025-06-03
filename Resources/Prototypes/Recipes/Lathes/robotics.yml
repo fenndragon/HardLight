@@ -289,8 +289,8 @@
 
 - type: latheRecipe
   parent: BaseBorgModuleRecipe
-  id: BorgModuleCable
-  result: BorgModuleCable
+  id: BorgModuleTool
+  result: BorgModuleTool
 
 - type: latheRecipe
   parent: BaseBorgModuleRecipe
@@ -392,14 +392,11 @@
 # Science Modules
 
 - type: latheRecipe
-  parent: BaseBorgModuleRecipe
-  id: BorgModuleArtifact
-  result: BorgModuleArtifact
+  parent: BaseGoldBorgModuleRecipe
+  id: BorgModuleAdvancedChemical
+  result: BorgModuleAdvancedChemical
 
-- type: latheRecipe
-  parent: BaseBorgModuleRecipe
-  id: BorgModuleAnomaly
-  result: BorgModuleAnomaly
+# Science Modules (if we add a advanced sci module that requires crafting)
 
 # Service Modules
 
