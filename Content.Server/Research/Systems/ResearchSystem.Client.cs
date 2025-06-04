@@ -1,5 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Threading.Tasks;
 using Content.Server.Power.EntitySystems;
 using Content.Shared.Research.Components;
 
@@ -13,24 +14,18 @@ public sealed partial class ResearchSystem
         SubscribeLocalEvent<ResearchClientComponent, ComponentShutdown>(OnClientShutdown);
         SubscribeLocalEvent<ResearchClientComponent, BoundUIOpenedEvent>(OnClientUIOpen);
         SubscribeLocalEvent<ResearchClientComponent, ConsoleServerSelectionMessage>(OnConsoleSelect);
-        SubscribeLocalEvent<ResearchClientComponent, AnchorStateChangedEvent>(OnClientAnchorStateChanged);
 
         SubscribeLocalEvent<ResearchClientComponent, ResearchClientSyncMessage>(OnClientSyncMessage);
         SubscribeLocalEvent<ResearchClientComponent, ResearchClientServerSelectedMessage>(OnClientSelected);
         SubscribeLocalEvent<ResearchClientComponent, ResearchClientServerDeselectedMessage>(OnClientDeselected);
         SubscribeLocalEvent<ResearchClientComponent, ResearchRegistrationChangedEvent>(OnClientRegistrationChanged);
-        SubscribeLocalEvent<ResearchClientComponent, EntParentChangedMessage>(OnClientParentChanged); // Frontier
     }
 
     #region UI
 
     private void OnClientSelected(EntityUid uid, ResearchClientComponent component, ResearchClientServerSelectedMessage args)
     {
-        if (!TryGetServerById(uid, args.ServerId, out var serveruid, out var serverComponent))
-            return;
-
-        // Validate that we can access this server.
-        if (!GetServers(uid).Contains((serveruid.Value, serverComponent)))
+        if (!TryGetServerById(args.ServerId, out var serveruid, out var serverComponent))
             return;
 
         UnregisterClient(uid, component);
@@ -63,10 +58,18 @@ public sealed partial class ResearchSystem
 
     private void OnClientMapInit(EntityUid uid, ResearchClientComponent component, MapInitEvent args)
     {
-        var allServers = GetServers(uid).ToList();
+        var maybeGrid = Transform(uid).GridUid;
+        if (maybeGrid is { } grid)
+        {
+            var servers = new HashSet<Entity<ResearchServerComponent>>();
+            _lookup.GetChildEntities(grid, servers);
 
-        if (allServers.Count > 0)
-            RegisterClient(uid, allServers[0], component, allServers[0]);
+
+            foreach (var server in servers)
+            {
+                RegisterClient(uid, server, component);
+            }
+        }
     }
 
     private void OnClientShutdown(EntityUid uid, ResearchClientComponent component, ComponentShutdown args)
@@ -79,27 +82,6 @@ public sealed partial class ResearchSystem
         UpdateClientInterface(uid, component);
     }
 
-    private void OnClientAnchorStateChanged(Entity<ResearchClientComponent> ent, ref AnchorStateChangedEvent args)
-    {
-        if (LifeStage(ent) != EntityLifeStage.MapInitialized) // Frontier: remove whenever the bug here gets sorted out
-            return; // Frontier: already registered on map init, no need to register before, no need to register on teardown
-
-        if (args.Anchored)
-        {
-            if (ent.Comp.Server is not null)
-                return;
-
-            var allServers = GetServers(ent).ToList();
-
-            if (allServers.Count > 0)
-                RegisterClient(ent, allServers[0], ent, allServers[0]);
-        }
-        else
-        {
-            UnregisterClient(ent, ent.Comp);
-        }
-    }
-
     private void UpdateClientInterface(EntityUid uid, ResearchClientComponent? component = null)
     {
         if (!Resolve(uid, ref component, false))
@@ -107,12 +89,9 @@ public sealed partial class ResearchSystem
 
         TryGetClientServer(uid, out _, out var serverComponent, component);
 
-        var names = GetServerNames(uid);
-        var state = new ResearchClientBoundInterfaceState(
-            names.Length,
-            names,
-            GetServerIds(uid),
-            serverComponent?.Id ?? -1);
+        var names = GetNFServerNames(uid);
+        var state = new ResearchClientBoundInterfaceState(names.Length, names,
+            GetNFServerIds(uid), serverComponent?.Id ?? -1);
 
         _uiSystem.SetUiState(uid, ResearchClientUiKey.Key, state);
     }
@@ -146,20 +125,4 @@ public sealed partial class ResearchSystem
         return true;
     }
 
-    // Frontier: remove connection when parent changed
-    private void OnClientParentChanged(Entity<ResearchClientComponent> ent, ref EntParentChangedMessage args)
-    {
-        if (TerminatingOrDeleted(ent) || ent.Comp.Server == null)
-            return;
-
-        // If the client and the server are no longer on the same grid, disconnect them.
-        if (!TryComp(ent, out TransformComponent? clientXform)
-            || clientXform.GridUid == null
-            || !TryComp(ent.Comp.Server, out TransformComponent? serverXform)
-            || clientXform.GridUid != serverXform.GridUid)
-        {
-            UnregisterClient(ent, ent.Comp);
-        }
-    }
-    // End Frontier
 }
