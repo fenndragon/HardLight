@@ -307,11 +307,6 @@
   id: BorgModuleRadiationDetection
   result: BorgModuleRadiationDetection
 
-- type: latheRecipe
-  parent: BaseBorgModuleRecipe
-  id: BorgModuleTool
-  result: BorgModuleTool
-
 # Mining Modules
 
 - type: latheRecipe
