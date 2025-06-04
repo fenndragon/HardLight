@@ -17,7 +17,7 @@
 - type: accessGroup
   id: Command
   tags:
-  - Captain
+  #- Captain # No, :3
   - Command
   - ChiefEngineer
   - ChiefMedicalOfficer

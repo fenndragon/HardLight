@@ -1,4 +1,5 @@
 using System.Numerics;
+using Content.Server._Hardlight.StationEvents.Events;
 using Content.Server.Chat.Systems;
 using Content.Server.GameTicking.Rules;
 using Content.Server.Station.Components;
@@ -44,11 +45,14 @@ public sealed class MeteorSwarmSystem : GameRuleSystem<MeteorSwarmComponent>
 
         component.NextWaveTime += TimeSpan.FromSeconds(component.WaveCooldown.Next(RobustRandom));
 
+        // Hardlight: filter by ValidMeteorSwarmComponent to prevent ships from being hit
+        var stations = _station.GetStations()
+            .FindAll(it => it.Valid && HasComp<ValidMeteorSwarmComponent>(it));
 
-        if (_station.GetStations().Count == 0)
+        if (stations.Count == 0)
             return;
 
-        var station = RobustRandom.Pick(_station.GetStations());
+        var station = RobustRandom.Pick(stations);
         if (_station.GetLargestGrid(Comp<StationDataComponent>(station)) is not { } grid)
             return;
 

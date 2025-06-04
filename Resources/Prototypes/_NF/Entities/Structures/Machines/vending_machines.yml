@@ -108,6 +108,9 @@
     pack: ExpeditionaryFlatpackVendInventory
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
+  - type: AccessReader
+    access: [["Security"], ["Contractor"], ["Pilot"], ["Mercenary"]]
+  - type: ActivatableUIRequiresAccess
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine]
@@ -198,7 +201,7 @@
 #    balance:
 #      MercCoin: 0 # Waits for the player to put in money
   - type: AccessReader
-    access: [["NuclearOperative"], ["SyndicateAgent"], ["Security"], ["Mercenary"]]
+    access: [["Security"], ["Mercenary"]]
   - type: ActivatableUIRequiresAccess
 
 - type: entity
@@ -303,6 +306,9 @@
       radius: 1.5
       energy: 1.6
       color: "#ff033e"
+    - type: AccessReader
+      access: [["Security"], ["Contractor"], ["Pilot"], ["Mercenary"]]
+    - type: ActivatableUIRequiresAccess
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, LessLethalVendingMachine]
@@ -344,6 +350,9 @@
       radius: 1.5
       energy: 1.6
       color: "#ff033e"
+    - type: AccessReader
+      access: [["Security"], ["Contractor"], ["Pilot"], ["Mercenary"]]
+    - type: ActivatableUIRequiresAccess
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]

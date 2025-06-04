@@ -27,6 +27,7 @@
     - id: AstroNavCartridge # Frontier
     - id: MailTeleporterMachineCircuitboard # Frontier
     - id: ClothingBeltUtilityEngineering # Frontier
+    - id: QuartermasterIDCard
 
 - type: entity
   id: HLLockerQuarterMasterFilled
@@ -37,6 +38,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillQuarterMaster
+  - type: AccessReader
+    access: [ [ "Quartermaster" ] ]
 
 # No laser table
 - type: entityTable
@@ -107,6 +110,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillCaptainNoLaser
+  - type: AccessReader
+    access: [ [ "StationCaptain" ] ]
 
 # Laser locker, used when the antique laser is not in a special display crate
 - type: entity
@@ -118,6 +123,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillCaptainLaser
+  - type: AccessReader
+    access: [ [ "StationCaptain" ] ]
 
 - type: entityTable
   id: HLLockerFillHeadOfPersonnel
@@ -146,6 +153,7 @@
     - id: RubberStampHop # Frontier
     - id: NFWeaponEnergyPistolDisabler # Frontier
     - id: ClothingEyesHudCommand # Frontier
+    - id: HoPIDCard
 
 - type: entity
   id: HLLockerHeadOfPersonnelFilled
@@ -156,6 +164,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillHeadOfPersonnel
+  - type: AccessReader
+    access: [ [ "HeadOfPersonnel" ] ]
 
 # No hardsuit table
 - type: entityTable
@@ -179,6 +189,7 @@
     - id: ShipyardRCD # Frontier
     - id: ShipyardRCDAmmo # Frontier
     - id: trayScanner # Frontier
+    - id: CEIDCard
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -204,6 +215,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillChiefEngineerNoHardsuit
+  - type: AccessReader
+    access: [["ChiefEngineer"]]
 
 # No hardsuit + hardsuit locker
 - type: entity
@@ -219,6 +232,8 @@
           tableId: HLLockerFillChiefEngineerNoHardsuit
         - !type:NestedSelector
           tableId: HLFillChiefEngineerHardsuit
+  - type: AccessReader
+    access: [ [ "ChiefEngineer" ] ]
 
 # No hardsuit table
 - type: entityTable
@@ -242,7 +257,8 @@
     - id: RubberStampCMO
     - id: MedTekCartridge
     - id: ClothingBeltMedicalFilled
-    - id: RubberStampDoctor # Frontier
+    - id: RubberStampDoctor
+    - id: CMOIDCard
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -266,6 +282,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillChiefMedicalOfficerNoHardsuit
+  - type: AccessReader
+    access: [ [ "ChiefMedicalOfficer" ] ]
 
 # No hardsuit + Hardsuit locker
 - type: entity
@@ -281,6 +299,8 @@
           tableId: HLLockerFillChiefMedicalOfficerNoHardsuit
         - !type:NestedSelector
           tableId: HLFillChiefMedicalOfficerHardsuit
+  - type: AccessReader
+    access: [ [ "ChiefMedicalOfficer" ] ]
 
 # No hardsuit table
 - type: entityTable
@@ -299,6 +319,7 @@
     - id: ResearchComputerCircuitboard # Frontier
     - id: CargoRequestScienceComputerCircuitboard # Frontier
     - id: RubberStampRd
+    - id: RDIDCard
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -322,6 +343,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillResearchDirectorNoHardsuit
+  - type: AccessReader
+    access: [ [ "ResearchDirector" ] ]
 
 # No hardsuit + Hardsuit locker
 - type: entity
@@ -337,6 +360,8 @@
           tableId: HLLockerFillResearchDirectorNoHardsuit
         - !type:NestedSelector
           tableId: HLFillResearchDirectorHardsuit
+  - type: AccessReader
+    access: [ [ "ResearchDirector" ] ]
 
 # No hardsuit table
 - type: entityTable
@@ -372,7 +397,8 @@
     - id: ClothingNeckMantleHOS
     - id: ClothingOuterWinterHoS
     - id: ClothingShoesBootsWinterHoS
-    # - id: Demag # Frontier
+    - id: Demag
+    - id: HoSIDCard
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -395,6 +421,8 @@
     containers:
       entity_storage: !type:NestedSelector
         tableId: HLLockerFillHeadOfSecurityNoHardsuit
+  - type: AccessReader
+    access: [ [ "HeadOfSecurity" ] ]
 
 # No hardsuit + Hardsuit locker
 - type: entity
@@ -410,3 +438,5 @@
           tableId: HLLockerFillHeadOfSecurityNoHardsuit
         - !type:NestedSelector
           tableId: HLFillHeadOfSecurityHardsuit
+  - type: AccessReader
+    access: [ [ "HeadOfSecurity" ] ]

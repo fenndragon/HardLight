@@ -18,7 +18,8 @@
   id: MobResomiSprites
   sprites:
     Head: MobResomiHead
-    Hair: MobResomiHair
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
     Chest: MobResomiTorso
     Eyes: MobResomiEyes
     LArm: MobResomiLArm
@@ -36,7 +37,10 @@
   onlyWhitelisted: true
   points:
     Hair:
-      points: 1
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
       required: false
     Tail:
       points: 2
@@ -60,9 +64,6 @@
   baseSprite:
     sprite: Floof/Mobs/Customization/eyes.rsi
     state: resomi
-
-- type: humanoidBaseSprite
-  id: MobResomiHair
 
 - type: humanoidBaseSprite
   id: MobResomiHead

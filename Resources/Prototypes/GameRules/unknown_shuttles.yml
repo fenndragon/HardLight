@@ -35,6 +35,8 @@
     - id: UnknownShuttleManOWar
     - id: UnknownShuttleInstigator
 
+# HardLight - lack of FTL ability on shuttles means that they are stuck in bluespace, **DO NOT USE THEM**
+
 # Shuttle Game Rules
 
 - type: entity

@@ -9,6 +9,7 @@ using Content.Shared.NodeContainer;
 using Content.Shared.NodeContainer.NodeGroups;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map.Components;
+using Robust.Shared.Map;
 using Robust.Shared.Random;
 
 namespace Content.Server.Ame;
@@ -178,7 +179,7 @@ public sealed class AmeNodeGroup : BaseNodeGroup
         // Increasing core count without increasing fuel always leads to reduced power as well.
         // At 18+ cores and 2 inject, the power produced is less than 0, the Max ensures the AME can never produce "negative" power.
         // return MathF.Max(200000f * MathF.Log10(2 * fuel * MathF.Pow(cores, (float)-0.5)), 0); // Frontier: preferring old calculation for now
-        return 200000f * MathF.Log10(fuel * fuel) * MathF.Pow(0.75f, cores - 1); // Frontier: preferring old calculation for now
+        return 2000000f * fuel * fuel / cores;
     }
 
     public int GetTotalStability()
