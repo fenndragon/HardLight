@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingWalletLeatherBrown
   id: ClothingWalletLeatherPrisoner
-  name: prison wallet
-  description: Not what you expected.
+  name: prisoner's wallet
+  description: Even the incarcerated need to hold their cash somewhere.
   components:
   - type: Sprite
     layers:
