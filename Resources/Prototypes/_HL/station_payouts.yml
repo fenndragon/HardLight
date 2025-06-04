@@ -177,6 +177,11 @@
   id: ChiefEngineerPay
   payPerHour: 20000
   job: ChiefEngineer
+
+- type: stationPay
+  id: StationCaptainPay
+  payPerHour: 20000
+  job: StationCaptain
   
 - type: stationPay
   id: ResearchDirectorPay

@@ -1,39 +1,39 @@
-- type: gamePreset
-  id: NFAdventure
-  alias:
-    - nfadventure
-    - adventure
-  name: nf-adventure-title
-  description: nf-adventure-description
-  showInVote: true
-  rules:
-    - Secret
-    - NFAdventure
-#    - SpaceTrafficControlEventScheduler
-#    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
-    - BasicRoundstartVariation
-    - BluespaceEventScheduler
-    - BluespaceDungeonEventScheduler
-    - BluespaceSalvageEventScheduler
-    - SmugglingEventScheduler
-    - NFRoundstartVariation
+# - type: gamePreset
+  # id: NFAdventure
+  # alias:
+    # - nfadventure
+    # - adventure
+  # name: nf-adventure-title
+  # description: nf-adventure-description
+  # showInVote: true
+  # rules:
+    # - Secret
+    # - NFAdventure
+# #    - SpaceTrafficControlEventScheduler
+# #    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
+    # - BasicRoundstartVariation
+    # - BluespaceEventScheduler
+    # - BluespaceDungeonEventScheduler
+    # - BluespaceSalvageEventScheduler
+    # - SmugglingEventScheduler
+    # - NFRoundstartVariation
 
-- type: gamePreset
-  id: NFPirate
-  alias:
-    - nfpirate
-    - pirate
-  name: nf-pirate-title
-  description: nf-pirate-description
-  showInVote: true
-  rules:
-    - Secret
-    - NFAdventure
-#    - SpaceTrafficControlEventScheduler
-#    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
-    - BasicRoundstartVariation
-    - BluespaceEventScheduler
-    - BluespaceDungeonEventScheduler
-    - BluespaceSalvageEventScheduler
-    - SmugglingEventScheduler
-    - NFRoundstartVariation
+# - type: gamePreset
+  # id: NFPirate
+  # alias:
+    # - nfpirate
+    # - pirate
+  # name: nf-pirate-title
+  # description: nf-pirate-description
+  # showInVote: true
+  # rules:
+    # - Secret
+    # - NFAdventure
+# #    - SpaceTrafficControlEventScheduler
+# #    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
+    # - BasicRoundstartVariation
+    # - BluespaceEventScheduler
+    # - BluespaceDungeonEventScheduler
+    # - BluespaceSalvageEventScheduler
+    # - SmugglingEventScheduler
+    # - NFRoundstartVariation
