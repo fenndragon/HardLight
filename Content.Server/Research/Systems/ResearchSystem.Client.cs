@@ -64,6 +64,7 @@ public sealed partial class ResearchSystem
             var servers = new HashSet<Entity<ResearchServerComponent>>();
             _lookup.GetChildEntities(grid, servers);
 
+
             foreach (var server in servers)
             {
                 RegisterClient(uid, server, component);
@@ -123,4 +124,5 @@ public sealed partial class ResearchSystem
         server = component.Server;
         return true;
     }
+
 }

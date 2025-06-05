@@ -1,4 +1,4 @@
-- type: latheRecipe
-  parent: NFBaseBlueprintLatheRecipe
-  id: FloofBlueprintWeaponLaserPrototypePulseRifle
-  result: FloofBlueprintWeaponLaserPrototypePulseRifle
+# - type: latheRecipe
+ # parent: NFBaseBlueprintLatheRecipe
+ # id: FloofBlueprintWeaponLaserPrototypePulseRifle
+ # result: FloofBlueprintWeaponLaserPrototypePulseRifle

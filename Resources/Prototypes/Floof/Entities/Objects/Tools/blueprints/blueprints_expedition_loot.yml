@@ -1,10 +1,11 @@
-- type: entity
-  parent: NFBaseBlueprintArmory
-  id: FloofBlueprintWeaponLaserPrototypePulseRifle
-  name: prototype pulse rifle blueprint
-  description: A blueprint with a schematic for a prototype pulse rifle. It can be inserted into an autolathe or a techfab.
-  components:
-  - type: Blueprint
-    providedRecipes:
-    - WeaponPrototypePulseLaser
-    - WeaponPrototypePulseLaserCell
+#- type: entity
+#  parent: NFBaseBlueprintArmory
+#  id: FloofBlueprintWeaponLaserPrototypePulseRifle
+#  name: prototype pulse rifle blueprint
+#  description: A blueprint with a schematic for a prototype pulse rifle. It can be inserted into an autolathe #or a techfab.
+#  components:
+#  - type: Blueprint
+#    providedRecipes:
+#    - WeaponPrototypePulseLaser
+#    - WeaponPrototypePulseLaserCell
+#

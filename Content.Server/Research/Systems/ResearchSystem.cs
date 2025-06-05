@@ -1,7 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Server.Administration.Logs;
-using Content.Server.Station.Systems;
 using Content.Server.Radio.EntitySystems;
 using Content.Shared.Access.Systems;
 using Content.Shared.Popups;
@@ -19,11 +18,10 @@ namespace Content.Server.Research.Systems
         [Dependency] private readonly IAdminLogManager _adminLog = default!;
         [Dependency] private readonly IGameTiming _timing = default!;
         [Dependency] private readonly AccessReaderSystem _accessReader = default!;
+        [Dependency] private readonly EntityLookupSystem _lookup = default!;
         [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
         [Dependency] private readonly SharedPopupSystem _popup = default!;
         // [Dependency] private readonly RadioSystem _radio = default!; // Frontier
-        [Dependency] private readonly StationSystem _station = default!;
-        [Dependency] private readonly EntityLookupSystem _lookup = default!;
 
         public override void Initialize()
         {
@@ -37,8 +35,9 @@ namespace Content.Server.Research.Systems
         }
 
         /// <summary>
-        /// Gets a server based on it's unique numeric id.
+        /// Gets a server based on its unique numeric id.
         /// </summary>
+        /// <param name="client"></param>
         /// <param name="id"></param>
         /// <param name="serverUid"></param>
         /// <param name="serverComponent"></param>
@@ -66,12 +65,12 @@ namespace Content.Server.Research.Systems
         /// <returns></returns>
         public string[] GetServerNames()
         {
-            var allServers = EntityQuery<ResearchServerComponent>(true).ToArray();
+           var allServers = EntityQuery<ResearchServerComponent>(true).ToArray();
             var list = new string[allServers.Length];
 
             for (var i = 0; i < allServers.Length; i++)
             {
-                list[i] = allServers[i].ServerName;
+               list[i] = allServers[i].ServerName;
             }
 
             return list;
@@ -93,6 +92,7 @@ namespace Content.Server.Research.Systems
 
             return list;
         }
+
 
         /// <summary>
         /// Frontier copies of the original get servers. We need our research system to be isolated on a per-grid basis.

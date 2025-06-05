@@ -151,7 +151,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: HitscanBatteryAmmoProvider
-    proto: RedLaser
+    proto: NFRedMediumLaser # Frontier: use NF variant
     fireCost: 50
   - type: Item
     size: Normal
@@ -185,7 +185,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser # Frontier
+    proto: NFRedLightLaser # Frontier
     fireCost: 62.5
   - type: Battery
     maxCharge: 500
@@ -212,7 +212,7 @@
       params:
         variation: 0.2
   - type: ProjectileBatteryAmmoProvider
-    proto: TeslaGunBullet # Frontier
+    proto: NFTeslaGunBullet # Frontier
     fireCost: 300
   - type: MagazineVisuals
     magState: mag
@@ -496,7 +496,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisablerPractice # Frontier
+    proto: NFBulletDisablerPractice # Frontier
     fireCost: 50
   - type: Tag
     tags:
@@ -524,7 +524,7 @@
       - suitStorage
       - Belt
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisabler # Frontier
+    proto: NFBulletDisabler # Frontier
     fireCost: 50
   - type: GuideHelp
     guides:
@@ -559,7 +559,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisablerSmg # Frontier
+    proto: NFBulletDisablerSmg # Frontier: use NF variant
     fireCost: 25
   - type: MagazineVisuals
     magState: mag
@@ -597,7 +597,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletTaser # Frontier
+    proto: NFBulletTaser # Frontier: use NF variant
     fireCost: 200
   - type: MagazineVisuals
     magState: mag
@@ -626,7 +626,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser # Frontier
+    proto: NFRedMediumLaser # Frontier: use NF variant
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -673,7 +673,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser # Frontier
+    proto: NFRedMediumLaser # Frontier: use NF variant
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -771,7 +771,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_clown.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: RedLaser # Frontier
+    proto: NFRedMediumLaser # Frontier: RedLaser<NFRedMediumLaser
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -868,7 +868,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: BoltTempgunCold # Frontier
+    proto: NFBoltTempgunCold # Frontier
     fireCost: 100
   - type: BatteryWeaponFireModes
     fireModes:
@@ -881,3 +881,16 @@
     startingCharge: 1000
   - type: StaticPrice
     price: 100
+
+- type: entity
+  name: xenoborg laser gun
+  parent: [ WeaponAdvancedLaser, BaseXenoborgContraband ]
+  id: XenoborgLaserGun
+
+- type: entity
+  name: xenoborg heavy laser gun
+  parent: [ WeaponAdvancedLaser, BaseXenoborgContraband ]
+  id: XenoborgHeavyLaserGun
+  components:
+  - type: HitscanBatteryAmmoProvider
+    proto: NFRedHeavyLaser # Frontier: use NF variant

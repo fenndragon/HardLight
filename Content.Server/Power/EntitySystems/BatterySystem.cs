@@ -26,6 +26,7 @@ namespace Content.Server.Power.EntitySystems
             SubscribeLocalEvent<BatteryComponent, EmpPulseEvent>(OnEmpPulse);
             SubscribeLocalEvent<BatteryComponent, ChangeChargeEvent>(OnChangeCharge);
             SubscribeLocalEvent<BatteryComponent, GetChargeEvent>(OnGetCharge);
+            SubscribeLocalEvent<BatteryComponent, EmpDisabledRemoved>(OnEmpDisabledRemoved); // Frontier: Upstream - #28984
 
             SubscribeLocalEvent<NetworkBatteryPreSync>(PreSync);
             SubscribeLocalEvent<NetworkBatteryPostSync>(PostSync);
@@ -117,6 +118,25 @@ namespace Content.Server.Power.EntitySystems
             // Apply a cooldown to the entity's self recharge if needed to avoid it immediately self recharging after an EMP.
             TrySetChargeCooldown(uid);
         }
+
+        // Frontier: Upstream - #28984
+        /// <summary>
+        /// if a disabled battery is put into a recharged, allow the recharger to start recharging again after the disable ends.
+        /// </summary>
+        private void OnEmpDisabledRemoved(EntityUid uid, BatteryComponent component, ref EmpDisabledRemoved args)
+        {
+            if (!TryComp<ChargingComponent>(uid, out var charging))
+                return;
+
+            args.ResidualValue -= ChangeCharge(entity, args.ResidualValue);
+        }
+
+        private void OnGetCharge(Entity<BatteryComponent> entity, ref GetChargeEvent args)
+        {
+            args.CurrentCharge += entity.Comp.CurrentCharge;
+            args.MaxCharge += entity.Comp.MaxCharge;
+        }
+        // End Frontier: Upstream - #28984
 
         private void OnChangeCharge(Entity<BatteryComponent> entity, ref ChangeChargeEvent args)
         {

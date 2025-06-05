@@ -28,14 +28,14 @@
         store: part-container
 
       - component: Flash
-        name: flash
+        name: construction-graph-component-flash
         store: part-container
         icon:
           sprite: Objects/Weapons/Melee/flash.rsi
           state: flash
 
       - component: Flash
-        name: second flash
+        name: construction-graph-component-second-flash
         store: part-container
         icon:
           sprite: Objects/Weapons/Melee/flash.rsi
@@ -205,7 +205,7 @@
 
       - tool: Screwing
         doAfter: 0.5
-        
+
     - to: Quadsalv
       steps:
       - assemblyId: quadsalv
@@ -232,7 +232,7 @@
 
       - tool: Screwing
         doAfter: 0.5
-        
+
     - to: Quadserv
       steps:
       - assemblyId: quadserv
@@ -259,7 +259,7 @@
 
       - tool: Screwing
         doAfter: 0.5
-    
+
     - to: Quadmed
       steps:
       - assemblyId: quadmed
@@ -286,22 +286,25 @@
 
       - tool: Screwing
         doAfter: 0.5
-        
+
   - node: Quadborg
     entity: BorgChassisQuad
-    
+
   - node: Quadsalv
     entity: BorgChassisQuadsalv
-    
+
   - node: Quadserv
     entity: BorgChassisQuadserv
-    
+
   - node: Quadmed
     entity: BorgChassisQuadmed
 
   - node: cyborg
-    entity: BorgChassisGeneric
-    
+    entity: BorgChassisSelectable
+
+  - node: derelictcyborg
+    entity: BorgChassisDerelict
+
   - node: engineer
     entity: BorgChassisEngineer
 

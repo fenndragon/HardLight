@@ -11,6 +11,7 @@ public sealed partial class ResearchSystem
         SubscribeLocalEvent<ResearchServerComponent, ComponentStartup>(OnServerStartup);
         SubscribeLocalEvent<ResearchServerComponent, ComponentShutdown>(OnServerShutdown);
         SubscribeLocalEvent<ResearchServerComponent, TechnologyDatabaseModifiedEvent>(OnServerDatabaseModified);
+
     }
 
     private void OnServerStartup(EntityUid uid, ResearchServerComponent component, ComponentStartup args)
@@ -61,19 +62,20 @@ public sealed partial class ResearchSystem
     /// <param name="serverComponent"></param>
     /// <param name="dirtyServer">Whether or not to dirty the server component after registration</param>
     public void RegisterClient(EntityUid client, EntityUid server, ResearchClientComponent? clientComponent = null,
-        ResearchServerComponent? serverComponent = null,  bool dirtyServer = true)
+        ResearchServerComponent? serverComponent = null, bool dirtyServer = true)
     {
-        if (!Resolve(client, ref clientComponent) || !Resolve(server, ref serverComponent))
+        if (!Resolve(client, ref clientComponent, false) || !Resolve(server, ref serverComponent, false))
             return;
 
         if (serverComponent.Clients.Contains(client))
             return;
 
+
         serverComponent.Clients.Add(client);
         clientComponent.Server = server;
         SyncClientWithServer(client, clientComponent: clientComponent);
 
-        if (dirtyServer)
+        if (dirtyServer && !TerminatingOrDeleted(server))
             Dirty(server, serverComponent);
 
         var ev = new ResearchRegistrationChangedEvent(server);
@@ -108,14 +110,14 @@ public sealed partial class ResearchSystem
     public void UnregisterClient(EntityUid client, EntityUid server, ResearchClientComponent? clientComponent = null,
         ResearchServerComponent? serverComponent = null, bool dirtyServer = true)
     {
-        if (!Resolve(client, ref clientComponent) || !Resolve(server, ref serverComponent))
+        if (!Resolve(client, ref clientComponent, false) || !Resolve(server, ref serverComponent, false))
             return;
 
         serverComponent.Clients.Remove(client);
         clientComponent.Server = null;
         SyncClientWithServer(client, clientComponent: clientComponent);
 
-        if (dirtyServer)
+        if (dirtyServer && !TerminatingOrDeleted(server))
         {
             Dirty(server, serverComponent);
         }

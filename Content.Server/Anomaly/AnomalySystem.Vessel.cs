@@ -83,6 +83,10 @@ public sealed partial class AnomalySystem
         if (!TryComp<AnomalyComponent>(anomaly, out var anomalyComponent) || anomalyComponent.ConnectedVessel != null)
             return;
 
+
+        }
+        // End Frontier: check anomaly is on the same grid
+
         component.Anomaly = scanner.ScannedAnomaly;
         anomalyComponent.ConnectedVessel = uid;
         _radiation.SetSourceEnabled(uid, true);
@@ -205,4 +209,5 @@ public sealed partial class AnomalySystem
             vessel.NextBeep = beepInterval + Timing.CurTime;
         }
     }
+
 }

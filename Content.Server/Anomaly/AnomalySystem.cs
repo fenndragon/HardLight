@@ -35,7 +35,7 @@ public sealed partial class AnomalySystem : SharedAnomalySystem
     [Dependency] private readonly MaterialStorageSystem _material = default!;
     [Dependency] private readonly SharedPointLightSystem _pointLight = default!;
     // [Dependency] private readonly StationSystem _station = default!; // Frontier
-    [Dependency] private readonly RadioSystem _radio = default!;
+    // [Dependency] private readonly RadioSystem _radio = default!; // Frontier
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly RadiationSystem _radiation = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
@@ -130,6 +130,10 @@ public sealed partial class AnomalySystem : SharedAnomalySystem
                 SetBehavior(anomaly, GetRandomBehavior());
         }
     }
+
+    // Frontier: disable anomaly if it goes off-grid
+
+    // End Frontier: disable anomaly if it goes off-grid
 
     /// <summary>
     /// Gets the amount of research points generated per second for an anomaly.

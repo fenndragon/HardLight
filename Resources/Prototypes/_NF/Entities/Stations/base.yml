@@ -24,6 +24,7 @@
   # components:
   # - type: StationRenameHolopads
 
+
 # - type: entity
   # id: BaseStationRenameWarpPoints
   # abstract: true
@@ -113,6 +114,7 @@
     # whitelistOverride:
       # components:
       # - UraniumMaterials # Counts as food
+
 
 # - type: entity
   # id: BaseStationDeadDrops

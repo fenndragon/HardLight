@@ -83,7 +83,7 @@ public sealed partial class GunSystem
         if (damageSpec == null)
             return;
 
-        var damageType = component switch
+        var damageType = entity.Comp switch
         {
             HitscanBatteryAmmoProviderComponent => Loc.GetString("damage-hitscan"),
             ProjectileBatteryAmmoProviderComponent => Loc.GetString("damage-projectile"),
