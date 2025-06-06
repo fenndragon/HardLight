@@ -3,38 +3,36 @@
   name: job-name-qm
   description: job-description-qm
   playTimeTracker: JobQuartermaster
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:RoleTimeRequirement
       role: JobCargoTechnician
-      time: 1800 #5 hrs
+      time: 18000 #5 hrs
     - !type:RoleTimeRequirement
       role: JobSalvageSpecialist
       time: 9000 #2.5 hrs
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 3600 #10 hours
+      time: 36000 #10 hours
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain
-  # canBeAntag: false
-  access:
-  - Cargo
-  - Salvage
-  - Mail # Nyanotrasen - MailCarrier, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Cargo/mail-carrier.yml
-  - Quartermaster
-  - Maintenance
-  - Command
-  - Frontier
-#  - Orders # DeltaV - Orders, see Resources/Prototypes/DeltaV/Access/cargo.yml Frontier/ Removed because seems deprecated
-  - External # DeltaV - for promoting salvage specialists
-  - Cryogenics
+  canBeAntag: false
+  # access: # Frontier
+  # - Cargo # Frontier
+  # - Salvage # Frontier
+  # - Quartermaster # Frontier
+  # - Maintenance # Frontier
+  # - External # Frontier
+  # - Command # Frontier
+  # - Brig # Frontier
+  # - Cryogenics # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
-  # - !type:AddImplantSpecial
-    # implants: [ MindShieldImplant ]
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

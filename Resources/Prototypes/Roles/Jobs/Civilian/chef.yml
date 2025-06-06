@@ -3,7 +3,7 @@
   name: job-name-chef
   description: job-description-chef
   playTimeTracker: JobChef
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
@@ -11,13 +11,6 @@
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Service
-  - Maintenance
-  - Kitchen
-  extendedAccess:
-  - Hydroponics
-  - Bar
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

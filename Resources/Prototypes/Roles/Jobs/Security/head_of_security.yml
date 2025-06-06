@@ -2,7 +2,7 @@
   id: HeadOfSecurity
   name: job-name-hos
   description: job-description-hos
-  playTimeTracker: JobHeadOfSecurity # Frontier JobHeadOfSecurity<JobHeadOfSecurityOld
+  playTimeTracker: JobHeadOfSecurityOld # Frontier JobHeadOfSecurity<JobHeadOfSecurityOld
   requirements:
     - !type:RoleTimeRequirement
       role: JobWarden
@@ -20,27 +20,27 @@
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
   supervisors: job-supervisors-captain
-  # canBeAntag: false
+  canBeAntag: false
   ## Frontier: commented out stuff below
-  access:
-  - HeadOfSecurity
-  - Command
-  - Brig
-  - Security
-  - Armory
-  - Maintenance
-  - Service
-  - External
-  - Detective
-  - Cryogenics
-  special:
+  # access:
+  # - HeadOfSecurity
+  # - Command
+  # - Brig
+  # - Security
+  # - Armory
+  # - Maintenance
+  # - Service
+  # - External
+  # - Detective
+  # - Cryogenics
+  # special:
   # - !type:AddImplantSpecial
   #   implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+  # - !type:AddComponentSpecial
+  #   components:
+  #     - type: CommandStaff
   ## Frontier: commented out stuff above
-  setPreference: true
+  setPreference: false # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

@@ -81,6 +81,3 @@
   - type: Reactive
     groups:
       Acidic: [Touch]
-  - type: Tag
-    tags:
-      - NoPaint

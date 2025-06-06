@@ -3,7 +3,7 @@
   name: job-name-ce
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
@@ -18,24 +18,23 @@
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
   supervisors: job-supervisors-captain
-  # canBeAntag: false
+  canBeAntag: false
   ## Frontier: commented everything below out
-  access:
-  - Maintenance
-  - Engineering
-  - Command
-  - External
-  - ChiefEngineer
-  - Atmospherics
-  - Brig
-  - Cryogenics
-  - Frontier
-  special:
+  # access:
+  # - Maintenance
+  # - Engineering
+  # - Command
+  # - External
+  # - ChiefEngineer
+  # - Atmospherics
+  # - Brig
+  # - Cryogenics
+  # special:
   # - !type:AddImplantSpecial
   #   implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+  # - !type:AddComponentSpecial
+  #   components:
+  #     - type: CommandStaff
   ## End Frontier: commented everything above out
   accessGroups: # Frontier
   - GeneralAccess # Frontier

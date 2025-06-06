@@ -290,7 +290,7 @@ entities:
     - type: Transform
       pos: -3.5,-3.5
       parent: 1
-- proto: AirlockExternalGlassShuttleMerc
+- proto: AirlockGlassShuttle
   entities:
   - uid: 17
     components:
@@ -325,6 +325,8 @@ entities:
       pos: 2.5,-8.5
       parent: 1
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 226
   - uid: 352

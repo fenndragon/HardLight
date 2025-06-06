@@ -245,6 +245,13 @@
 - type: entity
   parent:
   - BaseExpeditionWeaponTier2
+  - NFWeaponRifleAssaultJackdaw
+#  categories: [ HideSpawnMenu ]
+  id: NFWeaponRifleAssaultJackdawExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
   - NFWeaponRifleAssaultGestio
 #  categories: [ HideSpawnMenu ]
   id: NFWeaponRifleAssaultGestioExpedition
@@ -446,10 +453,3 @@
   - NFWeaponEnergyRifleTemperature
 #  categories: [ HideSpawnMenu ]
   id: NFWeaponEnergyRifleTemperatureExpedition
-
-- type: entity
-  parent:
-  - BaseExpeditionWeaponTier5
-  - NFWeaponRifleAssaultJackdaw
-#  categories: [ HideSpawnMenu ]
-  id: NFWeaponRifleAssaultJackdawExpedition

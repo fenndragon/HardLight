@@ -1,0 +1,4 @@
+- type: sourcePort
+  id: CircularShieldConsoleSender
+  name: "Shield console"
+  description: "Shield console"

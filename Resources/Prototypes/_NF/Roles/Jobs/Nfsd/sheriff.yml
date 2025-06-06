@@ -2,7 +2,7 @@
   id: Sheriff
   name: job-name-sheriff
   description: job-description-sheriff
-  playTimeTracker: JobHeadOfSecurityOld
+  playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 129600 # 36 hours

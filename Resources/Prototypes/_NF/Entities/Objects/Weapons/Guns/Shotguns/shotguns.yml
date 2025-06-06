@@ -1,7 +1,10 @@
 #region WizDen
 - type: entity
   id: NFWeaponShotgunBulldog
-  parent: [BaseC3SyndicateContraband, NFBaseWeaponShotgunChamber50Magazine, NFBaseWeaponFrameShotgunWieldable]
+  parent:
+  - BaseC3SyndicateContraband
+  - NFBaseWeaponShotgunChamber50Magazine
+  - NFBaseWeaponFrameShotgunWieldable
   name: Bulldog
   description: |-
     An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids.
@@ -40,7 +43,7 @@
 
 - type: entity
   id: NFWeaponShotgunEnforcer
-  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgunNanotrasen ]
+  parent: [ NFBaseWeaponShotgunChamber50, NFBaseWeaponFrameShotgunWieldable ]
   name: Enforcer
   description: |-
     A premium semi-automatic shotgun, featuring an upgraded tube capacity.

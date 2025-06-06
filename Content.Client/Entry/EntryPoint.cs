@@ -130,7 +130,6 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("gasDeposit"); // Frontier
             _prototypeManager.RegisterIgnore("pointOfInterest"); // Frontier: worldgen-related, server-only
             _prototypeManager.RegisterIgnore("publicTransitRoute"); // Frontier: worldgen-related, server-only
-            _prototypeManager.RegisterIgnore("stationPay"); // Hardlight
 
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();

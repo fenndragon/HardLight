@@ -24,7 +24,7 @@ public sealed class NFCCVars
     /// Respawn time, how long the player has to wait in seconds after death, or on subsequent cryo attempts.
     /// </summary>
     public static readonly CVarDef<float> RespawnTime =
-        CVarDef.Create("nf14.respawn.time", 30.0f, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("nf14.respawn.time", 1200.0f, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// Whether or not returning from cryosleep is enabled.
@@ -63,7 +63,7 @@ public sealed class NFCCVars
     /// The number of Trade Stations to spawn in every round
     /// </summary>
     public static readonly CVarDef<int> MarketStations =
-        CVarDef.Create("nf14.worldgen.market_stations", 0, CVar.SERVERONLY);
+        CVarDef.Create("nf14.worldgen.market_stations", 1, CVar.SERVERONLY);
 
     /// <summary>
     /// The number of Cargo Depots to spawn in every round
@@ -75,7 +75,7 @@ public sealed class NFCCVars
     /// The number of Optional Points Of Interest to spawn in every round
     /// </summary>
     public static readonly CVarDef<int> OptionalStations =
-        CVarDef.Create("nf14.worldgen.optional_stations", 0, CVar.SERVERONLY);
+        CVarDef.Create("nf14.worldgen.optional_stations", 6, CVar.SERVERONLY);
 
     /// <summary>
     /// The multiplier to add to distance spawning calculations for a smidge of server setting variance
@@ -108,7 +108,7 @@ public sealed class NFCCVars
     /// Base sell rate (multiplier: 0.75 = 75%)
     /// </summary>
     public static readonly CVarDef<float> ShipyardSellRate =
-        CVarDef.Create("shuttle.shipyard_base_sell_rate", 0.95f, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.shipyard_base_sell_rate", 0.85f, CVar.SERVERONLY);
 
     /*
      * Salvage
@@ -239,7 +239,7 @@ public sealed class NFCCVars
     ///     If true, allows map extraction (scrubbing a planet's atmosphere).
     /// </summary>
     public static readonly CVarDef<bool> AllowMapGasExtraction =
-        CVarDef.Create("nf14.atmos.allow_map_gas_extraction", true, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("nf14.atmos.allow_map_gas_extraction", false, CVar.SERVER | CVar.REPLICATED);
 
     /*
      * Audio

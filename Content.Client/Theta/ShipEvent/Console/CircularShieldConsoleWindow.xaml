@@ -1,0 +1,38 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:ui="clr-namespace:Content.Client.Shuttles.UI"
+               xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+               Title="{Loc 'shipevent-shieldconsole-windowtitle'}"
+               SetSize="940 680"
+               MinSize="790 320">
+    <GridContainer Columns="2"
+                   HorizontalAlignment="Stretch"
+                   Margin="5 5 5 5">
+        <BoxContainer HorizontalAlignment="Left"
+                      MinWidth="256"
+                      MaxWidth="256"
+                      Orientation="Vertical">
+            <!-- Status Section -->
+            <controls:StripeBack MinSize="48 48" Margin="0 0 0 5">
+                <BoxContainer Orientation="Vertical" HorizontalAlignment="Center">
+                    <RichTextLabel Name="ShieldPowerStatusLabel" HorizontalAlignment="Center" StyleClasses="LabelKeyText" />
+                    <RichTextLabel Name="ShieldActiveStatusLabel" HorizontalAlignment="Center" StyleClasses="LabelKeyText" />
+                    <RichTextLabel Name="ShieldPowerDrawLabel" HorizontalAlignment="Center" StyleClasses="LabelKeyText" />
+                </BoxContainer>
+            </controls:StripeBack>
+            <Button Name="ShieldEnableButton" Text="{Loc 'shipevent-shieldconsole-enablebutton'}" Margin="0 0 0 10" />
+            <Label Text="{Loc 'shipevent-shieldconsole-radiuslabel'}"/>
+            <Slider Name="ShieldRadiusSlider" />
+        </BoxContainer>
+
+        <!-- Radar Display -->
+        <BoxContainer HorizontalAlignment="Center"
+                      VerticalAlignment="Center"
+                      HorizontalExpand="True"
+                      VerticalExpand="True"
+                      Margin="10">
+            <ui:ShuttleNavControl Name="ShieldRadarScreen"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True"/>
+        </BoxContainer>
+    </GridContainer>
+</DefaultWindow>

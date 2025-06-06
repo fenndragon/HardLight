@@ -52,40 +52,6 @@
       types:
         Heat: 22
 
-# Shotgun
-- type: entity
-  name: wide laser barrage
-  id: HLBulletLaserSpread
-  categories: [ HideSpawnMenu ]
-  parent: NFBaseBulletLaser
-  components:
-  - type: ProjectileSpread
-    proto: NFBulletLaserMedium
-    count: 4 #75 heat damage if you hit all your shots, but wide spread
-    spread: 30
-
-- type: entity
-  name: narrow laser barrage
-  id: HLBulletLaserSpreadNarrow
-  categories: [ HideSpawnMenu ]
-  parent: NFBaseBulletLaser
-  components:
-  - type: ProjectileSpread
-    proto: NFBulletLaserLow
-    count: 4 #50 heat damage if you hit all your shots, but narrower spread
-    spread: 10
-
-- type: entity
-  name: disabling laser barrage
-  id: HLBulletDisablerSmgSpread
-  categories: [ HideSpawnMenu ]
-  parent: NFBulletDisabler
-  components:
-  - type: ProjectileSpread
-    proto: NFBulletDisablerLow
-    count: 3 #bit stronger than a disabler if you hit your shots you goober, still not a 2 hit stun though
-    spread: 9
-
 #region Disabler bolts
 - type: entity
   parent: BulletDisabler
@@ -112,7 +78,7 @@
     impactEffect: BulletImpactEffectDisabler
     damage:
       types:
-        Heat: 0
+        Heat: 2
     soundHit:
       collection: WeakHit
     forceSound: true
@@ -147,7 +113,7 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 15
+        Blunt: 10
         Structural: 30
   - type: Ammo
     muzzleFlash: HitscanEffect
@@ -170,7 +136,7 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 18
+        Blunt: 13
         Structural: 30
 
 - type: entity
@@ -189,8 +155,8 @@
     impactEffect: BulletImpactEffectKinetic
     damage:
       types:
-        Blunt: 20
-        Structural: 35
+        Blunt: 18
+        Structural: 30
   - type: PointLight
     color: "#ffffff"
   - type: MiningGatheringHard

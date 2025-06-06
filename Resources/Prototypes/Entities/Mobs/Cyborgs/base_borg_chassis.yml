@@ -78,7 +78,6 @@
     - ActionViewLaws
   - type: EmagSiliconLaw
     stunTime: 5
-  - type: BankAccount
   - type: SiliconLawProvider
     laws: Crewsimov
   - type: IonStormTarget
@@ -289,7 +288,7 @@
     factions:
     - NanoTrasen
   - type: Access
-    enabled: true
+    enabled: false
     groups:
     - AllAccess
     tags:

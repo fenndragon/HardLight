@@ -9,7 +9,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 15
+        Piercing: 12
 
 - type: entity
   id: NFBulletPistol35Overpressure
@@ -20,7 +20,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 14
 
 - type: entity
   id: NFBulletPistol35Incendiary
@@ -31,8 +31,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 2
-        Heat: 14
+        Piercing: 6
+        Heat: 6
 
 
 - type: entity
@@ -44,8 +44,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 10
-        Radiation: 6
+        Piercing: 8
+        Radiation: 8
 
 - type: entity
   id: NFBulletPistol35Practice
@@ -82,7 +82,7 @@
       types:
         Blunt: 2
   - type: StaminaDamageOnCollide
-    damage: 17 # 6 shots to stun is good to me
+    damage: 13 # ~8 hits to stun sounds reasonable
 
 #region .45 pistol
 - type: entity
@@ -94,7 +94,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 32
+        Piercing: 14
 
 - type: entity
   id: NFBulletPistol45Overpressure
@@ -105,7 +105,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 38
+        Piercing: 16
 
 - type: entity
   id: NFBulletPistol45Incendiary
@@ -116,8 +116,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 3
-        Heat: 32
+        Piercing: 7
+        Heat: 7
 
 - type: entity
   id: NFBulletPistol45Uranium
@@ -128,8 +128,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
-        Radiation: 15
+        Piercing: 8
+        Radiation: 8
+  - type: StaminaDamageOnCollide
+    damage: 5 # 12 hits to slowdown
 
 - type: entity
   id: NFBulletPistol45Practice
@@ -166,4 +168,4 @@
       types:
         Blunt: 3
   - type: StaminaDamageOnCollide
-    damage: 35
+    damage: 18 # ~6 hits to stun sounds reasonable

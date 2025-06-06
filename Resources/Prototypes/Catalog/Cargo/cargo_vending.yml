@@ -8,29 +8,29 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockBooze
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockBoozeFilled
-  cost: 3500 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChefvend
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChefvendFilled
-  cost: 1360 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockClothes
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
@@ -41,253 +41,253 @@
 
 - type: cargoProduct
   id: CrateVendingMachineRestockAutoDrobe
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAutoDrobeFilled
-  cost: 2450 # Frontier: 2500<100
+  cost: 100 # Frontier: 2500<100
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDinnerware
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDinnerwareFilled
-  cost: 2000 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockCondimentStation
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockCondimentStationFilled
-  cost: 1050 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockEngineering
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockEngineeringFilled
-  cost: 4250 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-engineering
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockGames
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockGamesFilled
-  cost: 1050 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockHotDrinks
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockHotDrinksFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockMedical
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockMedicalFilled
-  cost: 1750 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChemVend
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChemVendFilled
-  cost: 6300 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockNutriMax
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockNutriMaxFilled
-  cost: 2400 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-hydroponics
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockPTech
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockPTechFilled
-  cost: 1200 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockRobustSoftdrinks
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockRobustSoftdrinksFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSalvageEquipment
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSalvageEquipmentFilled
-  cost: 1050 # Frontier 1500<100
+  cost: 100 # Frontier 1500<100
   category: cargoproduct-category-name-engineering
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSecTech
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSecTechFilled
-  cost: 2200 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-security
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSeeds
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSeedsFilled
-  cost: 3800 # Frontier: 3600<100
+  cost: 100 # Frontier: 3600<100
   category: cargoproduct-category-name-hydroponics
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockSmokes
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockSmokesFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockVendomat
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockVendomatFilled
-  cost: 1200 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockRobotics
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockRoboticsFilled
-  cost: 1600 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-science
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockTankDispenser
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockTankDispenserFilled
-  cost: 1300 # Frontier
+  cost: 100 # Frontier
   category: cargoproduct-category-name-atmospherics
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockHappyHonk
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockHappyHonkFilled
-  cost: 4000  # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockGetmoreChocolateCorp
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockGetmoreChocolateCorpFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockChang
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChangFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDiscountDans
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDiscountDansFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market
 
 - type: cargoProduct
   id: CrateVendingMachineRestockDonut
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockDonutFilled
-  cost: 4000 # Frontier
+  cost: 400 # Frontier
   category: cargoproduct-category-name-service
   group: market

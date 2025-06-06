@@ -3,7 +3,6 @@ using Content.Shared._NF.ShuttleRecords;
 using Content.Shared._NF.ShuttleRecords.Components;
 using Content.Shared._NF.ShuttleRecords.Events;
 using Content.Shared.Containers.ItemSlots;
-using Robust.Client.UserInterface;
 
 namespace Content.Client._NF.ShuttleRecords.BUI;
 
@@ -17,13 +16,11 @@ public sealed class ShuttleRecordsConsoleBoundUserInterface(
     protected override void Open()
     {
         base.Open();
+        _window ??= new ShuttleRecordsWindow();
+        _window.OnCopyDeed += CopyDeed;
+        _window.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(ShuttleRecordsConsoleComponent.TargetIdCardSlotId));
 
-        if (_window == null)
-        {
-            _window = this.CreateWindow<ShuttleRecordsWindow>();
-            _window.OnCopyDeed += CopyDeed;
-            _window.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent(ShuttleRecordsConsoleComponent.TargetIdCardSlotId));
-        }
+        _window.OpenCentered();
     }
 
     protected override void UpdateState(BoundUserInterfaceState state)
@@ -34,6 +31,17 @@ public sealed class ShuttleRecordsConsoleBoundUserInterface(
             return;
 
         _window?.UpdateState(shuttleRecordsConsoleInterfaceState);
+    }
+
+    /*
+     * This black magic code prevents multiple pop ups of the window from appearing.
+     */
+    protected override void Dispose(bool disposing)
+    {
+        base.Dispose(disposing);
+        if (!disposing)
+            return;
+        _window?.Dispose();
     }
 
     private void CopyDeed(ShuttleRecord shuttleRecord)

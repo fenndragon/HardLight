@@ -96,7 +96,6 @@ public sealed partial class CargoOrderConsoleComponent : Component
     /// Secondary radio channel which always receives order announcements.
     /// </summary>
     public static readonly ProtoId<RadioChannelPrototype> BaseAnnouncementChannel = "Supply";
-
 }
 
 /// <summary>

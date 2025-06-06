@@ -1,6 +1,6 @@
 - type: cargoProduct
   id: FunInstrumentsVariety
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/accordion.rsi
     state: icon
@@ -11,7 +11,7 @@
 
 - type: cargoProduct
   id: FunInstrumentsBrass
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: tuba
@@ -22,7 +22,7 @@
 
 - type: cargoProduct
   id: FunInstrumentsString
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/bassguitar.rsi
     state: icon
@@ -33,7 +33,7 @@
 
 - type: cargoProduct
   id: FunInstrumentsWoodwind
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/harmonica.rsi
     state: icon
@@ -44,7 +44,7 @@
 
 - type: cargoProduct
   id: FunInstrumentsKeyedPercussion
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
     state: icon
@@ -55,7 +55,7 @@
 
 - type: cargoProduct
   id: FunInstrumentsSpecial
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/gunpet.rsi
     state: icon
@@ -66,7 +66,7 @@
 
 - type: cargoProduct
   id: FunArtSupplies
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/crayons.rsi
     state: box
@@ -76,18 +76,8 @@
   group: market
 
 - type: cargoProduct
-  id: FunSprayPaints
-  icon:
-    sprite: Objects/Fun/spraycans.rsi
-    state: death2_cap
-  product: CrateFunSprayPaints
-  cost: 2000
-  category: Fun
-  group: market
-
-- type: cargoProduct
   id: FunParty
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Consumable/Food/Baked/cake.rsi
     state: birthday
@@ -98,7 +88,7 @@
 
 - type: cargoProduct
   id: CrateFunWaterGuns
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Weapons/Guns/Pistols/water_pistol.rsi
     state: display
@@ -109,7 +99,7 @@
 
 - type: cargoProduct
   id: CrateFunFoamGuns
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Weapons/Guns/Rifles/foam_rifle.rsi
     state: icon
@@ -120,7 +110,7 @@
 
 - type: cargoProduct
   id: FunPlushies
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/toys.rsi
     state: plushie_h
@@ -131,7 +121,7 @@
 
 - type: cargoProduct
   id: FunLizardPlushies
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/toys.rsi
     state: plushie_lizard
@@ -139,10 +129,10 @@
   cost: 500
   category: cargoproduct-category-name-fun
   group: market
-
+  
 - type: cargoProduct
   id: FunSharkPlushies
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/sharkplush.rsi
     state: blue
@@ -153,7 +143,7 @@
 
 - type: cargoProduct
   id: FunBoardGames
-  # abstract: true # Frontier - Moved to vending machine
+  abstract: true # Frontier - Moved to vending machine
   icon:
     sprite: Objects/Fun/dice.rsi
     state: d6_6
@@ -164,7 +154,7 @@
 
 - type: cargoProduct
   id: FunSadTromboneImplants
-  # abstract: true # Frontier - Moved to vending machine
+  abstract: true # Frontier - Moved to vending machine
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: implanter0
@@ -175,7 +165,7 @@
 
 - type: cargoProduct
   id: FunLightImplants
-  # abstract: true # Frontier - Moved to vending machine
+  abstract: true # Frontier - Moved to vending machine
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: implanter0
@@ -186,7 +176,7 @@
 
 - type: cargoProduct
   id: FunBoxing
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Clothing/Hands/Gloves/Boxing/boxingred.rsi
     state: icon
@@ -197,7 +187,7 @@
 
 - type: cargoProduct
   id: FunPirate
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Structures/Storage/Crates/piratechest.rsi
     state: crate_icon
@@ -208,18 +198,18 @@
 
 - type: cargoProduct
   id: FunToyBox
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Structures/Storage/Crates/toybox.rsi
     state: crate_icon
   product: CrateFunToyBox
-  cost: 1200
+  cost: 900
   category: cargoproduct-category-name-fun
   group: market
 
 - type: cargoProduct
   id: FunBikeHornImplants
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
     state: implanter0
@@ -230,7 +220,7 @@
 
 - type: cargoProduct
   id: FunMysteryFigurines
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/figurines.rsi
     state: fig_box
@@ -241,7 +231,7 @@
 
 - type: cargoProduct
   id: FunDartsSet
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Fun/Darts/dart_red.rsi
     state: icon
@@ -262,7 +252,7 @@
 
 - type: cargoProduct
   id: FunCrateGambling
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: Objects/Economy/cash.rsi
     state: cash_1000000
@@ -273,7 +263,7 @@
 
 - type: cargoProduct
   id: ChurchOrganInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: church-organ
@@ -284,7 +274,7 @@
 
 - type: cargoProduct
   id: PianoInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: piano
@@ -295,7 +285,7 @@
 
 - type: cargoProduct
   id: UprightPianoInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: piano-upright
@@ -306,7 +296,7 @@
 
 - type: cargoProduct
   id: VibraphoneInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: vibraphone
@@ -317,7 +307,7 @@
 
 - type: cargoProduct
   id: MarimbaInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: marimba
@@ -328,7 +318,7 @@
 
 - type: cargoProduct
   id: TubaInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: tuba
@@ -339,7 +329,7 @@
 
 - type: cargoProduct
   id: HarpInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: harp
@@ -350,7 +340,7 @@
 
 - type: cargoProduct
   id: TimpaniInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: timpani
@@ -361,7 +351,7 @@
 
 - type: cargoProduct
   id: TaikoInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: taiko
@@ -372,7 +362,7 @@
 
 - type: cargoProduct
   id: ContrabassInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: contrabass
@@ -383,7 +373,7 @@
 
 - type: cargoProduct
   id: MinimoogInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: minimoog
@@ -394,7 +384,7 @@
 
 - type: cargoProduct
   id: TomDrumsInstrument
-  # abstract: true # Frontier - Moved to AutoTune
+  abstract: true # Frontier - Moved to AutoTune
   icon:
     sprite: Objects/Fun/Instruments/structureinstruments.rsi
     state: toms

@@ -14,7 +14,7 @@
   name: 'Edison Power Plant'
   minimumDistance: 2650
   maximumDistance: 5400
-  spawnGroup: MarketStation
+  spawnGroup: Required
   gridPath: /Maps/_NF/POI/edison.yml
   addComponents:
   - type: IFF

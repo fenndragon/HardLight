@@ -207,7 +207,7 @@ entities:
       - 136
       - 187
       - 184
-- proto: AirlockExternalGlassShuttleSec
+- proto: AirlockGlassShuttleNfsdLocked
   entities:
   - uid: 46
     components:

@@ -3,17 +3,13 @@
   name: job-name-mime
   description: job-description-mime
   playTimeTracker: JobMime
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Theatre
-  - Maintenance
-#  - Mime # Isn't this called Theatre?
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

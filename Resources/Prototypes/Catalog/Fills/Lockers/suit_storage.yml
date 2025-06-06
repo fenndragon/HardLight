@@ -261,18 +261,6 @@
   - type: AccessReader
     # access: [["Captain"]] # Frontier
 
-- type: entity # Move this to _HL later
-  id: SuitStorageStationCaptain
-  parent: SuitStorageBase
-  suffix: Captain
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      entity_storage: !type:NestedSelector
-        tableId: HLFillCaptainHardsuit
-  - type: AccessReader
-    access: [["StationCaptain"]] # Frontier
-
 #Salvage hardsuit
 - type: entity
   id: SuitStorageSalv

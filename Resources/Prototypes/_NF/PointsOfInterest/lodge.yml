@@ -14,7 +14,7 @@
   name: 'Expeditionary Lodge'
   minimumDistance: 1650
   maximumDistance: 3400
-  spawnGroup: MarketStation
+  spawnGroup: Required
   gridPath: /Maps/_NF/POI/lodge.yml
   addComponents:
   - type: IFF

@@ -531,7 +531,6 @@
 
 # for the hristov
 - type: listing
-  abstract: true
   id: UplinkHristovAmmo
   name: uplink-sniper-ammo-name
   description: uplink-sniper-ammo-desc
@@ -796,7 +795,7 @@
   description: uplink-cyberpen-desc
   productEntity: CyberPen
   cost:
-    Telecrystal: 4 # Frontier: 1<8 - same price as an emag, should be more useful here Hardlight: Less useful than you'd expect since all forms are stamped as well, still devently useful, changed to 4
+    Telecrystal: 8 # Frontier: 1<8 - same price as an emag, should be more useful here
   categories:
   - UplinkDeception
 
@@ -888,18 +887,18 @@
   categories:
   - UplinkDisruption
 
-- type: listing
-  id: UplinkEmag
-  name: uplink-emag-name
-  description: uplink-emag-desc
-  productEntity: Emag
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-   Telecrystal: 3
-  cost:
-    Telecrystal: 5
-  categories:
-  - UplinkDisruption
+# - type: listing # Frontier
+  # id: UplinkEmag
+  # name: uplink-emag-name
+  # description: uplink-emag-desc
+  # productEntity: Emag
+  # discountCategory: veryRareDiscounts
+  # discountDownTo:
+    # Telecrystal: 3
+  # cost:
+    # Telecrystal: 5
+  # categories:
+  # - UplinkDisruption
 
 - type: listing
   id: UplinkRadioJammer
@@ -914,18 +913,18 @@
   categories:
   - UplinkDisruption
 
-- type: listing
-  id: UplinkSyndicateWeaponModule
-  name: uplink-syndicate-weapon-module-name
-  description: uplink-syndicate-weapon-module-desc
-  productEntity: BorgModuleSyndicateWeapon
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 3
-  cost:
-    Telecrystal: 5
-  categories:
-  - UplinkDisruption
+# - type: listing # Frontier
+  # id: UplinkSyndicateWeaponModule
+  # name: uplink-syndicate-weapon-module-name
+  # description: uplink-syndicate-weapon-module-desc
+  # productEntity: BorgModuleSyndicateWeapon
+  # discountCategory: usualDiscounts
+  # discountDownTo:
+    # Telecrystal: 3
+  # cost:
+    # Telecrystal: 5
+  # categories:
+  # - UplinkDisruption
 
 # - type: listing # Frontier
   # id: UplinkSyndicateMartyrModule
@@ -1064,7 +1063,7 @@
   description: uplink-surplus-bundle-desc
   productEntity: CrateSyndicateSurplusBundle
   cost:
-    Telecrystal: 30 # HL: 35>30 If they scrounge 30tc just let em
+    Telecrystal: 35 # Frontier: 20<35
   categories:
   - UplinkDisruption
   conditions:

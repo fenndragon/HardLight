@@ -11,7 +11,6 @@ using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
 using Content.Shared.Roles;
 using JetBrains.Annotations;
-using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
@@ -48,7 +47,6 @@ internal sealed class ScheduledPayout(EntityUid uid, int lastPayout) : IComparab
 [UsedImplicitly]
 public sealed class StationPaySystem : EntitySystem
 {
-    [Dependency] private readonly IConfigurationManager _config = default!;
     [Dependency] private readonly IAdminLogManager _adminLogger = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly GameTicker _gameTicker = default!;
@@ -56,11 +54,13 @@ public sealed class StationPaySystem : EntitySystem
     [Dependency] private readonly IChatManager _chat = default!;
     [Dependency] private readonly ISharedPlayerManager _player = default!;
 
-    private int _payoutDelay = 3600;
+    // TODO: this should probably be a cvar
+    private const int PayoutDelay = 3600;
 
-    private readonly Dictionary<ProtoId<JobPrototype>, int> _jobPayoutRateByHour = new();
+    private readonly Dictionary<ProtoId<JobPrototype>, int> _jobPayoutRates = new();
+    // map of {Mind.OwnedEntity: lastPayoutTime} where lastPayoutTime was the round duration at time of payout
+    // sorted in ascending order
     private readonly SortedSet<ScheduledPayout> _scheduledPayouts = [];
-    private readonly Dictionary<EntityUid, int> _disconnectedPlayers = new();
 
     public override void Initialize()
     {
@@ -69,18 +69,30 @@ public sealed class StationPaySystem : EntitySystem
         // Logger.GetSawmill(SawmillName).Level = LogLevel.Verbose;
         foreach (var proto in _prototypeManager.EnumeratePrototypes<StationPayPrototype>())
         {
-            _jobPayoutRateByHour[proto.JobProto] = proto.PayPerHour;
+            _jobPayoutRates[proto.JobProto] = proto.PayPerHour;
             Log.Debug($"loaded prototype: {proto.JobProto.Id} at {proto.PayPerHour}");
         }
-
-        Subs.CVar(_config, HardlightCVars.StationPayDelay, value => _payoutDelay = value, true);
 
         SubscribeLocalEvent<GameRunLevelChangedEvent>(OnRunLevelChanged);
         SubscribeLocalEvent<RoleAddedEvent>(OnRoleAddedEvent);
         SubscribeLocalEvent<RoleRemovedEvent>(OnRoleRemovedEvent);
 
-        SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
-        SubscribeLocalEvent<PlayerDetachedEvent>(OnPlayerDetached);
+        /*
+         * TODO: account for disconnecting players
+         *
+         * when someone disconnects add them to a removal list with a timestamp 10 minutes in the future
+         *
+         * after that time they are removed from the scheduledpayout dict
+         *
+         * if they reconnect before that time they are removed from the disconnect tracker
+         *
+         * this allows for a grace period where if you happen to disconnect right before the hour you still get paid
+         *
+         * and if you disconnect and reconnect you still get paid
+         *
+         * we also don't have to do any complex bookkeeping
+         */
+        // SubscribeLocalEvent<MindRemovedMessage>(OnMindRemoved);
     }
 
     private void OnRunLevelChanged(GameRunLevelChangedEvent ev)
@@ -103,7 +115,6 @@ public sealed class StationPaySystem : EntitySystem
         }
 
         _scheduledPayouts.Clear();
-        _disconnectedPlayers.Clear();
     }
 
     private bool GetJobForEntity(
@@ -113,7 +124,7 @@ public sealed class StationPaySystem : EntitySystem
         jobPrototype = null;
         if (TryComp<JobTrackingComponent>(uid, out var jtc)
             && jtc.Job is {} job
-            && _jobPayoutRateByHour.ContainsKey(job))
+            && _jobPayoutRates.ContainsKey(job))
         {
             jobPrototype = job;
         }
@@ -135,7 +146,7 @@ public sealed class StationPaySystem : EntitySystem
         }
 
         var now = (int)_gameTicker.RoundDuration().TotalSeconds;
-        Log.Info($"{ToPrettyString(uid)} joined with job {job.Value.Id}. Round time: {now}, payout at: {now + _payoutDelay}");
+        Log.Info($"{ToPrettyString(uid)} joined with job {job.Value.Id}. Round time: {now}, payout at: {now + PayoutDelay}");
 
         var wrapper = new ScheduledPayout(uid.Value, now);
         // as equality is determined solely by the uid and not the timestamp we can
@@ -152,33 +163,6 @@ public sealed class StationPaySystem : EntitySystem
         Log.Info($"Character {args.Mind.CharacterName}'s job was removed");
         // as above, since equality is determined solely by uid we can remove from the set this way
         _scheduledPayouts.Remove(new ScheduledPayout(args.Mind.OwnedEntity.Value, 0));
-        _disconnectedPlayers.Remove(args.Mind.OwnedEntity.Value);
-    }
-
-    private void OnPlayerDetached(PlayerDetachedEvent args)
-    {
-        var uid = args.Entity;
-        if (!_scheduledPayouts.TryGetValue(new ScheduledPayout(uid, 0), out var payout))
-            return;
-
-        var now = (int)_gameTicker.RoundDuration().TotalSeconds;
-        var worked = now - payout.LastPayout;
-
-        _scheduledPayouts.Remove(payout);
-        _disconnectedPlayers[uid] = worked;
-
-        Log.Info($"Player {args.Player.Name} detached with {worked} unpaid seconds of work time.");
-    }
-
-    private void OnPlayerAttached(PlayerAttachedEvent args)
-    {
-        var uid = args.Entity;
-        if (!_disconnectedPlayers.Remove(uid, out var timeWorked))
-            return;
-
-        var now = (int)_gameTicker.RoundDuration().TotalSeconds;
-        _scheduledPayouts.Add(new ScheduledPayout(uid, now - timeWorked));
-        Log.Info($"Player {args.Player.Name} attached with {timeWorked} unpaid seconds of work time restored.");
     }
 
     private void PayoutFor(EntityUid uid, int secondsWorked)
@@ -196,18 +180,24 @@ public sealed class StationPaySystem : EntitySystem
             return;
         }
 
-        var unitRate = _jobPayoutRateByHour[(ProtoId<JobPrototype>)jobId] / 3600d;
-        var amount = (int)(secondsWorked * unitRate);
+        var employedTime = (int)(secondsWorked / (double)PayoutDelay);
 
-        if (amount <= 0)
+        // this could in principle be 0 if someone joined right before round end
+        if (employedTime <= 0)
         {
-            Log.Warning($"Skipping payout for {ToPrettyString(uid)} due to amount <= 0 (secondsWorked: {secondsWorked}, unitRate: {unitRate})");
+            Log.Warning($"Skipping payout for {ToPrettyString(uid)} due to employedTime <= 0 (secondsWorked: {secondsWorked})");
             return;
         }
 
+        var rate = _jobPayoutRates[(ProtoId<JobPrototype>)jobId];
+        var amount = employedTime * rate;
+
+        // TODO: deposit doesn't work on logged out players, and frontier's banksystem has no method for
+        //       doing a code-based deposit without a backing session (i.e. admin player)
+        //       therefore currently if you are logged out at payment time you just miss that hour...
         if (!TryComp<MindContainerComponent>(uid, out var mc)
             || !mc.HasMind
-            // || !TryComp<MindComponent>(mc.Mind.Value, out var mind)
+            || !TryComp<MindComponent>(mc.Mind.Value, out var mind)
             || !_player.TryGetSessionByEntity(uid, out var session))
             // || !_player.TryGetSessionById(mind.UserId, out var session))
         {
@@ -258,13 +248,17 @@ public sealed class StationPaySystem : EntitySystem
         while (_scheduledPayouts.Count > 0)
         {
             var first = _scheduledPayouts.Min!;
-            var worked = (now - first.LastPayout) / _payoutDelay * _payoutDelay;
-            if (worked <= 0)
+            if (first.LastPayout + PayoutDelay > now)
                 break;
 
-            PayoutFor(first.Uid, worked);
+            PayoutFor(first.Uid, PayoutDelay);
             _scheduledPayouts.Remove(first);
-            var updated = new ScheduledPayout(first.Uid, first.LastPayout + worked);
+
+            // it's possible that `now` is substantially past when this payout should have happened because
+            // the round can be paused or played at accelerated timescales. we do not assume we're paying on
+            // time, and thus we schedule the next payout relative to when this payout should have happened
+            // if we're way behind we'll catch up with several simultaneous payments here
+            var updated = new ScheduledPayout(first.Uid, first.LastPayout + PayoutDelay);
             _scheduledPayouts.Add(updated);
         }
 

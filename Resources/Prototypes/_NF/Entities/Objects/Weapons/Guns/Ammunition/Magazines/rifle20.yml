@@ -31,7 +31,7 @@
 - type: entity
   id: NFBaseMagazineDrumRifle20
   name: drum magazine (.20 rifle)
-  parent: [ BaseC2ContrabandUnredeemable, RecyclableItemSteelTiny, BaseMagazineRifle ]
+  parent: [ BaseC1Contraband, RecyclableItemSteelTiny, BaseMagazineRifle ]
   abstract: true
   components:
   - type: Tag
@@ -58,6 +58,24 @@
     steps: 10
     zeroVisible: false
 
+- type: entity
+  id: NFBaseMagazineBoxRifle20
+  name: box magazine (.20 rifle)
+  parent: NFBaseMagazineRifle20
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - NFMagazineBoxRifle20
+  - type: BallisticAmmoProvider
+    proto: NFCartridgeRifle20
+    capacity: 100
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
 
 #region .20 magazines
 - type: entity
@@ -172,6 +190,11 @@
   name: drum magazine (.20 rifle)
   parent: NFBaseMagazineDrumRifle20
 
+#region .20 box mags
+- type: entity
+  id: NFMagazineBoxRifle20
+  name: box magazine (.20 rifle)
+  parent: NFBaseMagazineBoxRifle20
 
 # Frontier
 #region .20 Novalite
@@ -191,7 +214,7 @@
     whitelist:
       tags:
         - NFCartridgeRifle20
-    capacity: 25
+    capacity: 15
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

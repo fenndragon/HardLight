@@ -424,6 +424,19 @@
         pda-pirate
 
 - type: entity
+  parent: PassengerPDA
+  id: ContractorPDA
+  name: contractor PDA
+  components:
+  - type: Pda
+    id: ContractorIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda
+
+- type: entity
   parent: ClearPDA
   id: ClearNFPDA
   components:

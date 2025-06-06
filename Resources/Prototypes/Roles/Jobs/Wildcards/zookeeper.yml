@@ -3,17 +3,13 @@
   name: job-name-zookeeper
   description: job-description-zookeeper
   playTimeTracker: JobZookeeper
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: ZookeeperGear
   icon: "JobIconZookeeper"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Service
-  - Maintenance
-#  - Zookeeper # Unused for now
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

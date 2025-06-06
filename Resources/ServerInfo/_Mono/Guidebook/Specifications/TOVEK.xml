@@ -1,0 +1,30 @@
+﻿<Document>
+  # ADMX-23 Tovek Hybrid EMP Missile System
+
+  A hybrid EMP [color=GreenYellow]missile[/color] pod that fires EMPHE shells meant to disable enemy ships and weaken their armor.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponTurretTovek"/>
+  </Box>
+
+  ## Pod Specifications
+
+  - Firerate: [color=crimson] 90 RPM [/color]/[color=deepskyblue] 1.5 RPS [/color]
+  - Sell Value: [color=greenyellow][bold]3000 Spesos[/bold][/color]
+  - Capacitor Storage: [color=orange]40000u[/color]
+  - Capacitor Recharge: [color=turquoise]1312u/s[/color]
+  - Capacitor Fire Cost: [color=turquoise]17500u[/color]
+
+  <Box>
+    <GuideEntityEmbed Entity="ShipMissileASM557"/>
+  </Box>
+
+  ## Missile Specifications
+
+  - Acceleration: [color=mediumspringgreen][bold]40 m/s²[/bold][/color]
+  - Tracking Range: [color=orangered][bold]1200m[/bold][/color]
+  - Scanning Arc: [color=teal]25 degrees[/color]
+  - Launch Speed: [color=darkorange]40 m/s[/color]
+  - Max Speed: [color=darkorange]200 m/s[/color]
+
+</Document>

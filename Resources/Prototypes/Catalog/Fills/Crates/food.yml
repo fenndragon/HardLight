@@ -249,29 +249,3 @@
       amount: 2
     - id: DrinkNNNCan # Floof
       amount: 4
-
-- type: entity
-  id: CrateFoodSoftdrinksLarge
-  parent: CrateFoodSoftdrinks
-  name: large softdrinks crate
-  description: A crate full of large softdrinks.
-  components:
-    - type: StorageFill
-      contents:
-      - id: DrinkColaCan
-        amount: 8
-      - id: DrinkGrapeCan
-        amount: 4
-      - id: DrinkRootBeerCan
-        amount: 4
-      - id: DrinkIcedTeaCan
-        amount: 4
-      - id: DrinkLemonLimeCan
-        amount: 8
-      - id: DrinkLemonLimeCranberryCan
-        amount: 8
-      - id: DrinkFourteenLokoCan
-        amount: 4
-      - id: DrinkNNNCan # Floof
-        amount: 4
-

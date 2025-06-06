@@ -32,30 +32,6 @@
 
 - type: entity
   parent: MercCoin
-  id: MercCoin2
-  suffix: 2 MC
-  components:
-  - type: Stack
-    count: 2
-
-- type: entity
-  parent: MercCoin
-  id: MercCoin3
-  suffix: 3 MC
-  components:
-  - type: Stack
-    count: 3
-
-- type: entity
-  parent: MercCoin
-  id: MercCoin4
-  suffix: 4 MC
-  components:
-  - type: Stack
-    count: 4
-
-- type: entity
-  parent: MercCoin
   id: MercCoin5
   suffix: 5 MC
   components:
@@ -69,14 +45,6 @@
   components:
   - type: Stack
     count: 10
-
-- type: entity
-  parent: MercCoin
-  id: MercCoin15
-  suffix: 15 MC
-  components:
-  - type: Stack
-    count: 15
 
 # Uplinks
 - type: entity

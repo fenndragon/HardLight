@@ -64,9 +64,6 @@
   description: |-
     An excellent SMG. On the receiver is a label that says 'for authorized use only.'
   components:
-  - type: Gun
-    minAngle: 6.7
-    maxAngle: 15
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/SMGs/wt550.rsi
     layers:
@@ -112,11 +109,6 @@
   id: WeaponSubMachineGunSurpDrozd
   suffix: Surplus
   components:
-  - type: Gun
-    burstCooldown: 0.5
-    shotsPerBurst: 5
-    availableModes:
-    - Burst
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/SMGs/surpdrozd.rsi
     layers:

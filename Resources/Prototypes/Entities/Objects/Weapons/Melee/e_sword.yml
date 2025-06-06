@@ -72,9 +72,6 @@
   - type: Reflect
   - type: IgnitionSource
     temperature: 700
-  - type: Tag
-    tags:
-      - NoPaint
 
 - type: entity
   name: energy sword

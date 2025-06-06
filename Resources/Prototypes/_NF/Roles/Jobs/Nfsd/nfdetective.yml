@@ -2,7 +2,7 @@
   id: NFDetective
   name: job-name-nf-detective
   description: job-description-nf-detective
-  playTimeTracker: JobDetectiveOld
+  playTimeTracker: JobDetective
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours

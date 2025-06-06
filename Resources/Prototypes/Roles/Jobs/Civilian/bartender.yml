@@ -3,7 +3,7 @@
   name: job-name-bartender
   description: job-description-bartender
   playTimeTracker: JobBartender
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
@@ -11,13 +11,6 @@
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Service
-  - Maintenance
-  - Bar
-  extendedAccess:
-  - Kitchen
-  - Hydroponics
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

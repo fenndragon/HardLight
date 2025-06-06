@@ -1,0 +1,73 @@
+uniform highp float SPEED;
+uniform highp float BRIGHTNESS;
+uniform highp float FREQUENCY;
+uniform highp vec2 CENTER;
+uniform highp vec3 BASE_COLOR;
+uniform highp float RING_WIDTH;
+uniform highp float EDGE_SMOOTHNESS;
+uniform highp float SCREEN_RADIUS;
+
+void fragment()
+{
+    // Set default values if uniforms aren't provided
+    highp float ringWidth = RING_WIDTH > 0.0 ? RING_WIDTH : 0.1;
+    highp float edgeSmoothness = EDGE_SMOOTHNESS > 0.0 ? EDGE_SMOOTHNESS : 0.02;
+    highp float screenRadius = SCREEN_RADIUS > 0.0 ? SCREEN_RADIUS : 100.0;
+
+    // Calculate normalized distance from center
+    highp vec2 delta = FRAGCOORD.xy - CENTER;
+    highp float dist = length(delta);
+
+    // Normalize the distance by the actual shield radius
+    highp float normalizedDist = dist / screenRadius;
+
+    // Only discard if we're way outside the shield radius
+    if (normalizedDist > 1.1) {
+        discard;
+    }
+
+    // Create inner and outer ring edges
+    highp float innerEdge = 0.85 - (ringWidth / 2.0);
+    highp float outerEdge = 0.85 + (ringWidth / 2.0);
+
+    // Calculate ring mask - value between 0 and 1 based on distance from ideal ring
+    highp float ringMask = 0.0;
+
+    // If inside the inner edge, fade from 0 to 1
+    if (normalizedDist < innerEdge) {
+        ringMask = smoothstep(innerEdge - edgeSmoothness, innerEdge, normalizedDist);
+    }
+    // If outside the outer edge, fade from 1 to 0
+    else if (normalizedDist > outerEdge) {
+        ringMask = 1.0 - smoothstep(outerEdge, outerEdge + edgeSmoothness, normalizedDist);
+    }
+    // If between inner and outer edge, fully visible
+    else {
+        ringMask = 1.0;
+    }
+
+    // Calculate angle for directional effects
+    highp float angle = atan(delta.y, delta.x);
+    highp float angleNormalized = angle / 3.14159; // Normalize to [-1, 1]
+
+    // Mix between white and the base color more prominently for better visibility
+    highp vec3 colorMix = mix(vec3(1.0, 1.0, 1.0), BASE_COLOR, 0.7);
+
+    // Add a subtle radial pattern to simulate shield grid pattern
+    highp float patternFactor = 0.05 * sin(normalizedDist * 30.0) + 0.05 * sin(angleNormalized * 15.0);
+
+    // Apply the ring mask and color
+    COLOR.xyz = colorMix + vec3(patternFactor);
+    COLOR.w = BRIGHTNESS * ringMask;
+
+    // Add subtle highlight at the edges for better definition
+    if (abs(normalizedDist - innerEdge) < 0.01 || abs(normalizedDist - outerEdge) < 0.01) {
+        COLOR.xyz += vec3(0.1);
+    }
+
+    // Fade out alpha near the join point to avoid visible seam
+    if (abs(angleNormalized) > 0.97) {
+        // Apply a more subtle alpha reduction at the seam
+        COLOR.w *= 0.95;
+    }
+}

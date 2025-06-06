@@ -13,18 +13,20 @@ namespace Content.Shared.Silicons.Laws;
 /// </summary>
 public abstract partial class SharedSiliconLawSystem : EntitySystem
 {
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly SharedStunSystem _stunSystem = default!;
-    [Dependency] private readonly EmagSystem _emag = default!;
-    [Dependency] private readonly SharedMindSystem _mind = default!;
+    // [Dependency] private readonly SharedPopupSystem _popup = default!; // Frontier: no emag
+    // [Dependency] private readonly SharedStunSystem _stunSystem = default!; // Frontier: no emag
+    // [Dependency] private readonly EmagSystem _emag = default!; // Frontier: no emag
+    // [Dependency] private readonly SharedMindSystem _mind = default!; // Frontier: no emag
 
     /// <inheritdoc/>
     public override void Initialize()
     {
         InitializeUpdater();
-        SubscribeLocalEvent<EmagSiliconLawComponent, GotEmaggedEvent>(OnGotEmagged);
+        //SubscribeLocalEvent<EmagSiliconLawComponent, GotEmaggedEvent>(OnGotEmagged); // Frontier: no borg theft :(
     }
 
+    // Frontier: unused
+    /*
     private void OnGotEmagged(EntityUid uid, EmagSiliconLawComponent component, ref GotEmaggedEvent args)
     {
         if (!_emag.CompareFlag(args.Type, EmagType.Interaction))
@@ -61,6 +63,8 @@ public abstract partial class SharedSiliconLawSystem : EntitySystem
 
         args.Handled = true;
     }
+    */
+    // End Frontier: unused
 
     public virtual void NotifyLawsChanged(EntityUid uid, SoundSpecifier? cue = null)
     {

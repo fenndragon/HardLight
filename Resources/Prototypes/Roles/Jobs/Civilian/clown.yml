@@ -3,17 +3,13 @@
   name: job-name-clown
   description: job-description-clown
   playTimeTracker: JobClown
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Theatre
-  - Maintenance
-#  - Clown # Isn't this called Theatre?
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

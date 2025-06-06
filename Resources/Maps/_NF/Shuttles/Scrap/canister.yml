@@ -168,7 +168,7 @@ entities:
       devices:
       - 35
       - 36
-- proto: AirlockExternalGlassShuttleRegular
+- proto: AirlockGlassShuttle
   entities:
   - uid: 16
     components:

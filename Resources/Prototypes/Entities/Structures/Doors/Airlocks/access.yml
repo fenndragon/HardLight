@@ -330,15 +330,6 @@
     containers:
       board: [ DoorElectronicsCaptain ]
 
-- type: entity # Move this to _HL later
-  parent: AirlockCommand
-  id: AirlockStationCaptainLocked
-  suffix: Station Captain, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsStationCaptain ]
-
 - type: entity
   parent: AirlockCommand
   id: AirlockChiefMedicalOfficerLocked
@@ -741,15 +732,6 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsCaptain ]
-
-- type: entity # Move this to _HL later
-  parent: AirlockCommandGlass
-  id: AirlockStationCaptainGlassLocked
-  suffix: Station Captain, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsStationCaptain ]
 
 - type: entity
   parent: AirlockCommandGlass

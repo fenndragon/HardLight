@@ -36,11 +36,12 @@ namespace Content.Shared.Humanoid.Markings
                 markingDict[prototype.MarkingCategory].Add(prototype.ID, prototype);
             }
 
-    Markings = _prototypeManager.EnumeratePrototypes<MarkingPrototype>().ToFrozenDictionary(x => x.ID);
-    CategorizedMarkings = markingDict.ToFrozenDictionary(
-        x => x.Key,
-        x => x.Value.ToFrozenDictionary());
-}
+            Markings = _prototypeManager.EnumeratePrototypes<MarkingPrototype>().ToFrozenDictionary(x => x.ID);
+            CategorizedMarkings = markingDict.ToFrozenDictionary(
+                x => x.Key,
+                x => x.Value.ToFrozenDictionary());
+        }
+
         public FrozenDictionary<string, MarkingPrototype> MarkingsByCategory(MarkingCategories category)
         {
             // all marking categories are guaranteed to have a dict entry

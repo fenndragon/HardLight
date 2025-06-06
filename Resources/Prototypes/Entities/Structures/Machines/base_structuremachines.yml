@@ -45,9 +45,6 @@
   - type: InteractionVerbs # EE interaction system
     allowedVerbs:
     - KnockOn
-  - type: Tag
-    tags:
-      - NoPaint
 
 - type: entity
   abstract: true

@@ -111,7 +111,6 @@
     - type: Tag
       tags:
         - CannotSuicide
-        - NoPaint
     - type: AnimatedEmotes # goob edit - animated emotes
 
 # From the uplink injector
@@ -233,7 +232,6 @@
       tags:
         - CannotSuicide
         - FootstepSound
-        - NoPaint
     - type: Inventory
       templateId: holoclown
     - type: Hands

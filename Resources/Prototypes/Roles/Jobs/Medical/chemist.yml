@@ -3,7 +3,7 @@
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -11,10 +11,6 @@
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Medical
-  - Chemistry
-  - Maintenance
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

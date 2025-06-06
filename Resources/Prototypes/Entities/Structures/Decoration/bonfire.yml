@@ -34,9 +34,6 @@
   - type: Construction # Frontier
     graph: FiresGraph # Frontier
     node: BonfireNode # Frontier
-  - type: Tag
-    tags:
-      - NoPaint
 
 - type: entity
   id: LegionnaireBonfire

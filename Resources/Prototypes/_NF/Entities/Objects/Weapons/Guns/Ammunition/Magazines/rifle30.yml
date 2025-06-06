@@ -51,25 +51,6 @@
   - type: MagazineVisuals
     steps: 7
 
-- type: entity
-  id: NFBaseMagazineBoxRifle30
-  name: box magazine (.30 rifle)
-  parent: NFBaseMagazineRifle30
-  abstract: true
-  components:
-  - type: Tag
-    tags:
-      - NFMagazineBoxRifle30
-  - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle30
-    capacity: 100
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
-  - type: MagazineVisuals
-    magState: mag
-    steps: 8
-    zeroVisible: false
-
 #region .30 magazines
 - type: entity
   id: NFMagazineRifle30Empty
@@ -151,12 +132,6 @@
       color: "#dddddd"
     - state: mag-7
       map: ["enum.GunVisualLayers.Mag"]
-
-#region .30 box mags
-- type: entity
-  id: NFMagazineBoxRifle30
-  name: box magazine (.30 rifle)
-  parent: NFBaseMagazineBoxRifle30
 
 - type: entity
   id: NFMagazineRifle30Rubber # MagazineLightRifleRubber

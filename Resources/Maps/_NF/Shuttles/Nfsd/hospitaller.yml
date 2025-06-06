@@ -199,7 +199,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Hospitaller
-- proto: AirlockExternalGlassShuttleSecUnlocked
+- proto: AirlockGlassShuttleNfsd
   entities:
   - uid: 4
     components:

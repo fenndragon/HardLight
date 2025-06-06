@@ -14,7 +14,7 @@
   name: 'NFSD Outpost'
   minimumDistance: 750
   maximumDistance: 1000
-  spawnGroup: MarketStation
+  spawnGroup: Required
   gridPath: /Maps/_NF/POI/nfsd.yml
   addComponents:
   - type: IFF

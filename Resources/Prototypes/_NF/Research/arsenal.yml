@@ -156,7 +156,7 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
-  - NFWeaponPka
+  - NFWeaponPkaCannon
   technologyPrerequisites:
   - NFSalvageWeapons
 
@@ -227,6 +227,7 @@
   tier: 1
   cost: 5000
   recipeUnlocks:
+  - NFWeaponPka
   - WeaponCrusher
   - WeaponCrusherDagger
   - WeaponCrusherGlaive

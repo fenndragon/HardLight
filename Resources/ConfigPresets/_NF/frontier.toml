@@ -1,5 +1,5 @@
 [game]
-desc = "HardLight Sector is a unique twist on the traditional Space Station gameplay. In the HardLight Sector, everyone can be the captain of their own ship to venture forth and explore space beyond the station! Salvage, mine, research, trade, or explore your way to riches either as station crew or aboard your own vessel!"
+desc = "Frontier Station is a unique twist on the traditional Space Station gameplay. On Frontier, everyone can be the captain of their own ship to venture forth and explore space beyond the station! Salvage, mine, research, trade, explore, or pirate your way to riches on the vast Frontier!"
 lobbyenabled = true
 lobbyduration = 180
 
@@ -10,7 +10,7 @@ min_overall_minutes = 240
 disable_with_admins = true
 enable_without_admins = true
 show_reason = true
-custom_reason = "You have not played on a HardLight servers long enough to connect to this server. Please play on HardLight servers until you have more playtime."
+custom_reason = "You have not played on a Frontier servers long enough to connect to this server. Please play on Frontier servers until you have more playtime."
 
 [infolinks]
 discord    = "https://discord.gg/GRZasAkxvg"

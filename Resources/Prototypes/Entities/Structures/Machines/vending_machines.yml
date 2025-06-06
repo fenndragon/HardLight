@@ -191,9 +191,6 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 12 # Frontier
-  - type: AccessReader # HardLight
-    access: [["Security"], ["Contractor"], ["Pilot"], ["Mercenary"]]
-  - type: ActivatableUIRequiresAccess # HardLight
 
 - type: entity
   parent: VendingMachine

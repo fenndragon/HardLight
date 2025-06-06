@@ -213,50 +213,10 @@
       board: !type:Container
       station-bank-ATM-cashSlot: !type:ContainerSlot
   - type: AccessReader
-    access: [["Command"]]
+    access: [["HeadOfPersonnel"], ["HeadOfSecurity"]]
 
 - type: entity
   parent: BaseStationAdminBankATM
-  name: Station Cargo Administration Console
-  id: StationAdminBankATMCargo
-  description: Used to transfer funds to and from the cargo bank account.
-  suffix: Cargo
-  components:
-  - type: StationBankATM
-    account: Cargo
-
-- type: entity
-  parent: BaseStationAdminBankATM
-  name: Station Security Administration Console
-  id: StationAdminBankATMSecurity
-  description: Used to transfer funds to and from the security bank account.
-  suffix: Security
-  components:
-  - type: StationBankATM
-    account: Security
-
-- type: entity
-  parent: BaseStationAdminBankATM
-  name: Station Engineering Administration Console
-  id: StationAdminBankATMEngineering
-  description: Used to transfer funds to and from the engineering bank account.
-  suffix: Engineering
-  components:
-  - type: StationBankATM
-    account: Engineering
-
-- type: entity
-  parent: BaseStationAdminBankATM
-  name: Station Science Administration Console
-  id: StationAdminBankATMScienceS
-  description: Used to transfer funds to and from the Science bank account.
-  suffix: Science
-  components:
-  - type: StationBankATM
-    account: Science
-- type: entity
-  parent: BaseStationAdminBankATM
-  name: Station Frontier Administration Console
   id: StationAdminBankATMFrontier
   description: Used to transfer funds to and from Frontier Outpost's bank account.
   suffix: Frontier
@@ -266,17 +226,6 @@
 
 - type: entity
   parent: BaseStationAdminBankATM
-  name: Station Service Administration Console
-  id: StationAdminBankATMService
-  description: Used to transfer funds to and from the service bank account.
-  suffix: Service
-  components:
-  - type: StationBankATM
-    account: Service
-
-- type: entity
-  parent: BaseStationAdminBankATM
-  name: Station NFSD Administration Console
   id: StationAdminBankATMNfsd
   description: Used to transfer funds to and from NFSD's bank account.
   suffix: NFSD
@@ -286,7 +235,6 @@
 
 - type: entity
   parent: BaseStationAdminBankATM
-  name: Station Medical Administration Console
   id: StationAdminBankATMMedical
   description: Used to transfer funds to and from the medical bank account.
   suffix: Medical

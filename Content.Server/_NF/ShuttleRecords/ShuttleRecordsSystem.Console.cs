@@ -206,7 +206,6 @@ public sealed partial class ShuttleRecordsSystem
         deed.ShuttleName = shuttleRecord.Name;
         deed.ShuttleNameSuffix = shuttleRecord.Suffix;
         deed.PurchasedWithVoucher = shuttleRecord.PurchasedWithVoucher;
-        Dirty(targetId, deed);
     }
 
     /// <summary>

@@ -706,15 +706,6 @@
   id: GuideEmbeded
 
 - type: Tag
-  id: GunUpgradeDamage
-
-- type: Tag
-  id: GunUpgradeRange
-
-- type: Tag
-  id: GunUpgradeReloadSpeed
-
-- type: Tag
   id: Hamster
 
 - type: Tag
@@ -1010,9 +1001,6 @@
   id: NoConsoleSound
 
 - type: Tag
-  id: NoPaint
-
-- type: Tag
   id: NozzleBackTank
 
 - type: Tag
@@ -1080,9 +1068,6 @@
 
 - type: Tag
   id: Pizza
-
-- type: Tag
-  id: PKAUpgrade
 
 - type: Tag
   id: PlantAnalyzer

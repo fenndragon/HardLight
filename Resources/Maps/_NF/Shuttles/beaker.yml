@@ -454,7 +454,7 @@ entities:
     - type: Transform
       pos: -4.5,-8.5
       parent: 1
-- proto: AirlockExternalShuttleRegular
+- proto: AirlockShuttle
   entities:
   - uid: 85
     components:

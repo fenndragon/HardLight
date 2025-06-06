@@ -2,24 +2,31 @@
   id: SecurityCadet
   name: job-name-cadet
   description: job-description-cadet
-  playTimeTracker: JobSecurityCadet
+  playTimeTracker: JobSecurityCadetOld
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 #5 hrs
+      inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
-  # canBeAntag: false
+  canBeAntag: false
   ## Frontier: commented out stuff below
-  access:
-  - Security
-  - Brig
-  - Maintenance
-  - Service
-  - External
-  - Cryogenics
+  # access:
+  # - Security
+  # - Brig
+  # - Maintenance
+  # - Service
+  # - External
+  # - Cryogenics
   # special:
   # - !type:AddImplantSpecial
   #   implants: [ MindShieldImplant ]
   ## End Frontier: commented out stuff above
-  setPreference: true
+  setPreference: false # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

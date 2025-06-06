@@ -42,7 +42,7 @@
   id: SpawnPointQuartermaster
   parent: SpawnPointJobBase
   name: quartermaster
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Quartermaster
@@ -56,7 +56,7 @@
   id: SpawnPointCargoTechnician
   parent: SpawnPointJobBase
   name: cargotechnician
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: CargoTechnician
@@ -69,7 +69,7 @@
   id: SpawnPointSalvageSpecialist
   parent: SpawnPointJobBase
   name: salvagespecialist
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: SalvageSpecialist
@@ -84,7 +84,7 @@
   id: SpawnPointPassenger
   parent: SpawnPointJobBase
   name: passenger
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Passenger
@@ -97,7 +97,7 @@
   id: SpawnPointTechnicalAssistant
   parent: SpawnPointJobBase
   name: technical assistant
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: TechnicalAssistant
@@ -110,7 +110,7 @@
   id: SpawnPointMedicalIntern
   parent: SpawnPointJobBase
   name: medical intern
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: MedicalIntern
@@ -123,7 +123,7 @@
   id: SpawnPointSecurityCadet
   parent: SpawnPointJobBase
   name: security cadet
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: SecurityCadet
@@ -136,7 +136,7 @@
   id: SpawnPointResearchAssistant
   parent: SpawnPointJobBase
   name: research assistant
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: ResearchAssistant
@@ -149,7 +149,7 @@
   id: SpawnPointServiceWorker
   parent: SpawnPointJobBase
   name: service worker
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: ServiceWorker
@@ -162,7 +162,7 @@
   id: SpawnPointBartender
   parent: SpawnPointJobBase
   name: bartender
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Bartender
@@ -175,7 +175,7 @@
   id: SpawnPointChef
   parent: SpawnPointJobBase
   name: chef
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Chef
@@ -188,7 +188,7 @@
   id: SpawnPointBotanist
   parent: SpawnPointJobBase
   name: botanist
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Botanist
@@ -201,7 +201,7 @@
   id: SpawnPointClown
   parent: SpawnPointJobBase
   name: clown
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Clown
@@ -214,7 +214,7 @@
   id: SpawnPointMime
   parent: SpawnPointJobBase
   name: mime
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Mime
@@ -227,7 +227,7 @@
   id: SpawnPointChaplain
   parent: SpawnPointJobBase
   name: chaplain
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Chaplain
@@ -240,7 +240,7 @@
   id: SpawnPointLibrarian
   parent: SpawnPointJobBase
   name: librarian
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Librarian
@@ -253,7 +253,7 @@
   id: SpawnPointLawyer
   parent: SpawnPointJobBase
   name: lawyer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Lawyer
@@ -266,7 +266,7 @@
   id: SpawnPointJanitor
   parent: SpawnPointJobBase
   name: janitor
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Janitor
@@ -279,7 +279,7 @@
   id: SpawnPointMusician
   parent: SpawnPointJobBase
   name: musician
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Musician
@@ -292,7 +292,7 @@
   id: SpawnPointBoxer
   parent: SpawnPointJobBase
   name: boxer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Boxer
@@ -322,7 +322,7 @@
   id: SpawnPointCaptain
   parent: SpawnPointJobBase
   name: captain
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Captain
@@ -332,23 +332,10 @@
       - state: captain
 
 - type: entity
-  id: SpawnPointStationCaptain
-  parent: SpawnPointJobBase
-  name: station captain
-#  categories: [ HideSpawnMenu ] # Frontier
-  components:
-  - type: SpawnPoint
-    job_id: StationCaptain
-  - type: Sprite
-    layers:
-      - state: green
-      - state: captain
-
-- type: entity
   id: SpawnPointHeadOfPersonnel
   parent: SpawnPointJobBase
   name: headofpersonnel
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: HeadOfPersonnel
@@ -363,7 +350,7 @@
   id: SpawnPointChiefEngineer
   parent: SpawnPointJobBase
   name: chiefengineer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: ChiefEngineer
@@ -376,7 +363,7 @@
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
   name: stationengineer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: StationEngineer
@@ -389,7 +376,7 @@
   id: SpawnPointAtmos
   parent: SpawnPointJobBase
   name: atmospherics
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: AtmosphericTechnician
@@ -404,7 +391,7 @@
   id: SpawnPointChiefMedicalOfficer
   parent: SpawnPointJobBase
   name: chiefmedicalofficer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: ChiefMedicalOfficer
@@ -417,7 +404,7 @@
   id: SpawnPointMedicalDoctor
   parent: SpawnPointJobBase
   name: medicaldoctor
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: MedicalDoctor
@@ -430,7 +417,7 @@
   id: SpawnPointParamedic
   parent: SpawnPointJobBase
   name: paramedic
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Paramedic
@@ -443,7 +430,7 @@
   id: SpawnPointChemist
   parent: SpawnPointJobBase
   name: chemist
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Chemist
@@ -458,7 +445,7 @@
   id: SpawnPointResearchDirector
   parent: SpawnPointJobBase
   name: researchdirector
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: ResearchDirector
@@ -471,7 +458,7 @@
   id: SpawnPointScientist
   parent: SpawnPointJobBase
   name: scientist
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Scientist
@@ -486,7 +473,7 @@
   id: SpawnPointHeadOfSecurity
   parent: SpawnPointJobBase
   name: headofsecurity
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: HeadOfSecurity
@@ -499,7 +486,7 @@
   id: SpawnPointWarden
   parent: SpawnPointJobBase
   name: warden
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Warden
@@ -512,7 +499,7 @@
   id: SpawnPointSecurityOfficer
   parent: SpawnPointJobBase
   name: securityofficer
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: SecurityOfficer
@@ -525,7 +512,7 @@
   id: SpawnPointDetective
   parent: SpawnPointJobBase
   name: detective
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Detective
@@ -626,7 +613,7 @@
   id: SpawnPointReporter
   parent: SpawnPointJobBase
   name: reporter
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Reporter
@@ -639,7 +626,7 @@
   id: SpawnPointPsychologist
   parent: SpawnPointJobBase
   name: psychologist
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Psychologist
@@ -652,7 +639,7 @@
   id: SpawnPointZookeeper
   parent: SpawnPointJobBase
   name: zookeeper
-#  categories: [ HideSpawnMenu ] # Frontier
+  categories: [ HideSpawnMenu ] # Frontier
   components:
   - type: SpawnPoint
     job_id: Zookeeper

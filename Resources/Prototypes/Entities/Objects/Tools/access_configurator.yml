@@ -24,7 +24,7 @@
       # - Bar # Frontier
       - Bailiff # Frontier
       - Brig
-      - Contractor # Frontier
+      - Brigmedic # Frontier
       - Captain
       # - Cargo # Frontier
       # - Chapel # Frontier
@@ -50,7 +50,6 @@
       # - Salvage # Frontier
       - Security
       - Sergeant # Frontier
-      - StationCaptain
       - Service
       - HeadOfSecurity # Frontier: reordered for "Sheriff"
       - HeadOfPersonnel # Frontier: reordered for "Station Representative"
@@ -98,7 +97,6 @@
     - Armory
     - StationAi # Frontier: reordered for "Artificial Intelligence"
     - Atmospherics
-    - Contractor
     - Bar
     - Brig
     - Brigmedic # Frontier
@@ -139,7 +137,6 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
-    - StationCaptain
     - Wizard
     - Xenoborg
     - GenpopEnter

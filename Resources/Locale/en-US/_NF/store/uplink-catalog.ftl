@@ -334,16 +334,13 @@ uplink-mercenary-scafhardsuit-name = SCAF Hardsuit
 uplink-mercenary-scafhardsuit-desc = A suit of vacuum-proof armor highly resistant to projectile weaponry.
 
 uplink-mercenary-hardsuit-name = Merc Hardsuit
-uplink-mercenary-hardsuit-desc = A suit of space-proof armored vac suit that protects against general damage.
-
-uplink-mercenary-hardsuit1-name = Private Security Hardsuit
-uplink-mercenary-hardsuit1-desc = A suit of space-proof armored vac suit that protects against general damage.
+uplink-mercenary-hardsuit-desc = A suit of space-proof vacuum armor that protects against general damage.
 
 uplink-mercenary-rifle1-name = Surplus Lecter
 uplink-mercenary-rifle1-desc = A tried and true surplus automatic rifle. The benchmark.
 
 uplink-mercenary-shotgun1-name = Surplus Kammerer
-uplink-mercenary-shotgun1-desc = Old reliable, rack and shoot. Marked for Surplus.
+uplink-mercenary-shotgun1-desc = Old reliable, rack and shoot. Marked for Suplus.
 
 uplink-mercenary-smg1-name = Surplus Drozd
 uplink-mercenary-smg1-desc = Based on an old design, this SMG is still more than capable of putting rounds down-range.

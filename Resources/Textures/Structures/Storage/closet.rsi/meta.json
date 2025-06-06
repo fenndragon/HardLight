@@ -16,15 +16,6 @@
         {
             "name": "abductor_open"
         },
-		{
-            "name": "ev"
-        },
-        {
-            "name": "ev_door"
-        },
-        {
-            "name": "ev_open"
-        },
         {
             "name": "agentbox"
         },
