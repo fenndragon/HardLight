@@ -906,7 +906,7 @@
   parent: PosterBase
   id: PosterLegitNoERP
   name: "No ERP"
-  description: "This poster reminds the crew that Eroticism and Pornography are allowed on this station, woah calm down put it away."
+  description: "This poster reminds the crew that Eroticism and Pornography are banned on Nanotrasen stations."
   components:
   - type: Sprite
     state: poster34_legit

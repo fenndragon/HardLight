@@ -50,8 +50,6 @@ using Content.Shared.SSDIndicator; // Frontier
 using Content.Server.Power.EntitySystems; // Frontier
 using Content.Server._NF.Mail.Components; // Frontier
 using Robust.Server.Player; // Frontier
-using Content.Shared.Ghost;
-using Content.Server.Ghost.Roles.Components;
 
 namespace Content.Server._DV.Mail.EntitySystems
 {
@@ -684,10 +682,6 @@ namespace Content.Server._DV.Mail.EntitySystems
                 if (TryComp(receiverUid, out SSDIndicatorComponent? ssd) && ssd.IsSSD)
                     continue;
                 // End Frontier
-
-                // Skip ghosts and adminghosts
-                if (HasComp<GhostComponent>(receiverUid) || HasComp<GhostRoleComponent>(receiverUid))
-                    continue;
 
                 if (TryGetMailRecipientForReceiver(receiverUid, out var recipient))
                     candidateList.Add(recipient.Value);

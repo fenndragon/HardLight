@@ -6,7 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 108000
-  startingGear: MercenaryGear
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire
   weight: 3 # Prioritize station & department jobs
@@ -44,8 +43,3 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMercenary
     shoes: ClothingShoesBootsMercenary
-
-- type: startingGear
-  id: MercenaryGear
-  equipment:
-    pocket1: MercCoin15

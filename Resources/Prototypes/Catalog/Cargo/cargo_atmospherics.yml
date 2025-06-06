@@ -20,12 +20,12 @@
 
 - type: cargoProduct
   id: AtmosphericsLiquidOxygen
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen_liquid # Frontier blue<oxygen_liquid
   product: LiquidOxygenCanister
-  cost: 4000
+  cost: 1000
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -41,34 +41,34 @@
 
 - type: cargoProduct
   id: AtmosphericsLiquidNitrogen
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen_liquid # Frontier red<nitrogen_liquid
   product: LiquidNitrogenCanister
-  cost: 4000
+  cost: 1000
   category: cargoproduct-category-name-atmospherics
   group: market
 
 - type: cargoProduct
   id: AtmosphericsCarbonDioxide
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon # Frontier black<carbon
   product: CarbonDioxideCanister
-  cost: 1200 # even though it's poisonous, it comes locked and only damages you slowly even with high amounts (tested)
+  cost: 400 # even though it's poisonous, it comes locked and only damages you slowly even with high amounts (tested)
   category: cargoproduct-category-name-atmospherics
   group: market
 
 - type: cargoProduct
   id: AtmosphericsLiquidCarbonDioxide
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon_liquid # Frontier black<carbon_liquid
   product: LiquidCarbonDioxideCanister
-  cost: 10000 # much less deadly than the plasma can (this has been tested) even though this is cold+poison
+  cost: 1800 # much less deadly than the plasma can (this has been tested) even though this is cold+poison
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -94,7 +94,7 @@
 
 - type: cargoProduct
   id: AtmosphericsPlasma
-  # abstract: true # Frontier
+  abstract: true # Frontier
   icon:
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: plasma # Frontier orange<plasma

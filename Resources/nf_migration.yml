@@ -403,7 +403,7 @@ MagazineGrenadeEmpty: NFMagazineGrenadeEmpty
 MagazineGrenadeFlash: NFMagazineGrenadeFlash
 MagazineGrenadeFrag: NFMagazineGrenadeFrag
 MagazineLightRifle: NFMagazineRifle30
-MagazineLightRifleBox: NFMagazineBoxRifle30 # 20??
+MagazineLightRifleBox: NFMagazineBoxRifle20 # 20??
 MagazineLightRifleEmpty: NFMagazineRifle30Empty
 MagazineLightRifleIncendiary: NFMagazineRifle30Incendiary
 MagazineLightRifleLowCapacity: NFMagazineLowCapacityRifle30

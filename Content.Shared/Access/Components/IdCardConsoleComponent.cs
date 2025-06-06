@@ -46,37 +46,42 @@ public sealed partial class IdCardConsoleComponent : Component
     public List<ProtoId<AccessLevelPrototype>> AccessLevels = new()
     {
         "Armory",
-        "Atmospherics",
-        "Bar",
+        //"Atmospherics",
+        "Bailiff", // Frontier
+        //"Bar",
         "Brig",
-        "Detective",
+        "Brigmedic", // Frontier
         "Captain",
-        "Cargo",
-        "Chapel",
-        "Chemistry",
-        "Contractor",
-        "ChiefEngineer",
-        "ChiefMedicalOfficer",
+        //"Cargo",
+        //"Chapel",
+        //"Chemistry",
+        //"ChiefEngineer",
+        //"ChiefMedicalOfficer",
         "Command",
-        "Cryogenics",
-        "Engineering",
+        //"Cryogenics",
+        "Detective", // Frontier: moved into alphabetical order
+        //"Engineering",
         "External",
-        "HeadOfPersonnel",
-        "HeadOfSecurity",
-        "Hydroponics",
+        "Frontier", // Frontier
+        //"Hydroponics",
         "Janitor",
-        "Kitchen",
-        "Lawyer",
+        //"Kitchen",
+        //"Lawyer",
+        "Mail", // Frontier
         "Maintenance",
         "Medical",
-        "Quartermaster",
-        "Research",
-        "ResearchDirector",
-        "Salvage",
+        "Mercenary", // Frontier
+        //"Quartermaster",
+        //"Research",
+        //"ResearchDirector",
+        //"Salvage",
         "Security",
-        "StationCaptain",
+        "Sergeant", // Frontier
         "Service",
-        "Theatre",
+        "HeadOfSecurity", // Frontier: moved down, alphabetic w.r.t. "Sheriff"
+        "HeadOfPersonnel", // Frontier: moved down, alphabetic w.r.t. "Station Representative"
+        "StationTrafficController", // Frontier
+        //"Theatre",
     };
 
     [Serializable, NetSerializable]

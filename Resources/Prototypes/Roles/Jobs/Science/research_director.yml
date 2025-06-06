@@ -3,7 +3,7 @@
   name: job-name-rd
   description: job-description-rd
   playTimeTracker: JobResearchDirector
-  setPreference: true # Frontier
+  setPreference: false # Frontier
   requirements:
   - !type:RoleTimeRequirement
     role: JobScientist
@@ -15,22 +15,21 @@
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
   supervisors: job-supervisors-captain
-  # canBeAntag: false
+  canBeAntag: false
   ## Frontier: commented stuff below out
-  access:
-  - Research
-  - Command
-  - Maintenance
-  - ResearchDirector
-  - Brig
-  - Cryogenics
-  - Frontier
-  special:
+  # access:
+  # - Research
+  # - Command
+  # - Maintenance
+  # - ResearchDirector
+  # - Brig
+  # - Cryogenics
+  # special:
   # - !type:AddImplantSpecial
   #   implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+  # - !type:AddComponentSpecial
+  #   components:
+  #     - type: CommandStaff
   ## End Frontier: commented stuff above out
   accessGroups: # Frontier
   - GeneralAccess # Frontier

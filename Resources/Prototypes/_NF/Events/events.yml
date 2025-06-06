@@ -1,101 +1,101 @@
-# - type: entityTable
-  # id: NFBasicCalmEventsTable
-  # table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
-    # children:
-    # - id: NFBreakerFlip
-    # - id: NFGasLeak
-    # - id: NFIonStorm
-    # - id: NFPowerGridCheck
-    # - id: NFRandomSentience
-    # - id: NFSolarFlare
-    # - id: NFVentClog
-    # - id: NFBluespaceCargoCrate
-    # - id: NFBluespaceMcCargoCrate
-    # - id: NFBluespaceSyndicateCrate
-    # - id: NFBluespaceBrokenMcDelivery
-    # - id: NFSmugglingFax
+- type: entityTable
+  id: NFBasicCalmEventsTable
+  table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
+    children:
+    - id: NFBreakerFlip
+    - id: NFGasLeak
+    - id: NFIonStorm
+    - id: NFPowerGridCheck
+    - id: NFRandomSentience
+    - id: NFSolarFlare
+    - id: NFVentClog
+    - id: NFBluespaceCargoCrate
+    - id: NFBluespaceMcCargoCrate
+    - id: NFBluespaceSyndicateCrate
+    - id: NFBluespaceBrokenMcDelivery
+    - id: NFSmugglingFax
 
-# - type: entity
-  # id: NFBreakerFlip
-  # parent: BaseGameRule
-  # components:
-  # - type: StationEvent
-    # weight: 7
-    # earliestStart: 15 # Frontier
-    # duration: 1
-    # minimumPlayers: 15
-  # - type: BreakerFlipRule
+- type: entity
+  id: NFBreakerFlip
+  parent: BaseGameRule
+  components:
+  - type: StationEvent
+    weight: 7
+    earliestStart: 15 # Frontier
+    duration: 1
+    minimumPlayers: 15
+  - type: BreakerFlipRule
 
-# - type: entity
-  # id: NFGasLeak
-  # parent: BaseStationEventShortDelay
-  # components:
-  # - type: StationEvent
-    # startAnnouncement: station-event-gas-leak-nf-start-announcement # Frontier: add nf-
-    # startAudio:
-      # path: /Audio/Announcements/attention.ogg
-    # endAnnouncement: station-event-gas-leak-nf-end-announcement # Frontier: add nf-
-    # weight: 8
-    # earliestStart: 15 # Frontier
-  # - type: GasLeakRule
+- type: entity
+  id: NFGasLeak
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-gas-leak-nf-start-announcement # Frontier: add nf-
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    endAnnouncement: station-event-gas-leak-nf-end-announcement # Frontier: add nf-
+    weight: 8
+    earliestStart: 15 # Frontier
+  - type: GasLeakRule
 
-# - type: entity
-  # id: NFPowerGridCheck
-  # parent: BaseStationEventShortDelay
-  # components:
-  # - type: StationEvent
-    # weight: 5
-    # earliestStart: 15 # Frontier
-    # startAnnouncement: station-event-power-grid-check-nf-start-announcement # Frontier: add nf-
-    # endAnnouncement: station-event-power-grid-check-nf-end-announcement # Frontier: add nf-
-    # startAudio:
-      # path: /Audio/Announcements/power_off.ogg
-      # params:
-        # volume: -4
-    # duration: 60
-    # maxDuration: 120
-  # - type: PowerGridCheckRule
+- type: entity
+  id: NFPowerGridCheck
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    weight: 5
+    earliestStart: 15 # Frontier
+    startAnnouncement: station-event-power-grid-check-nf-start-announcement # Frontier: add nf-
+    endAnnouncement: station-event-power-grid-check-nf-end-announcement # Frontier: add nf-
+    startAudio:
+      path: /Audio/Announcements/power_off.ogg
+      params:
+        volume: -4
+    duration: 60
+    maxDuration: 120
+  - type: PowerGridCheckRule
 
-# - type: entity
-  # parent: BaseGameRule
-  # id: NFSolarFlare
-  # components:
-  # - type: StationEvent
-    # weight: 4
-    # earliestStart: 15
-    # reoccurrenceDelay: 45
-    # startAnnouncement: station-event-solar-flare-nf-start-announcement
-    # endAnnouncement: station-event-solar-flare-nf-end-announcement
-    # startAudio:
-      # path: /Audio/Announcements/attention.ogg
-    # duration: 120
-    # maxDuration: 240
-  # - type: SolarFlareRule
-    # allChannels: true
-    # lightBreakChancePerSecond: 0.0003
-    # doorToggleChancePerSecond: 0.001
+- type: entity
+  parent: BaseGameRule
+  id: NFSolarFlare
+  components:
+  - type: StationEvent
+    weight: 4
+    earliestStart: 15
+    reoccurrenceDelay: 45
+    startAnnouncement: station-event-solar-flare-nf-start-announcement
+    endAnnouncement: station-event-solar-flare-nf-end-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    duration: 120
+    maxDuration: 240
+  - type: SolarFlareRule
+    allChannels: true
+    lightBreakChancePerSecond: 0.0003
+    doorToggleChancePerSecond: 0.001
 
-# - type: entity
-  # id: NFVentClog
-  # parent: BaseStationEventLongDelay
-  # components:
-  # - type: StationEvent
-    # startAnnouncement: station-event-vent-clog-nf-start-announcement # Frontier: add nf-
-    # startAudio:
-      # path: /Audio/Announcements/attention.ogg
-    # earliestStart: 15
-    # minimumPlayers: 15
-    # weight: 5
-    # duration: 60
-  # - type: VentClogRule
+- type: entity
+  id: NFVentClog
+  parent: BaseStationEventLongDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-clog-nf-start-announcement # Frontier: add nf-
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 15
+    minimumPlayers: 15
+    weight: 5
+    duration: 60
+  - type: VentClogRule
 
-# - type: entity
-  # parent: BaseGameRule
-  # id: NFIonStorm
-  # components:
-  # - type: StationEvent
-    # earliestStart: 15 # Frontier
-    # weight: 8
-    # reoccurrenceDelay: 120 # Frontier: 20<120
-    # duration: 1
-  # - type: IonStormRule
+- type: entity
+  parent: BaseGameRule
+  id: NFIonStorm
+  components:
+  - type: StationEvent
+    earliestStart: 15 # Frontier
+    weight: 8
+    reoccurrenceDelay: 120 # Frontier: 20<120
+    duration: 1
+  - type: IonStormRule

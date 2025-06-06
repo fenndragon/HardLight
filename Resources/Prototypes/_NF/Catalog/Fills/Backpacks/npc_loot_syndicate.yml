@@ -93,8 +93,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -125,8 +123,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -155,8 +151,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -184,8 +178,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -215,8 +207,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -245,8 +235,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -275,8 +263,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -305,8 +291,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -337,8 +321,6 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -368,8 +350,6 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -398,8 +378,6 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -425,8 +403,6 @@
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -438,7 +414,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunAtreidesExpedition
+      - id: NFWeaponSubMachineGunAtreides
       - id: NFMagazineSubMachineGun35
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
@@ -459,8 +435,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -471,7 +445,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: NFWeaponSubMachineGunC20rExpedition
+      - id: NFWeaponSubMachineGunC20r
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
       - id: SpaceCash500
@@ -491,8 +465,6 @@
         prob: 0.5
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.4
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -525,8 +497,6 @@
         prob: 0.4
       - id: NFBaseMagazineDrumRifle20
         prob: 0.1
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -557,8 +527,6 @@
         prob: 0.4
       - id: NFBaseMagazineDrumRifle20
         prob: 0.1
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -581,8 +549,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -603,8 +569,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -625,8 +589,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -645,8 +607,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -695,8 +655,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -719,8 +677,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -742,8 +698,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -764,8 +718,6 @@
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -799,8 +751,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -828,8 +778,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -856,8 +804,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -883,8 +829,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -917,8 +861,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -946,8 +888,6 @@
         prob: 0.7
       - id: SpawnDungeonLootToolsAdvancedEngineering
         prob: 0.3
-      - id: MercCoin1
-        prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 

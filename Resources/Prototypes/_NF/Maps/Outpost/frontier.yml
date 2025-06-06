@@ -1,37 +1,76 @@
 - type: gameMap
-  id: Frontier
-  mapName: 'Frontier Outpost'
-  mapPath: /Maps/_NF/Outpost/frontier.yml
+  id: Core
+  mapName: 'Hardlight Core Station'
+  mapPath: /Maps/core.yml
   minPlayers: 0
   maxPlayers: 100
-  randomRotation: false
-  maxRandomOffset: 0
   stations:
-    Frontier:
+    Core:
       stationProto: StandardFrontierStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Frontier Outpost'
+          mapNameTemplate: 'HardLight Core Station'
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'
         - type: ExtraStationInformation
-          iconPath: /Textures/_NF/Logo/icon/icon-256x256.png # used the biggest one, looks better when downscaling than upscaling
-          stationSubtext: 'frontier-lobby-frontier-subtext'
-          stationDescription: 'frontier-lobby-frontier-description'
+          iconPath: /Textures/_HL/Logo/icon/icon-256x256.png # used the biggest one, looks better when downscaling than upscaling
+          stationSubtext: 'hardlight-lobby-hardlight-subtext'
+          stationDescription: 'hardlight-lobby-hardlight-description'
           lobbySortOrder: 1
         - type: StationJobs
-          availableJobs:
+          availableJobs: # 56 jobs total w/o latejoins & interns, 64 jobs total w/ latejoins & interns
+            #command (7)
+            Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            HeadOfSecurity: [ 1, 1 ]
+            ChiefMedicalOfficer: [ 1, 1 ]
+            ChiefEngineer: [ 1, 1 ]
+            ResearchDirector: [ 1, 1 ]
+            Quartermaster: [ 1, 1 ]
+            #service (16)
+            Bartender: [ 2, 2 ]
+            Botanist: [ 2, 2 ]
+            Chef: [ 1, 1 ]
+            Janitor: [ 2, 2 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
+            ServiceWorker: [ 3, 3 ]
+            Boxer: [ 2, 2 ]
+            Reporter: [ 2, 2 ]
+            #engineering (6)
+            StationEngineer: [ 4, 4 ]
+            AtmosphericTechnician: [ 2, 2 ]
+            TechnicalAssistant: [ 2, 2 ] #intern, not counted
+            #medical (6 - 8)
+            MedicalDoctor: [ 3, 4 ]
+            Chemist: [ 2, 2 ]
+            MedicalIntern: [ 2, 2 ] #intern, not counted
+            Paramedic: [ 1, 2 ]
+            #science (3)
+            Scientist: [ 3, 3 ]
+            ResearchAssistant: [ 1, 1 ] #intern, not counted
+            #security (7)
+            SecurityOfficer: [ 4, 4 ]
+            Warden: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            SecurityCadet: [ 1, 1 ] #intern, not counted
+            Detective: [ 1, 1 ]
+            #supply (5)
+            CargoTechnician: [ 3, 3 ]
+            SalvageSpecialist: [ 2, 2 ]
+            #civilian (3+)
+#            Passenger: [ -1, -1 ] #infinite, not counted
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 1 ]
+            # silicon (3)
+            StationAi: [ 1, 1 ]
+            Borg: [ -1, -1 ]
+            # frontier
             Contractor: [ -1, -1 ]
             Pilot: [ -1, -1 ]
             Mercenary: [ -1, -1 ]
-            Borg: [ -1, -1 ]
-            StationRepresentative: [ 1, 1 ]
             StationTrafficController: [ 1, 1 ]
-            SecurityGuard: [ 1, 1 ]
             Valet: [ 1, 1 ]
-            NFJanitor: [ 1, 1 ]
             MailCarrier: [ 1, 1 ]
-          tags:
-          - HeadOfPersonnel
-          - HeadOfSecurity

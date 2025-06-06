@@ -45,7 +45,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 17
+        Piercing: 16
 
 - type: entity
   id: NFBulletRifle20Overpressure
@@ -56,7 +56,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20
+        Piercing: 18
 
 - type: entity
   id: NFBulletRifle20Incendiary
@@ -67,8 +67,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 16
+        Piercing: 8
+        Heat: 8
 
 - type: entity
   id: NFBulletRifle20Uranium
@@ -80,7 +80,7 @@
     damage:
       types:
         Piercing: 10
-        Radiation: 9
+        Radiation: 8
 
 - type: entity
   id: NFBulletRifle20Practice
@@ -116,7 +116,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 19
+        Piercing: 17
 
 - type: entity
   id: NFBulletRifle25Overpressure
@@ -127,7 +127,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 21
+        Piercing: 19
 
 - type: entity
   id: NFBulletRifle25Incendiary
@@ -138,8 +138,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 17
+        Piercing: 8.5
+        Heat: 8.5
 
 - type: entity
   id: NFBulletRifle25Uranium
@@ -175,7 +175,7 @@
       types:
         Piercing: 4
   - type: StaminaDamageOnCollide
-    damage: 17
+    damage: 12 # ~9 hits to stun sounds reasonable, less effective than pistol because rifle round is smaller in size
 
 #region .30 rifle
 - type: entity
@@ -209,8 +209,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 16
+        Piercing: 10.5
+        Heat: 10.5
 
 - type: entity
   id: NFBulletRifle30Uranium
@@ -221,8 +221,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 9
-        Piercing: 10
+        Piercing: 11
+        Radiation: 11
 
 - type: entity
   id: NFBulletRifle30Practice
@@ -246,7 +246,7 @@
       types:
         Piercing: 4
   - type: StaminaDamageOnCollide
-    damage: 14 # ~8 hits to stun sounds reasonable
+    damage: 13 # ~8 hits to stun sounds reasonable
 
 #region .60 rifle
 - type: entity
@@ -258,8 +258,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 60
-        Structural: 225
+        Piercing: 30
+        Structural: 200
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:
     - Structural
@@ -273,6 +273,6 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 45
+        Blunt: 10
   - type: StaminaDamageOnCollide
     damage: 60

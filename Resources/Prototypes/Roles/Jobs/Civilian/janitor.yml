@@ -2,15 +2,15 @@
   id: Janitor
   name: job-name-janitor
   description: job-description-janitor
-  playTimeTracker: JobJanitor
-  setPreference: true
+  playTimeTracker: JobJanitorOld
+  setPreference: false # Frontier
   startingGear: JanitorGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hop
-  access: # Frontier
-  - Service # Frontier
-  - Janitor # Frontier
-  - Maintenance # Frontier
+  # access: # Frontier
+  # - Service # Frontier
+  # - Janitor # Frontier
+  # - Maintenance # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

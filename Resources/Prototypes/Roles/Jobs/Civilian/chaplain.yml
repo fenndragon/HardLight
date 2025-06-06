@@ -3,17 +3,13 @@
   name: job-name-chaplain
   description: job-description-chaplain
   playTimeTracker: JobChaplain
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Chapel
-  - Research
-  - Maintenance
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

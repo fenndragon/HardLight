@@ -741,7 +741,7 @@
   description: This C.H.I.M.P. seems to have a greater punch than is usual...
   components:
   - type: BatteryWeaponFireModes
-    # Frontier: moved to NF variants
+    Frontier: moved to NF variants
     fireModes:
     - proto: AnomalousParticleDeltaStrong
       fireCost: 100

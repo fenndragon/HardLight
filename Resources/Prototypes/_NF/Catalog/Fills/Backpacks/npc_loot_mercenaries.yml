@@ -136,8 +136,6 @@
       prob: 0.4
     - id: NFAmmunitionBoxPistol35
       prob: 0.4
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -180,8 +178,6 @@
       prob: 0.3
     - id: NFBaseMagazineDrumRifle20
       prob: 0.05
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -204,8 +200,6 @@
       prob: 0.2
     - id: NFBaseMagazineDrumRifle20
       prob: 0.05
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -247,8 +241,6 @@
       prob: 0.7
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.3
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -307,8 +299,6 @@
       prob: 0.7
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.3
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -332,8 +322,6 @@
       prob: 0.9
     - id: NFAmmunitionBoxPistol35Overpressure
       prob: 0.2
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -379,8 +367,6 @@
       prob: 0.5
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.4
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -409,8 +395,6 @@
       prob: 0.4
     - id: EmergencyMedipen
       prob: 0.2
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -453,8 +437,6 @@
       prob: 0.5
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.4
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -478,8 +460,6 @@
       prob: 0.4
     - id: NFAmmunitionBoxBigRifle30
       prob: 0.2
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -564,7 +544,5 @@
       prob: 0.4
     - id: NFBaseMagazineDrumRifle20
       prob: 0.1
-    - id: MercCoin1
-      prob: 1
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

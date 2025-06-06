@@ -7,14 +7,6 @@
   - type: AccessReader
     access: [["Captain"]]
 
-- type: entity # Move this to _HL later
-  parent: DoorElectronics
-  id: DoorElectronicsStationCaptain
-  suffix: Captain, Locked
-  components:
-  - type: AccessReader
-    access: [["StationCaptain"]]
-
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsHeadOfPersonnel

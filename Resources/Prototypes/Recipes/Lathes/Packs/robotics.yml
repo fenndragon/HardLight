@@ -7,7 +7,6 @@
   - PositronicBrain
   - SciFlash
   - CyborgEndoskeleton
-  - Quadborgendoskeleton
 
 - type: latheRecipePack
   id: BorgModulesStatic
@@ -16,9 +15,6 @@
   - BorgModuleFireExtinguisher
   - BorgModuleRadiationDetection
   - BorgModuleTool
-  - BorgModuleStun
-  - BorgModuleKill
-  - BorgModuleInvestigation
 
 - type: latheRecipePack
   id: BorgLimbsStatic
@@ -29,35 +25,6 @@
   - RightLegBorg
   - LightHeadBorg
   - TorsoBorg
-  - LeftArmBorgEngineer
-  - RightArmBorgEngineer
-  - LeftLegBorgEngineer
-  - RightLegBorgEngineer
-  - HeadBorgEngineer
-  - TorsoBorgEngineer
-  - LeftLegBorgJanitor
-  - RightLegBorgJanitor
-  - HeadBorgJanitor
-  - TorsoBorgJanitor
-  - LeftArmBorgMedical
-  - RightArmBorgMedical
-  - LeftLegBorgMedical
-  - RightLegBorgMedical
-  - HeadBorgMedical
-  - TorsoBorgMedical
-  - LeftArmBorgMining
-  - RightArmBorgMining
-  - LeftLegBorgMining
-  - RightLegBorgMining
-  - HeadBorgMining
-  - TorsoBorgMining
-  - LeftArmBorgService
-  - RightArmBorgService
-  - LeftLegBorgService
-  - RightLegBorgService
-  - HeadBorgService
-  - TorsoBorgService
-
 
 ## Dynamic
 

@@ -3,17 +3,13 @@
   name: job-name-boxer
   description: job-description-boxer
   playTimeTracker: JobBoxer
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: BoxerGear
   icon: "JobIconBoxer"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Maintenance
-  - Theatre # DeltaV - Add Theatre access
-#  - Boxer # Unused for now
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:

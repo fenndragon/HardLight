@@ -147,12 +147,12 @@
     - id: BalloonSyn
     - id: NFWeaponRifleBarlowsBolt # Frontier: WeaponSniperMosin<NFWeaponRifleBarlowsBolt
       weight: 2
-
+      
 - type: entityTable # Floof - Start
   id: LewdMaintLoot
   table: !type:GroupSelector
     children:
-    - id: LewdWand
+    - id: LewdWand 
     - id: LewdVibeGreen
     - id: LewdVibeTeal
     - id: LewdVibePink
@@ -170,7 +170,7 @@
     - id: DragonDildo
     - id: NormalDildo
     - id: TentacleDildo
-    - id: DoubleDildo
+    - id: DoubleDildo 
     - id: WhipPink
       weight: 0.5
     - id: WhipTeal

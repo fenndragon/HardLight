@@ -215,7 +215,7 @@
   id: NFMagazineClipRifle20
 
 - type: Tag
-  id: NFMagazineBoxRifle30 # OG WizDen: MagazineLightRifleBox
+  id: NFMagazineBoxRifle20 # OG WizDen: MagazineLightRifleBox
 
 - type: Tag
   id: NFMagazineDrumRifle20

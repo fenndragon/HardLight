@@ -2,7 +2,7 @@
   id: Deputy
   name: job-name-deputy
   description: job-description-deputy
-  playTimeTracker: JobSecurityOfficerOld
+  playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours

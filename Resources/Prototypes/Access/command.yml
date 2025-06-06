@@ -6,10 +6,6 @@
   id: Captain
   name: id-card-access-level-captain
 
-- type: accessLevel # Move this to _HL later
-  id: StationCaptain
-  name: id-card-access-level-station-captain
-
 - type: accessLevel
   id: HeadOfPersonnel
   name: id-card-access-level-head-of-personnel
@@ -17,7 +13,7 @@
 - type: accessGroup
   id: Command
   tags:
-  #- Captain # No, :3
+  - Captain
   - Command
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -26,9 +22,8 @@
   - HeadOfSecurity
   - Quartermaster
   - ResearchDirector
-  - StationCaptain # HardLight
   - Frontier # Frontier
-
+  
 - type: accessLevel
   id: EmergencyShuttleRepealAll
   name: id-card-access-level-emergency-shuttle-repeal

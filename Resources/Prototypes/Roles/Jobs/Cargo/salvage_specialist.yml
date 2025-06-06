@@ -3,7 +3,7 @@
   name: job-name-salvagespec
   description: job-description-salvagespec
   playTimeTracker: JobSalvageSpecialist
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Cargo
@@ -11,11 +11,6 @@
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Cargo
-  - Salvage
-  - Maintenance
-  - External
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

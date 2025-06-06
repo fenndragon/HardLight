@@ -1,6 +1,5 @@
 id-card-access-level-command = Command
 id-card-access-level-captain = Captain
-id-card-access-level-station-captain = Station Captain
 id-card-access-level-cryogenics = Cryogenics
 id-card-access-level-emergency-shuttle-repeal = E.Shuttle Repeal All
 

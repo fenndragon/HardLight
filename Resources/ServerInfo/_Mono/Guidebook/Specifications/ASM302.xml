@@ -1,0 +1,31 @@
+<Document>
+  # ASM-302 Vanyk Missile System
+
+A basic combat-rated [color=GreenYellow]missile[/color] pod turret.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponTurretVanyk"/>
+  </Box>
+
+## Pod Specifications
+
+- Firerate: [color=crimson] 60 RPM [/color]/[color=deepskyblue] 1 RPS [/color]
+- Sell Value: [color=greenyellow][bold]2250 Spesos[/bold][/color]
+- Capacitor Storage: [color=orange]40000u[/color]
+- Capacitor Recharge: [color=turquoise]350u/s[/color]
+- Capacitor Fire Cost: [color=turquoise]300u[/color]
+
+  <Box>
+    <GuideEntityEmbed Entity="ShipMissileASM302"/>
+  </Box>
+
+## Missile Specifications
+
+- Acceleration: [color=mediumspringgreen][bold]60 m/s²[/bold][/color]
+- Tracking Range: [color=orangered][bold]800m[/bold][/color]
+- Scanning Arc: [color=teal]15 degrees[/color]
+- Launch Speed: [color=darkorange]60 m/s[/color]
+- Max Speed: [color=darkorange]140 m/s[/color]
+- Range: [color=orange]2046m[/color]
+
+</Document>

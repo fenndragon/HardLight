@@ -3,12 +3,10 @@
   name: job-name-passenger
   description: job-description-passenger
   playTimeTracker: JobPassengerOld
-  setPreference: true
+  setPreference: false # Frontier
   startingGear: PassengerGear
   icon: "JobIconPassenger"
 #  supervisors: job-supervisors-everyone
-  access:
-  - Maintenance
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

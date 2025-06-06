@@ -3,7 +3,7 @@
   name: job-name-doctor
   description: job-description-doctor
   playTimeTracker: JobMedicalDoctor
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -11,14 +11,12 @@
   startingGear: DoctorGear
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Medical
-  - Maintenance
-  extendedAccess:
-  - Chemistry
-  - Paramedic
   accessGroups: # Frontier
   - GeneralAccess # Frontier
+  # special: # Frontier
+  # - !type:GiveItemOnHolidaySpecial # Frontier
+  #   holiday: DoctorDay # Frontier
+  #   prototype: WehMedipen # Frontier
 
 - type: startingGear
   id: DoctorGear

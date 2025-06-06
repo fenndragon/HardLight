@@ -9,7 +9,7 @@
 #  overrideConsoleVisibility: true # Frontier
   accessGroups: # Frontier
   - GeneralAccess # Frontier
-  access: # Frontier
-  - Maintenance # Frontier
-  extendedAccess: # Frontier
-  - External # Frontier
+  # access: # Frontier
+  # - Maintenance # Frontier
+  # extendedAccess: # Frontier
+  # - External # Frontier

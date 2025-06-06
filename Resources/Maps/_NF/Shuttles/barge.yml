@@ -586,7 +586,7 @@ entities:
     - type: Transform
       pos: 0.5,-14.5
       parent: 70
-- proto: AirlockExternalGlassShuttleRegular
+- proto: AirlockGlassShuttle
   entities:
   - uid: 38
     components:

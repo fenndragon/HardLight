@@ -3,17 +3,13 @@
   name: job-name-librarian
   description: job-description-librarian
   playTimeTracker: JobLibrarian
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Research
-  - Maintenance
-#  - Library # Isn't the Library AA?
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

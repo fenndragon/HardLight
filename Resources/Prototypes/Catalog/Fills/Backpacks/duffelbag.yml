@@ -78,7 +78,7 @@
   - type: StorageFill
     contents:
       - id: NFWeaponLightMachineGunL6 # Frontier: WeaponLightMachineGunL6<NFWeaponLightMachineGunL6
-      - id: NFMagazineBoxRifle30 # Hardlight: MagazineLightRifleBox<NFMagazineBoxRifle30
+      - id: NFMagazineBoxRifle20 # Frontier: MagazineLightRifleBox<NFMagazineBoxRifle20
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -124,7 +124,7 @@
         amount: 4
       - id: NFMagazineShotgunDrum # Frontier: MagazineShotgun<NFMagazineShotgunDrum
         amount: 4
-      - id: NFMagazineBoxRifle30 # Frontier: MagazineLightRifleBox<NFMagazineBoxRifle30
+      - id: NFMagazineBoxRifle20 # Frontier: MagazineLightRifleBox<NFMagazineBoxRifle20
         amount: 2
 
 - type: entity

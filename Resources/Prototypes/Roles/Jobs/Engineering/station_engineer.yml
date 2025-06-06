@@ -3,7 +3,7 @@
   name: job-name-engineer
   description: job-description-engineer
   playTimeTracker: JobStationEngineer
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -11,11 +11,6 @@
   startingGear: StationEngineerGear
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Maintenance
-  - Engineering
-  - External
-  - Atmospherics
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

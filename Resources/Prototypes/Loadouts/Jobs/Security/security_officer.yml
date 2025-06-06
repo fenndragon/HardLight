@@ -5,7 +5,7 @@
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:RoleTimeRequirement
-      role: JobWardenOld
+      role: JobWarden
       time: 21600 #6 hrs
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -67,7 +67,7 @@
 
 - type: loadout
   id: TrooperUniform
-  equipment:
+  equipment: 
     jumpsuit: ClothingUniformSecurityTrooper
 
 - type: loadout

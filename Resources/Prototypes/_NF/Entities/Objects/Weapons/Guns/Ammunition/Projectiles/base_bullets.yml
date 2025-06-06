@@ -9,13 +9,13 @@
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: bullet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 1.5
 
 - type: entity
@@ -28,13 +28,13 @@
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: bullet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 1.5
 
 - type: entity
@@ -45,13 +45,13 @@
   - type: Sprite
     layers:
     - state: pellet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: pellet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 1
 
 #region Bullets
@@ -128,13 +128,13 @@
   - type: Sprite
     layers:
     - state: bullet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: bullet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 1.5
 
 - type: entity
@@ -244,13 +244,13 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 60
-        Structural: 225
+        Piercing: 30
+        Structural: 200
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:
     - Structural
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 3
 
 - type: entity
@@ -261,7 +261,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 45
+        Blunt: 10
   - type: StaminaDamageOnCollide
     damage: 60
   - type: Tracer
@@ -342,11 +342,11 @@
   - type: Sprite
     layers:
     - state: pellet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: pellet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
   - type: Tracer
-    color: "#fcb118ff"
+    color: "#ddddddFF"
     length: 1

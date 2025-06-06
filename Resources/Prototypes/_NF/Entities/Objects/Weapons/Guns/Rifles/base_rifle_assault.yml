@@ -17,7 +17,7 @@
     maxAngle: 8.7
     angleIncrease: 2
     angleDecay: 4
-    fireRate: 5
+    fireRate: 4
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -40,7 +40,7 @@
     maxAngle: 12
     angleIncrease: 2.5
     angleDecay: 3
-    fireRate: 5
+    fireRate: 3.5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-nanotrasen-munitions
 
@@ -52,7 +52,7 @@
   - type: Gun
     angleIncrease: 2
     angleDecay: 5
-    fireRate: 4
+    fireRate: 3
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-cybersun-industries
 
@@ -66,7 +66,7 @@
     maxAngle: 11
     angleIncrease: 2
     angleDecay: 3
-    fireRate: 4.5
+    fireRate: 3.5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-frontier-gunsmith-consortium
 
@@ -242,32 +242,3 @@
         whitelist: *mag30Whitelist
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber: *chamber30Rubber
-
-- type: entity
-  id: HLBaseWeaponRifleAssaultChamber25
-  parent: NFBaseWeaponRifleAssaultChamber
-  abstract: true
-  components:
-  - type: Gun
-    examineCaliber: gun-examine-caliber-25
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: HLMagazineCaselessRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - HLMagazineCaselessRifle
-        whitelistFailPopup: gun-magazine-whitelist-fail
-      gun_chamber:
-        name: Chamber
-        startingItem: NFCartridgeRifle25
-        priority: 1
-        whitelist:
-          tags:
-            - NFCartridgeRifle25

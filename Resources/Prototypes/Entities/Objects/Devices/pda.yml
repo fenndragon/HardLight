@@ -210,18 +210,6 @@
 
 - type: entity
   parent: BasePDA
-  id: ContractorPDA
-  name: Contractor PDA
-  description: Why isn't it gray?
-  categories: [ HideSpawnMenu ] # Frontier
-  components:
-  - type: Pda
-    id: ContractorIDCard
-  - type: PdaBorderColor
-    borderColor: "#717059"
-
-- type: entity
-  parent: BasePDA
   id: TechnicalAssistantPDA
   name: technical assistant PDA
   description: Why isn't it yellow?
@@ -687,30 +675,6 @@
   components:
   - type: Pda
     id: CaptainIDCard
-    penSlot:
-      startingItem: PenCap
-      priority: -1
-      whitelist:
-        tags:
-        - Write
-  - type: Appearance
-    appearanceDataInit:
-     enum.PdaVisuals.PdaType:
-       !type:String
-       pda-captain
-  - type: PdaBorderColor
-    borderColor: "#7C5D00"
-  - type: Icon
-    state: pda-captain
-
-- type: entity # Move this to _HL later
-  parent: BasePDA
-  id: StationCaptainPDA
-  name: station captain PDA
-  description: Surprisingly no different from your PDA.
-  components:
-  - type: Pda
-    id: StationCaptainIDCard
     penSlot:
       startingItem: PenCap
       priority: -1

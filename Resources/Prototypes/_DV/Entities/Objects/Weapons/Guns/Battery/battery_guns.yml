@@ -38,7 +38,7 @@
       fireCost: 100
       name: disable
       state: disabler
-    - proto: BulletLaser
+    - proto: BulletEnergyGunLaser
       fireCost: 200
       name: kill
       state: lethal
@@ -96,7 +96,7 @@
       fireCost: 100
       name: disable
       state: disabler
-    - proto: BulletLaser
+    - proto: BulletEnergyGunLaser
       fireCost: 200
       name: lethal
       state: lethal

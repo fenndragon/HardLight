@@ -53,9 +53,7 @@
   - NFWeaponPistolCHIMP # Frontier: add NF prefix
   # - WeaponForceGun # Frontier
   - NFWeaponPka # Frontier: WeaponProtoKineticAccelerator<NFWeaponPka
-  - PKAUpgradeDamage
-  - PKAUpgradeRange
-  - PKAUpgradeFireRate
+  - NFWeaponPkaCannon # Frontier
   # - WeaponTetherGun # Frontier
   - WeaponGauntletGorilla
 

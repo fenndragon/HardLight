@@ -81,9 +81,6 @@
   - type: Wires
     boardName: wires-board-name-computer
     layoutId: Computer
-  - type: Tag
-    tags:
-      - NoPaint
 #
 #     This is overwritten by children, so needs to be defined there
 #  - type: UserInterface

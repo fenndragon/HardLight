@@ -266,7 +266,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrap
 #  categories: [ HideSpawnMenu ]
@@ -329,7 +329,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThreads
 #  categories: [ HideSpawnMenu ]
@@ -379,7 +379,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThrusters
 #  categories: [ HideSpawnMenu ]
@@ -477,7 +477,7 @@
 - type: entity
   parent:
   - MobRogueSiliconScrapBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapFlayer
 #  categories: [ HideSpawnMenu ]
@@ -667,7 +667,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconServo
   name: servo unit
@@ -705,7 +705,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconHerder
   name: herder unit
@@ -764,7 +764,7 @@
 - type: entity
   parent:
   - MobRogueSiliconDroneBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconHitscanBatteryAmmo
   id: MobRogueSiliconHunter
   name: hunter unit
@@ -818,77 +818,77 @@
       params:
         variation: 0.2
 
-#- type: entity
-#  parent:
-#  - MobRogueSiliconBase
-#  - MobPassiveRegenStrong
-#  id: MobRogueSiliconCatcher
-#  name: catcher unit
-#  description: Equipped with bolas, this unit is designed to slow, capture, and detain targets.
+- type: entity
+  parent:
+  - MobRogueSiliconBase
+  - MobPassiveRegen
+  id: MobRogueSiliconCatcher
+  name: catcher unit
+  description: Equipped with bolas, this unit is designed to slow, capture, and detain targets.
 #  categories: [ HideSpawnMenu ]
-#  components:
-#  - type: Loadout
-#    prototypes:
-#    - MobRogueSiliconLootT2
-#  - type: Sprite
-#    drawdepth: Mobs
-#    layers:
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: body_generic
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: head_heavy
-#      color: "#d6b328"
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: head_heavy_eye
-#      color: "#990000"
- #     shader: unshaded
-  #  - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: l_arm_heavy
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: r_arm_heavy
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: l_leg_generic
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: r_leg_generic
-#    - sprite: Clothing/Neck/mantles/qmmantle.rsi
-#      state: equipped-NECK
-#    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
-#      state: overlay_r_arm_claws
-#  - type: DamageStateVisuals
-#    rotate: true
-#  - type: RotationVisuals
-#    defaultRotation: 90
-#    horizontalRotation: 90
-#  - type: BasicEntityAmmoProvider
-#    proto: Bola
-#    capacity: 1
-#    count: 1
-#  - type: Gun
-#    showExamineText: false
-#    fireRate: 0.075
-#    minAngle: 5
-#    maxAngle: 15
-#    angleIncrease: 2
-#    angleDecay: 3
-#    selectedMode: FullAuto
-#    availableModes:
-#    - FullAuto
-#    soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
-#  - type: ProjectileBatteryAmmoProvider
-#    proto: SpawnMobViscerator
-#    fireCost: 100
-#  - type: Battery
-#    maxCharge: 100
-#    startingCharge: 100
-#  - type: BatterySelfRecharger
-#    autoRecharge: true
-#    autoRechargeRate: 5
+  components:
+  - type: Loadout
+    prototypes:
+    - MobRogueSiliconLootT2
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: body_generic
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: head_heavy
+      color: "#d6b328"
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: head_heavy_eye
+      color: "#990000"
+      shader: unshaded
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: l_arm_heavy
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: r_arm_heavy
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: l_leg_generic
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: r_leg_generic
+    - sprite: Clothing/Neck/mantles/qmmantle.rsi
+      state: equipped-NECK
+    - sprite: _NF/Mobs/RogueSilicons/robots.rsi
+      state: overlay_r_arm_claws
+  - type: DamageStateVisuals
+    rotate: true
+  - type: RotationVisuals
+    defaultRotation: 90
+    horizontalRotation: 90
+  - type: BasicEntityAmmoProvider
+    proto: Bola
+    capacity: 1
+    count: 1
+  - type: Gun
+    showExamineText: false
+    fireRate: 0.075
+    minAngle: 5
+    maxAngle: 15
+    angleIncrease: 2
+    angleDecay: 3
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: SpawnMobViscerator
+    fireCost: 100
+  - type: Battery
+    maxCharge: 100
+    startingCharge: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 5
 
 #region Tier 3
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconTesla
   name: tesla unit
@@ -959,7 +959,7 @@
 - type: entity
   parent:
   - MobRogueSiliconDroneBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   - MobRogueSiliconHitscanBatteryAmmo
   - NFMobBossRestrictions
   id: MobRogueSiliconGuardian
@@ -1032,7 +1032,7 @@
 - type: entity
   parent:
   - MobRogueSiliconBase
-  - MobPassiveRegenStrong
+  - MobPassiveRegen
   id: MobRogueSiliconBoss
   name: one star unit
   description: An autonomous combat-grade mech, typically used for offensive operations. Now a rogue AI's elite guard. Equipped with missile launchers, exercise extreme caution.

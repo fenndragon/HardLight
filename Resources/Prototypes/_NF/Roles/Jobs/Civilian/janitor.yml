@@ -2,7 +2,7 @@
   id: NFJanitor
   name: job-name-janitor
   description: job-description-janitor
-  playTimeTracker: JobJanitorOld
+  playTimeTracker: JobJanitor
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800

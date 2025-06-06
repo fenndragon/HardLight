@@ -283,7 +283,7 @@ entities:
       - 100
       - 45
       - 14
-- proto: AirlockExternalGlassShuttleRegular
+- proto: AirlockGlassShuttle
   entities:
   - uid: 4
     components:

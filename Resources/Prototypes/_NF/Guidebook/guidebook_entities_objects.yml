@@ -7,10 +7,10 @@
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: bullet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
 
 - type: entity
@@ -67,10 +67,10 @@
     sprite: _NF/Objects/Weapons/Guns/Ammunition/Projectiles/bullets.rsi
     layers:
     - state: bullet
-      color: "#fcb118ff"
+      color: "#ddddddFF"
       shader: unshaded
     - state: bullet-trace
-      color: "#fdcf66ff"
+      color: "#ddddddBB"
       shader: unshaded
 
 - type: entity

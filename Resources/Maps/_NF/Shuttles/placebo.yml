@@ -241,7 +241,7 @@ entities:
     - type: Transform
       pos: 1.5,1.5
       parent: 1
-- proto: AirlockExternalGlassShuttleRegular
+- proto: AirlockGlassShuttle
   entities:
   - uid: 9
     components:

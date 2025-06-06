@@ -72,19 +72,6 @@
     access: [["Captain"]]
 
 - type: entity
-  id: LockerStationCaptain
-  parent: LockerBaseSecure
-  name: captain's locker
-  components:
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: cap
-    stateDoorOpen: cap_open
-    stateDoorClosed: cap_door
-  - type: AccessReader
-    access: [["StationCaptain"]]
-
-- type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
   name: head of personnel's locker

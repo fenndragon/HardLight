@@ -15,9 +15,3 @@ cargo-account-security-code = SEC
 
 cargo-account-service-name = Collective Service Holdings
 cargo-account-service-code = SRV
-
-cargo-account-frontier-name = Frontier Account
-cargo-account-frontier-code = FTR
-
-cargo-account-nfsd-name = NFSD Account
-cargo-account-nfsd-code = NSD

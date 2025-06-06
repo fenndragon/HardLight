@@ -5,7 +5,7 @@
   name: job-name-cmo
   description: job-description-cmo
   playTimeTracker: JobChiefMedicalOfficer
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
@@ -19,22 +19,22 @@
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   supervisors: job-supervisors-captain
-  # canBeAntag: false
+  canBeAntag: false
   ## Frontier: commented everything below out
-  access:
-  - Medical
-  - Command
-  - Maintenance
-  - Chemistry
-  - ChiefMedicalOfficer
-  - Brig
-  - Cryogenics
-  special:
+  # access:
+  # - Medical
+  # - Command
+  # - Maintenance
+  # - Chemistry
+  # - ChiefMedicalOfficer
+  # - Brig
+  # - Cryogenics
+  # special:
   # - !type:AddImplantSpecial
   #   implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+  # - !type:AddComponentSpecial
+  #   components:
+  #     - type: CommandStaff
   ## Frontier: commented everything above out
   accessGroups: # Frontier
   - GeneralAccess # Frontier

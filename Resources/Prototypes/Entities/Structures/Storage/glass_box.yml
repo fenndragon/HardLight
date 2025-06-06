@@ -104,10 +104,10 @@
   id: GlassBoxLaser
   parent: GlassBox
   suffix: AntiqueLaser
-#  categories: [HideSpawnMenu] # Unhidden from Frontier
+  categories: [HideSpawnMenu] # Frontier
   components:
   - type: AccessReader
-    access: [["StationCaptain"]] # HardLight
+    access: [["Captain"]]
   - type: Construction
     graph: GlassBox
     node: glassBox

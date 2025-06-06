@@ -2,7 +2,7 @@
   id: Bailiff
   name: job-name-bailiff
   description: job-description-bailiff
-  playTimeTracker: JobWardenOld
+  playTimeTracker: JobWarden
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 108000 # 30 hours

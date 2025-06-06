@@ -9,13 +9,13 @@
   - !type:RoleTimeRequirement
     role: JobBorg
     time: 18000  # 5 hrs
-  # canBeAntag: false
+  canBeAntag: false
   icon: JobIconStationAi
   supervisors: job-supervisors-hire # Frontier: rd<hire
   jobEntity: StationAiBrain
   jobPreviewEntity: PlayerStationAiPreview
   applyTraits: false
-  setPreference: true
+  setPreference: false # Frontier
 
 - type: job
   id: Borg
@@ -26,7 +26,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hrs # Frontier: 10<12 hrs
-  # canBeAntag: false
+  canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-rd
   jobEntity: PlayerBorgGeneric

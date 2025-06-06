@@ -1,5 +1,4 @@
 using Content.Shared.Cargo.Prototypes;
-using Content.Shared._NF.Bank.Components;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -9,7 +8,7 @@ namespace Content.Shared.Cargo.Components;
 /// <summary>
 /// Added to the abstract representation of a station to track its money.
 /// </summary>
-[RegisterComponent, NetworkedComponent, Access(typeof(SharedCargoSystem), typeof(SectorBankAccountMapping)), AutoGenerateComponentPause, AutoGenerateComponentState]
+[RegisterComponent, NetworkedComponent, Access(typeof(SharedCargoSystem)), AutoGenerateComponentPause, AutoGenerateComponentState]
 public sealed partial class StationBankAccountComponent : Component
 {
     /// <summary>
@@ -42,8 +41,6 @@ public sealed partial class StationBankAccountComponent : Component
         { "Science",     1000 },
         { "Security",    1000 },
         { "Service",     1000 },
-        { "Frontier",    1000 },
-        { "Nfsd",        1000 },
     };
 
     /// <summary>
@@ -58,8 +55,6 @@ public sealed partial class StationBankAccountComponent : Component
         { "Science",     0.20 },
         { "Security",    0.20 },
         { "Service",     0.20 },
-        { "Frontier",    0.00 },
-        { "Nfsd",        0.00 },
     };
 
     /// <summary>

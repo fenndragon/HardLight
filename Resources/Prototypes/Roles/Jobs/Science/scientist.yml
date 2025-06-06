@@ -3,7 +3,7 @@
   name: job-name-scientist
   description: job-description-scientist
   playTimeTracker: JobScientist
-  setPreference: true
+  setPreference: false # Frontier
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
@@ -11,9 +11,6 @@
   startingGear: ScientistGear
   icon: "JobIconScientist"
   supervisors: job-supervisors-hire # Frontier
-  access:
-  - Research
-  - Maintenance
   accessGroups: # Frontier
   - GeneralAccess # Frontier
 

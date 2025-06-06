@@ -19,30 +19,10 @@
   components:
   - type: SectorBank
     accounts:
-      Engineering:
-        !type:SectorBankAccountInfo
-        balance: 8000
-        increasePerSecond: 20 # 72K per hour, about enough for minimum wage for the default NFSD size
-      Science:
-        !type:SectorBankAccountInfo
-        balance: 8000
-        increasePerSecond: 6 # 21.6K per hour, a bit over for the DOC MOM's wage.
-      Service:
-        !type:SectorBankAccountInfo
-        balance: 8000
-        increasePerSecond: 16 # TODO: move to ~65K per hour (~18/s), about enough for minimum wage for Frontier employees
-      Security:
-        !type:SectorBankAccountInfo
-        balance: 8000
-        increasePerSecond: 20 # 72K per hour, about enough for minimum wage for the default NFSD size
-      Cargo:
-        !type:SectorBankAccountInfo
-        balance: 8000
-        increasePerSecond: 6 # 21.6K per hour, a bit over for the DOC MOM's wage.
       Frontier:
         !type:SectorBankAccountInfo
         balance: 8000
-        increasePerSecond: 18 # TODO: move to ~65K per hour (~18/s), about enough for minimum wage for Frontier employees
+        increasePerSecond: 1 # TODO: move to ~65K per hour (~18/s), about enough for minimum wage for Frontier employees
       Nfsd:
         !type:SectorBankAccountInfo
         balance: 8000
