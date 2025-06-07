@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "From https://github.com/tgstation/tgstation/blob/master/icons/effects/crayondecal.dmi at c6803492ab2a5e523aae7b9b1a9e847ba155f1cf",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LetterAAnimalSilence"
+    },
+    {
+      "name": "LetterBAnimalSilence"
+    },
+    {
+      "name": "LetterCAnimalSilence"
+    },
+    {
+      "name": "LetterDAnimalSilence"
+    },
+    {
+      "name": "LetterEAnimalSilence"
+    },
+    {
+      "name": "LetterFAnimalSilence"
+    },
+    {
+      "name": "LetterGAnimalSilence"
+    },
+    {
+      "name": "LetterHAnimalSilence"
+    },
+    {
+      "name": "LetterIAnimalSilence"
+    },
+    {
+      "name": "LetterJAnimalSilence"
+    },
+    {
+      "name": "LetterKAnimalSilence"
+    },
+    {
+      "name": "LetterLAnimalSilence"
+    },
+    {
+      "name": "LetterMAnimalSilence"
+    },
+    {
+      "name": "LetterNAnimalSilence"
+    },
+    {
+      "name": "LetterOAnimalSilence"
+    },
+    {
+      "name": "LetterPAnimalSilence"
+    },
+    {
+      "name": "LetterQAnimalSilence"
+    },
+    {
+      "name": "LetterRAnimalSilence"
+    },
+    {
+      "name": "LetterSAnimalSilence"
+    },
+    {
+      "name": "LetterTAnimalSilence"
+    },
+    {
+      "name": "LetterUAnimalSilence"
+    },
+    {
+      "name": "LetterVAnimalSilence"
+    },
+    {
+      "name": "LetterWAnimalSilence"
+    },
+    {
+      "name": "LetterXAnimalSilence"
+    },
+    {
+      "name": "LetterYAnimalSilence"
+    },
+    {
+      "name": "LetterZAnimalSilence"
+    },
+    {
+      "name": "Number0AnimalSilence"
+    },
+    {
+      "name": "Number1AnimalSilence"
+    },
+    {
+      "name": "Number2AnimalSilence"
+    },
+    {
+      "name": "Number3AnimalSilence"
+    },
+    {
+      "name": "Number4AnimalSilence"
+    },
+    {
+      "name": "Number5AnimalSilence"
+    },
+    {
+      "name": "Number6AnimalSilence"
+    },
+    {
+      "name": "Number7AnimalSilence"
+    },
+    {
+      "name": "Number8AnimalSilence"
+    },
+    {
+      "name": "Number9AnimalSilence"
+    },
+    {
+      "name": "PunctAmpersandAnimalSilence"
+    },
+    {
+      "name": "PunctChevronAnimalSilence"
+    },
+    {
+      "name": "PunctCommaAnimalSilence"
+    },
+    {
+      "name": "PunctDotAnimalSilence"
+    },
+    {
+      "name": "PunctEqualsAnimalSilence"
+    },
+    {
+      "name": "PunctExclamationmarkAnimalSilence"
+    },
+    {
+      "name": "PunctHeartAnimalSilence"
+    },
+    {
+      "name": "PunctMinusAnimalSilence"
+    },
+    {
+      "name": "PunctPercentAnimalSilence"
+    },
+    {
+      "name": "PunctPlusAnimalSilence"
+    },
+    {
+      "name": "PunctPoundAnimalSilence"
+    },
+    {
+      "name": "PunctQuestionmarkAnimalSilence"
+    },
+    {
+      "name": "PunctStarAnimalSilence"
+    }
+  ]
+}

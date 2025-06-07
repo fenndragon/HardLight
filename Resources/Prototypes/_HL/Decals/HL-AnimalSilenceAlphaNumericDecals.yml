@@ -1,0 +1,489 @@
+- type: decal
+  id: LetterAAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterAAnimalSilence
+
+- type: decal
+  id: LetterBAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterBAnimalSilence
+
+- type: decal
+  id: LetterCAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterCAnimalSilence
+
+- type: decal
+  id: LetterDAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterDAnimalSilence
+
+- type: decal
+  id: LetterEAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterEAnimalSilence
+
+- type: decal
+  id: LetterFAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterFAnimalSilence
+
+- type: decal
+  id: LetterGAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterGAnimalSilence
+
+- type: decal
+  id: LetterHAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterHAnimalSilence
+
+- type: decal
+  id: LetterIAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterIAnimalSilence
+
+- type: decal
+  id: LetterJAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterJAnimalSilence
+
+- type: decal
+  id: LetterKAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterKAnimalSilence
+
+- type: decal
+  id: LetterLAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterLAnimalSilence
+
+- type: decal
+  id: LetterMAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterMAnimalSilence
+
+- type: decal
+  id: LetterNAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterNAnimalSilence
+
+- type: decal
+  id: LetterOAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterOAnimalSilence
+
+- type: decal
+  id: LetterPAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterPAnimalSilence
+
+- type: decal
+  id: LetterQAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterQAnimalSilence
+
+- type: decal
+  id: LetterRAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterRAnimalSilence
+
+- type: decal
+  id: LetterSAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterSAnimalSilence
+
+- type: decal
+  id: LetterTAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterTAnimalSilence
+
+- type: decal
+  id: LetterUAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterUAnimalSilence
+
+- type: decal
+  id: LetterVAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterVAnimalSilence
+
+- type: decal
+  id: LetterWAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterWAnimalSilence
+
+- type: decal
+  id: LetterXAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterXAnimalSilence
+
+- type: decal
+  id: LetterYAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterYAnimalSilence
+
+- type: decal
+  id: LetterZAnimalSilence
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: LetterZAnimalSilence
+
+- type: decal
+  id: Number0AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number0AnimalSilence
+
+- type: decal
+  id: Number1AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number1AnimalSilence
+
+- type: decal
+  id: Number2AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number2AnimalSilence
+
+- type: decal
+  id: Number3AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number3AnimalSilence
+
+- type: decal
+  id: Number4AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number4AnimalSilence
+
+- type: decal
+  id: Number5AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number5AnimalSilence
+
+- type: decal
+  id: Number6AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number6AnimalSilence
+
+- type: decal
+  id: Number7AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number7AnimalSilence
+
+- type: decal
+  id: Number8AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number8AnimalSilence
+
+- type: decal
+  id: Number9AnimalSilence
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: Number9AnimalSilence
+
+- type: decal
+  id: PunctAmpersandAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctAmpersandAnimalSilence
+
+- type: decal
+  id: PunctChevronAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctChevronAnimalSilence
+
+- type: decal
+  id: PunctCommaAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctCommaAnimalSilence
+
+- type: decal
+  id: PunctDotAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctDotAnimalSilence
+
+- type: decal
+  id: PunctEqualsAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctEqualsAnimalSilence
+
+- type: decal
+  id: PunctExclamationmarkAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctExclamationmarkAnimalSilence
+
+- type: decal
+  id: PunctHeartAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctHeartAnimalSilence
+
+- type: decal
+  id: PunctMinusAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctMinusAnimalSilence
+
+- type: decal
+  id: PunctPercentAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctPercentAnimalSilence
+
+- type: decal
+  id: PunctPlusAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctPlusAnimalSilence
+
+- type: decal
+  id: PunctPoundAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctPoundAnimalSilence
+
+- type: decal
+  id: PunctQuestionmarkAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctQuestionmarkAnimalSilence
+
+- type: decal
+  id: PunctStarAnimalSilence
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-AnimalSilenceAlphaNumericDecals.rsi
+    state: PunctStarAnimalSilence

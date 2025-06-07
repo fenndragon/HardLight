@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "From https://github.com/tgstation/tgstation/blob/master/icons/effects/crayondecal.dmi at c6803492ab2a5e523aae7b9b1a9e847ba155f1cf",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LetterAHardLightFont"
+    },
+    {
+      "name": "LetterBHardLightFont"
+    },
+    {
+      "name": "LetterCHardLightFont"
+    },
+    {
+      "name": "LetterDHardLightFont"
+    },
+    {
+      "name": "LetterEHardLightFont"
+    },
+    {
+      "name": "LetterFHardLightFont"
+    },
+    {
+      "name": "LetterGHardLightFont"
+    },
+    {
+      "name": "LetterHHardLightFont"
+    },
+    {
+      "name": "LetterIHardLightFont"
+    },
+    {
+      "name": "LetterJHardLightFont"
+    },
+    {
+      "name": "LetterKHardLightFont"
+    },
+    {
+      "name": "LetterLHardLightFont"
+    },
+    {
+      "name": "LetterMHardLightFont"
+    },
+    {
+      "name": "LetterNHardLightFont"
+    },
+    {
+      "name": "LetterOHardLightFont"
+    },
+    {
+      "name": "LetterPHardLightFont"
+    },
+    {
+      "name": "LetterQHardLightFont"
+    },
+    {
+      "name": "LetterRHardLightFont"
+    },
+    {
+      "name": "LetterSHardLightFont"
+    },
+    {
+      "name": "LetterTHardLightFont"
+    },
+    {
+      "name": "LetterUHardLightFont"
+    },
+    {
+      "name": "LetterVHardLightFont"
+    },
+    {
+      "name": "LetterWHardLightFont"
+    },
+    {
+      "name": "LetterXHardLightFont"
+    },
+    {
+      "name": "LetterYHardLightFont"
+    },
+    {
+      "name": "LetterZHardLightFont"
+    },
+    {
+      "name": "Number0HardLightFont"
+    },
+    {
+      "name": "Number1HardLightFont"
+    },
+    {
+      "name": "Number2HardLightFont"
+    },
+    {
+      "name": "Number3HardLightFont"
+    },
+    {
+      "name": "Number4HardLightFont"
+    },
+    {
+      "name": "Number5HardLightFont"
+    },
+    {
+      "name": "Number6HardLightFont"
+    },
+    {
+      "name": "Number7HardLightFont"
+    },
+    {
+      "name": "Number8HardLightFont"
+    },
+    {
+      "name": "Number9HardLightFont"
+    },
+    {
+      "name": "PunctAmpersandHardLightFont"
+    },
+    {
+      "name": "PunctChevronHardLightFont"
+    },
+    {
+      "name": "PunctCommaHardLightFont"
+    },
+    {
+      "name": "PunctDotHardLightFont"
+    },
+    {
+      "name": "PunctEqualsHardLightFont"
+    },
+    {
+      "name": "PunctExclamationmarkHardLightFont"
+    },
+    {
+      "name": "PunctHeartHardLightFont"
+    },
+    {
+      "name": "PunctMinusHardLightFont"
+    },
+    {
+      "name": "PunctPercentHardLightFont"
+    },
+    {
+      "name": "PunctPlusHardLightFont"
+    },
+    {
+      "name": "PunctPoundHardLightFont"
+    },
+    {
+      "name": "PunctQuestionmarkHardLightFont"
+    },
+    {
+      "name": "PunctStarHardLightFont"
+    }
+  ]
+}

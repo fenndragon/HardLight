@@ -1,0 +1,489 @@
+- type: decal
+  id: LetterACrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterACrayon
+
+- type: decal
+  id: LetterBCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterBCrayon
+
+- type: decal
+  id: LetterCCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterCCrayon
+
+- type: decal
+  id: LetterDCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterDCrayon
+
+- type: decal
+  id: LetterECrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterECrayon
+
+- type: decal
+  id: LetterFCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterFCrayon
+
+- type: decal
+  id: LetterGCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterGCrayon
+
+- type: decal
+  id: LetterHCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterHCrayon
+
+- type: decal
+  id: LetterICrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterICrayon
+
+- type: decal
+  id: LetterJCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterJCrayon
+
+- type: decal
+  id: LetterKCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterKCrayon
+
+- type: decal
+  id: LetterLCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterLCrayon
+
+- type: decal
+  id: LetterMCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterMCrayon
+
+- type: decal
+  id: LetterNCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterNCrayon
+
+- type: decal
+  id: LetterOCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterOCrayon
+
+- type: decal
+  id: LetterPCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterPCrayon
+
+- type: decal
+  id: LetterQCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterQCrayon
+
+- type: decal
+  id: LetterRCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterRCrayon
+
+- type: decal
+  id: LetterSCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterSCrayon
+
+- type: decal
+  id: LetterTCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterTCrayon
+
+- type: decal
+  id: LetterUCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterUCrayon
+
+- type: decal
+  id: LetterVCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterVCrayon
+
+- type: decal
+  id: LetterWCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterWCrayon
+
+- type: decal
+  id: LetterXCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterXCrayon
+
+- type: decal
+  id: LetterYCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterYCrayon
+
+- type: decal
+  id: LetterZCrayon
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: LetterZCrayon
+
+- type: decal
+  id: Number0Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number0Crayon
+
+- type: decal
+  id: Number1Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number1Crayon
+
+- type: decal
+  id: Number2Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number2Crayon
+
+- type: decal
+  id: Number3Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number3Crayon
+
+- type: decal
+  id: Number4Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number4Crayon
+
+- type: decal
+  id: Number5Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number5Crayon
+
+- type: decal
+  id: Number6Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number6Crayon
+
+- type: decal
+  id: Number7Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number7Crayon
+
+- type: decal
+  id: Number8Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number8Crayon
+
+- type: decal
+  id: Number9Crayon
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: Number9Crayon
+
+- type: decal
+  id: PunctAmpersandCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctAmpersandCrayon
+
+- type: decal
+  id: PunctChevronCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctChevronCrayon
+
+- type: decal
+  id: PunctCommaCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctCommaCrayon
+
+- type: decal
+  id: PunctDotCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctDotCrayon
+
+- type: decal
+  id: PunctEqualsCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctEqualsCrayon
+
+- type: decal
+  id: PunctExclamationmarkCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctExclamationmarkCrayon
+
+- type: decal
+  id: PunctHeartCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctHeartCrayon
+
+- type: decal
+  id: PunctMinusCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctMinusCrayon
+
+- type: decal
+  id: PunctPercentCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctPercentCrayon
+
+- type: decal
+  id: PunctPlusCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctPlusCrayon
+
+- type: decal
+  id: PunctPoundCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctPoundCrayon
+
+- type: decal
+  id: PunctQuestionmarkCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctQuestionmarkCrayon
+
+- type: decal
+  id: PunctStarCrayon
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-CrayonAlphaNumericDecals.rsi
+    state: PunctStarCrayon

@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "From https://github.com/tgstation/tgstation/blob/master/icons/effects/crayondecal.dmi at c6803492ab2a5e523aae7b9b1a9e847ba155f1cf",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LetterACrayon"
+    },
+    {
+      "name": "LetterBCrayon"
+    },
+    {
+      "name": "LetterCCrayon"
+    },
+    {
+      "name": "LetterDCrayon"
+    },
+    {
+      "name": "LetterECrayon"
+    },
+    {
+      "name": "LetterFCrayon"
+    },
+    {
+      "name": "LetterGCrayon"
+    },
+    {
+      "name": "LetterHCrayon"
+    },
+    {
+      "name": "LetterICrayon"
+    },
+    {
+      "name": "LetterJCrayon"
+    },
+    {
+      "name": "LetterKCrayon"
+    },
+    {
+      "name": "LetterLCrayon"
+    },
+    {
+      "name": "LetterMCrayon"
+    },
+    {
+      "name": "LetterNCrayon"
+    },
+    {
+      "name": "LetterOCrayon"
+    },
+    {
+      "name": "LetterPCrayon"
+    },
+    {
+      "name": "LetterQCrayon"
+    },
+    {
+      "name": "LetterRCrayon"
+    },
+    {
+      "name": "LetterSCrayon"
+    },
+    {
+      "name": "LetterTCrayon"
+    },
+    {
+      "name": "LetterUCrayon"
+    },
+    {
+      "name": "LetterVCrayon"
+    },
+    {
+      "name": "LetterWCrayon"
+    },
+    {
+      "name": "LetterXCrayon"
+    },
+    {
+      "name": "LetterYCrayon"
+    },
+    {
+      "name": "LetterZCrayon"
+    },
+    {
+      "name": "Number0Crayon"
+    },
+    {
+      "name": "Number1Crayon"
+    },
+    {
+      "name": "Number2Crayon"
+    },
+    {
+      "name": "Number3Crayon"
+    },
+    {
+      "name": "Number4Crayon"
+    },
+    {
+      "name": "Number5Crayon"
+    },
+    {
+      "name": "Number6Crayon"
+    },
+    {
+      "name": "Number7Crayon"
+    },
+    {
+      "name": "Number8Crayon"
+    },
+    {
+      "name": "Number9Crayon"
+    },
+    {
+      "name": "PunctAmpersandCrayon"
+    },
+    {
+      "name": "PunctChevronCrayon"
+    },
+    {
+      "name": "PunctCommaCrayon"
+    },
+    {
+      "name": "PunctDotCrayon"
+    },
+    {
+      "name": "PunctEqualsCrayon"
+    },
+    {
+      "name": "PunctExclamationmarkCrayon"
+    },
+    {
+      "name": "PunctHeartCrayon"
+    },
+    {
+      "name": "PunctMinusCrayon"
+    },
+    {
+      "name": "PunctPercentCrayon"
+    },
+    {
+      "name": "PunctPlusCrayon"
+    },
+    {
+      "name": "PunctPoundCrayon"
+    },
+    {
+      "name": "PunctQuestionmarkCrayon"
+    },
+    {
+      "name": "PunctStarCrayon"
+    }
+  ]
+}

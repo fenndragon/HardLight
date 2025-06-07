@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "From https://github.com/tgstation/tgstation/blob/master/icons/effects/crayondecal.dmi at c6803492ab2a5e523aae7b9b1a9e847ba155f1cf",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LetterABoxfont"
+    },
+    {
+      "name": "LetterBBoxfont"
+    },
+    {
+      "name": "LetterCBoxfont"
+    },
+    {
+      "name": "LetterDBoxfont"
+    },
+    {
+      "name": "LetterEBoxfont"
+    },
+    {
+      "name": "LetterFBoxfont"
+    },
+    {
+      "name": "LetterGBoxfont"
+    },
+    {
+      "name": "LetterHBoxfont"
+    },
+    {
+      "name": "LetterIBoxfont"
+    },
+    {
+      "name": "LetterJBoxfont"
+    },
+    {
+      "name": "LetterKBoxfont"
+    },
+    {
+      "name": "LetterLBoxfont"
+    },
+    {
+      "name": "LetterMBoxfont"
+    },
+    {
+      "name": "LetterNBoxfont"
+    },
+    {
+      "name": "LetterOBoxfont"
+    },
+    {
+      "name": "LetterPBoxfont"
+    },
+    {
+      "name": "LetterQBoxfont"
+    },
+    {
+      "name": "LetterRBoxfont"
+    },
+    {
+      "name": "LetterSBoxfont"
+    },
+    {
+      "name": "LetterTBoxfont"
+    },
+    {
+      "name": "LetterUBoxfont"
+    },
+    {
+      "name": "LetterVBoxfont"
+    },
+    {
+      "name": "LetterWBoxfont"
+    },
+    {
+      "name": "LetterXBoxfont"
+    },
+    {
+      "name": "LetterYBoxfont"
+    },
+    {
+      "name": "LetterZBoxfont"
+    },
+    {
+      "name": "Number0Boxfont"
+    },
+    {
+      "name": "Number1Boxfont"
+    },
+    {
+      "name": "Number2Boxfont"
+    },
+    {
+      "name": "Number3Boxfont"
+    },
+    {
+      "name": "Number4Boxfont"
+    },
+    {
+      "name": "Number5Boxfont"
+    },
+    {
+      "name": "Number6Boxfont"
+    },
+    {
+      "name": "Number7Boxfont"
+    },
+    {
+      "name": "Number8Boxfont"
+    },
+    {
+      "name": "Number9Boxfont"
+    },
+    {
+      "name": "PunctAmpersandBoxfont"
+    },
+    {
+      "name": "PunctChevronBoxfont"
+    },
+    {
+      "name": "PunctCommaBoxfont"
+    },
+    {
+      "name": "PunctDotBoxfont"
+    },
+    {
+      "name": "PunctEqualsBoxfont"
+    },
+    {
+      "name": "PunctExclamationmarkBoxfont"
+    },
+    {
+      "name": "PunctHeartBoxfont"
+    },
+    {
+      "name": "PunctMinusBoxfont"
+    },
+    {
+      "name": "PunctPercentBoxfont"
+    },
+    {
+      "name": "PunctPlusBoxfont"
+    },
+    {
+      "name": "PunctPoundBoxfont"
+    },
+    {
+      "name": "PunctQuestionmarkBoxfont"
+    },
+    {
+      "name": "PunctStarBoxfont"
+    }
+  ]
+}

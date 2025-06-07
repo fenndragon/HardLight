@@ -1,0 +1,719 @@
+- type: decal
+  id: LetterABoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterABoxfont
+
+- type: decal
+  id: LetterBBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterBBoxfont
+
+- type: decal
+  id: LetterCBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterCBoxfont
+
+- type: decal
+  id: LetterDBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterDBoxfont
+
+- type: decal
+  id: LetterEBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterEBoxfont
+
+- type: decal
+  id: LetterFBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterFBoxfont
+
+- type: decal
+  id: LetterGBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterGBoxfont
+
+- type: decal
+  id: LetterHBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterHBoxfont
+
+- type: decal
+  id: LetterIBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterIBoxfont
+
+- type: decal
+  id: LetterJBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterJBoxfont
+
+- type: decal
+  id: LetterKBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterKBoxfont
+
+- type: decal
+  id: LetterLBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterLBoxfont
+
+- type: decal
+  id: LetterMBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterMBoxfont
+
+- type: decal
+  id: LetterNBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterNBoxfont
+
+- type: decal
+  id: LetterOBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterOBoxfont
+
+- type: decal
+  id: LetterPBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterPBoxfont
+
+- type: decal
+  id: LetterQBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterQBoxfont
+
+- type: decal
+  id: LetterRBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterRBoxfont
+
+- type: decal
+  id: LetterSBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterSBoxfont
+
+- type: decal
+  id: LetterTBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterTBoxfont
+
+- type: decal
+  id: LetterUBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterUBoxfont
+
+- type: decal
+  id: LetterVBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterVBoxfont
+
+- type: decal
+  id: LetterWBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterWBoxfont
+
+- type: decal
+  id: LetterXBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterXBoxfont
+
+- type: decal
+  id: LetterYBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterYBoxfont
+
+- type: decal
+  id: LetterZBoxfont
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: LetterZBoxfont
+
+- type: decal
+  id: Number0
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number0
+
+- type: decal
+  id: Number1
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number1
+
+- type: decal
+  id: Number2
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number2
+
+- type: decal
+  id: Number3
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number3
+
+- type: decal
+  id: Number4
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number4
+
+- type: decal
+  id: Number5
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number5
+
+- type: decal
+  id: Number6
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number6
+
+- type: decal
+  id: Number7
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number7
+
+- type: decal
+  id: Number8
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number8
+
+- type: decal
+  id: Number9
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number9
+
+- type: decal
+  id: PunctAmpersand
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctAmpersand
+
+- type: decal
+  id: PunctChevron
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctChevron
+
+- type: decal
+  id: PunctComma
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctComma
+
+- type: decal
+  id: PunctDot
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctDot
+
+- type: decal
+  id: PunctEquals
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctEquals
+
+- type: decal
+  id: PunctExclamationmark
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctExclamationmark
+
+- type: decal
+  id: PunctHeart
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctHeart
+
+- type: decal
+  id: PunctMinus
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctMinus
+
+- type: decal
+  id: PunctPercent
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPercent
+
+- type: decal
+  id: PunctPlus
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPlus
+
+- type: decal
+  id: PunctPound
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPound
+
+- type: decal
+  id: PunctQuestionmark
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctQuestionmark
+
+- type: decal
+  id: PunctStar
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctStar
+
+- type: decal
+  id: Number0Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number0Boxfont
+
+- type: decal
+  id: Number1Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number1Boxfont
+
+- type: decal
+  id: Number2Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number2Boxfont
+
+- type: decal
+  id: Number3Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number3Boxfont
+
+- type: decal
+  id: Number4Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number4Boxfont
+
+- type: decal
+  id: Number5Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number5Boxfont
+
+- type: decal
+  id: Number6Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number6Boxfont
+
+- type: decal
+  id: Number7Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number7Boxfont
+
+- type: decal
+  id: Number8Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number8Boxfont
+
+- type: decal
+  id: Number9Boxfont
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: Number9Boxfont
+
+- type: decal
+  id: PunctAmpersandBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctAmpersandBoxfont
+
+- type: decal
+  id: PunctChevronBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctChevronBoxfont
+
+- type: decal
+  id: PunctCommaBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctCommaBoxfont
+
+- type: decal
+  id: PunctDotBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctDotBoxfont
+
+- type: decal
+  id: PunctEqualsBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctEqualsBoxfont
+
+- type: decal
+  id: PunctExclamationmarkBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctExclamationmarkBoxfont
+
+- type: decal
+  id: PunctHeartBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctHeartBoxfont
+
+- type: decal
+  id: PunctMinusBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctMinusBoxfont
+
+- type: decal
+  id: PunctPercentBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPercentBoxfont
+
+- type: decal
+  id: PunctPlusBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPlusBoxfont
+
+- type: decal
+  id: PunctPoundBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctPoundBoxfont
+
+- type: decal
+  id: PunctQuestionmarkBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctQuestionmarkBoxfont
+
+- type: decal
+  id: PunctStarBoxfont
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/HL-BoxfontAlphaNumericDecals.rsi
+    state: PunctStarBoxfont

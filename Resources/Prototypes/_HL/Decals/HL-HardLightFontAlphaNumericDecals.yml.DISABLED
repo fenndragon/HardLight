@@ -1,489 +1,489 @@
 - type: decal
-  id: LetterA
+  id: LetterAHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterA
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterAHardLightFont
 
 - type: decal
-  id: LetterB
+  id: LetterBHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterB
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterBHardLightFont
 
 - type: decal
-  id: LetterC
+  id: LetterCHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterC
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterCHardLightFont
 
 - type: decal
-  id: LetterD
+  id: LetterDHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterD
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterDHardLightFont
 
 - type: decal
-  id: LetterE
+  id: LetterEHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterE
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterEHardLightFont
 
 - type: decal
-  id: LetterF
+  id: LetterFHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterF
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterFHardLightFont
 
 - type: decal
-  id: LetterG
+  id: LetterGHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterG
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterGHardLightFont
 
 - type: decal
-  id: LetterH
+  id: LetterHHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterH
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterHHardLightFont
 
 - type: decal
-  id: LetterI
+  id: LetterIHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterI
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterIHardLightFont
 
 - type: decal
-  id: LetterJ
+  id: LetterJHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterJ
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterJHardLightFont
 
 - type: decal
-  id: LetterK
+  id: LetterKHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterK
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterKHardLightFont
 
 - type: decal
-  id: LetterL
+  id: LetterLHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterL
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterLHardLightFont
 
 - type: decal
-  id: LetterM
+  id: LetterMHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterM
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterMHardLightFont
 
 - type: decal
-  id: LetterN
+  id: LetterNHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterN
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterNHardLightFont
 
 - type: decal
-  id: LetterO
+  id: LetterOHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterO
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterOHardLightFont
 
 - type: decal
-  id: LetterP
+  id: LetterPHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterP
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterPHardLightFont
 
 - type: decal
-  id: LetterQ
+  id: LetterQHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterQ
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterQHardLightFont
 
 - type: decal
-  id: LetterR
+  id: LetterRHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterR
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterRHardLightFont
 
 - type: decal
-  id: LetterS
+  id: LetterSHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterS
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterSHardLightFont
 
 - type: decal
-  id: LetterT
+  id: LetterTHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterT
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterTHardLightFont
 
 - type: decal
-  id: LetterU
+  id: LetterUHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterU
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterUHardLightFont
 
 - type: decal
-  id: LetterV
+  id: LetterVHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterV
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterVHardLightFont
 
 - type: decal
-  id: LetterW
+  id: LetterWHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterW
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterWHardLightFont
 
 - type: decal
-  id: LetterX
+  id: LetterXHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterX
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterXHardLightFont
 
 - type: decal
-  id: LetterY
+  id: LetterYHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterY
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterYHardLightFont
 
 - type: decal
-  id: LetterZ
+  id: LetterZHardLightFont
   tags: ["hardlight", "hardlight-alphabet"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: LetterZ
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: LetterZHardLightFont
 
 - type: decal
-  id: Number0
+  id: Number0HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number0
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number0HardLightFont
 
 - type: decal
-  id: Number1
+  id: Number1HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number1
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number1HardLightFont
 
 - type: decal
-  id: Number2
+  id: Number2HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number2
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number2HardLightFont
 
 - type: decal
-  id: Number3
+  id: Number3HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number3
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number3HardLightFont
 
 - type: decal
-  id: Number4
+  id: Number4HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number4
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number4HardLightFont
 
 - type: decal
-  id: Number5
+  id: Number5HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number5
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number5HardLightFont
 
 - type: decal
-  id: Number6
+  id: Number6HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number6
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number6HardLightFont
 
 - type: decal
-  id: Number7
+  id: Number7HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number7
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number7HardLightFont
 
 - type: decal
-  id: Number8
+  id: Number8HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number8
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number8HardLightFont
 
 - type: decal
-  id: Number9
+  id: Number9HardLightFont
   tags: ["hardlight", "hardlight-numbers"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: Number9
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: Number9HardLightFont
 
 - type: decal
-  id: PunctAmpersand
+  id: PunctAmpersandHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctAmpersand
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctAmpersandHardLightFont
 
 - type: decal
-  id: PunctChevron
+  id: PunctChevronHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctChevron
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctChevronHardLightFont
 
 - type: decal
-  id: PunctComma
+  id: PunctCommaHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctComma
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctCommaHardLightFont
 
 - type: decal
-  id: PunctDot
+  id: PunctDotHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctDot
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctDotHardLightFont
 
 - type: decal
-  id: PunctEquals
+  id: PunctEqualsHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctEquals
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctEqualsHardLightFont
 
 - type: decal
-  id: PunctExclamationmark
+  id: PunctExclamationmarkHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctExclamationmark
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctExclamationmarkHardLightFont
 
 - type: decal
-  id: PunctHeart
+  id: PunctHeartHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctHeart
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctHeartHardLightFont
 
 - type: decal
-  id: PunctMinus
+  id: PunctMinusHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctMinus
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctMinusHardLightFont
 
 - type: decal
-  id: PunctPercent
+  id: PunctPercentHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctPercent
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctPercentHardLightFont
 
 - type: decal
-  id: PunctPlus
+  id: PunctPlusHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctPlus
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctPlusHardLightFont
 
 - type: decal
-  id: PunctPound
+  id: PunctPoundHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctPound
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctPoundHardLightFont
 
 - type: decal
-  id: PunctQuestionmark
+  id: PunctQuestionmarkHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctQuestionmark
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctQuestionmarkHardLightFont
 
 - type: decal
-  id: PunctStar
+  id: PunctStarHardLightFont
   tags: ["hardlight", "hardlight-punct"]
   defaultCleanable: true
   defaultCustomColor: true
   defaultSnap: false
   sprite:
-    sprite: _HL/Effects/hardlightdecals.rsi
-    state: PunctStar
+    sprite: _HL/Effects/HL-HardLightFontAlphaNumericDecals.rsi
+    state: PunctStarHardLightFont
