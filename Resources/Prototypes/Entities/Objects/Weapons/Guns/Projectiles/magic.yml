@@ -31,6 +31,38 @@
     fireStacks: 0.35
 
 - type: entity
+  id: ProjectileFireballWeak
+  name: fireball
+  description: Not as good as the real thing.
+  parent: BulletRocket
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: PointLight
+    color: "#E25822"
+    radius: 0.5
+    energy: 1.25
+  - type: Projectile
+    damage:
+      types:
+        Heat: 2.5
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    layers:
+    - state: fireball
+      shader: unshaded
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    intensitySlope: 1.5
+    totalIntensity: 50
+    maxTileBreak: 0
+  - type: IgnitionSource
+    temperature: 250
+    ignited: true
+  - type: IgniteOnCollide
+    fireStacks: 0.1
+
+- type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: ProjectileDragonsBreath
