@@ -5,18 +5,33 @@
   name: EVA suit
   description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
   components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/eva.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/eva.rsi
   - type: Tag
     tags:
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+  - type: StaticPrice
+    price: 30
+    vendPrice: 1500
+
+#Basic Sec EVA
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: ClothingOuterHardsuitEVASec
+  name: Sec EVA suit
+  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/seceva.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/seceva.rsi
+  - type: Tag
+    tags:
+    - SuitEVA
+    - MonkeyWearable
   - type: StaticPrice # Frontier
-    price: 30 # Frontier
-    vendPrice: 1500 # Frontier
+    price: 50 # Frontier
+    vendPrice: 3000 # Frontier
 
 #Syndicate EVA
 - type: entity
