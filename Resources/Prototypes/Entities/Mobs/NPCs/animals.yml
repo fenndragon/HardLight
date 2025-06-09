@@ -326,22 +326,17 @@
     lifetime: 21
 
 - type: entity # TODO: figure out how to make these guys gib when stepped on
-  name: Trubble
+  name: cockroach
   parent: SimpleMobBase
   id: MobCockroach
   description: Fuzzy, do not feed after midnight!
   components:
-  - type: RandomSprite
-    available:
-    - enum.DamageStateVisualLayers.Base:
-        alive: Rainbow
   - type: Sprite
     drawdepth: SmallMobs
     sprite: Mobs/Animals/cockroach.rsi
-    scale: 0.6, 0.6
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
-      state: alive
+      state: cockroach
   - type: Item
     size: Tiny
   - type: HTN

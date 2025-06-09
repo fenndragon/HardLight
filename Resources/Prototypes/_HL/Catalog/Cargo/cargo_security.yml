@@ -1,0 +1,10 @@
+- type: cargoProduct
+  id: SecurityIFF
+  # abstract: true # Frontier
+  icon:
+    sprite: Objects/Storage/boxes.rsi
+    state: box_security
+  product: CrateSecurityIFF
+  cost: 500
+  category: cargoproduct-category-name-security
+  group: market

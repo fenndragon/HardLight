@@ -6,13 +6,18 @@
     #medium: "#000000"
     #dark: "#000000"
     #black: "#000000"
-    
+
     newseclight: "#00FFFB"
     newsecmedium: "#00BFBC"
     newsecdark: "#00807E"
     newsecblack: "#00403F"
-    
+
     merclight: "#ffff85"
     mercmedium: "#bfbf63"
     mercdark: "#808041"
     mercblack: "#404021"
+
+    neutraldarkerblack: "#606060"
+    neutralveryblack: "#404040"
+    neutralsuperblack: "#202020"
+    something: "#069420"

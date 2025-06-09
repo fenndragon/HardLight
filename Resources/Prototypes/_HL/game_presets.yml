@@ -240,14 +240,14 @@
   rules:
     - Secret
     - NFAdventure
-#    - SpaceTrafficControlEventScheduler
-#    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
+    - SpaceTrafficControlEventScheduler
+    - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
     - BluespaceEventScheduler
     - BluespaceDungeonEventScheduler
     - BluespaceSalvageEventScheduler
     - SmugglingEventScheduler
-    - NFRoundstartVariation
+#    - NFRoundstartVariation
 
 - type: gamePreset
   id: NFPirate
@@ -260,11 +260,11 @@
   rules:
     - Secret
     - NFAdventure
-#    - SpaceTrafficControlEventScheduler
-#    - SpaceTrafficControlFriendlyEventScheduler # HardLight - Shuttle events get stuck in Bluespace, since universal FTL is not a thing.
+    - SpaceTrafficControlEventScheduler
+    - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
     - BluespaceEventScheduler
     - BluespaceDungeonEventScheduler
     - BluespaceSalvageEventScheduler
     - SmugglingEventScheduler
-    - NFRoundstartVariation
+#    - NFRoundstartVariation

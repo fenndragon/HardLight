@@ -1,102 +1,102 @@
-- type: entity
-  id: NFBaseStationEventModerateDelay
-  parent: BaseGameRule
-  abstract: true
-  components:
-    - type: GameRule
-      delay:
-        min:  30
-        max:  40
+# - type: entity
+  # id: NFBaseStationEventModerateDelay
+  # parent: BaseGameRule
+  # abstract: true
+  # components:
+    # - type: GameRule
+      # delay:
+        # min:  30
+        # max:  40
 
-- type: entity
-  id: NFBluespaceCargoCrate
-  parent: NFBaseStationEventModerateDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: bluespace-cargo-event-announcement
-    weight: 5
-    duration: 35
-    reoccurrenceDelay: 120
-  - type: BluespaceCargoRule
-    spawnerPrototype: RandomCargoSpawner
-    flashPrototype: EffectFlashBluespaceQuiet
-    requireSafeAtmosphere: true
-    minimumSpawns: 2
-    maximumSpawns: 5
+# - type: entity
+  # id: NFBluespaceCargoCrate
+  # parent: NFBaseStationEventModerateDelay
+  # components:
+  # - type: StationEvent
+    # startAnnouncement: bluespace-cargo-event-announcement
+    # weight: 5
+    # duration: 35
+    # reoccurrenceDelay: 120
+  # - type: BluespaceCargoRule
+    # spawnerPrototype: RandomCargoSpawner
+    # flashPrototype: EffectFlashBluespaceQuiet
+    # requireSafeAtmosphere: true
+    # minimumSpawns: 2
+    # maximumSpawns: 5
 
-- type: entity
-  id: NFBluespaceMcCargoCrate
-  parent: NFBaseStationEventModerateDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: bluespace-cargo-event-announcement
-    earliestStart: 20
-    weight: 5
-    duration: 35
-    maximumPlayers: 20
-    reoccurrenceDelay: 180
-  - type: BluespaceCargoRule
-    spawnerPrototype: CrateFoodMcCargo
-    flashPrototype: EffectFlashMcBluespace
-    requireSafeAtmosphere: true
+# - type: entity
+  # id: NFBluespaceMcCargoCrate
+  # parent: NFBaseStationEventModerateDelay
+  # components:
+  # - type: StationEvent
+    # startAnnouncement: bluespace-cargo-event-announcement
+    # earliestStart: 20
+    # weight: 5
+    # duration: 35
+    # maximumPlayers: 20
+    # reoccurrenceDelay: 180
+  # - type: BluespaceCargoRule
+    # spawnerPrototype: CrateFoodMcCargo
+    # flashPrototype: EffectFlashMcBluespace
+    # requireSafeAtmosphere: true
 
-- type: entity
-  id: NFBluespaceSyndicateCrate
-  parent: NFBaseStationEventModerateDelay
-  components:
-  - type: StationEvent
-    startAnnouncement: bluespace-syndicate-crate-event-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    weight: 1
-    duration: 35
-    earliestStart: 90
-    minimumPlayers: 1 # Floof - we ball
-    reoccurrenceDelay: 480 # 8 hours
-  - type: BluespaceCargoRule
-    spawnerPrototype: CrateSyndicateSurplusBundle
-    maximumSpawns: 1
+# - type: entity
+  # id: NFBluespaceSyndicateCrate
+  # parent: NFBaseStationEventModerateDelay
+  # components:
+  # - type: StationEvent
+    # startAnnouncement: bluespace-syndicate-crate-event-announcement
+    # startAudio:
+      # path: /Audio/Announcements/attention.ogg
+    # weight: 1
+    # duration: 35
+    # earliestStart: 90
+    # minimumPlayers: 1 # Floof - we ball
+    # reoccurrenceDelay: 480 # 8 hours
+  # - type: BluespaceCargoRule
+    # spawnerPrototype: CrateSyndicateSurplusBundle
+    # maximumSpawns: 1
 
-- type: entity
-  id: NFSmugglingFax
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    weight: 8 # Fairly common.
-    duration: 35
-    earliestStart: 30
-    minimumPlayers: 1 # Floof - we ball
-    reoccurrenceDelay: 50
-  - type: RandomFaxRule
-    minFaxes: 1
-    maxFaxes: 2
-    name: deaddrop-faxed-hint-name
-    prototypeId: PaperDeadDropFax
-    content: deaddrop-faxed-hint-content # Default contents, will be edited.
-    stampedBy:
-    - stampedName: deaddrop-faxed-hint-signature
-      stampedColor: "#850000"
-    stampState: paper_stamp-syndicate
-    preFaxActions:
-    - !type:GetRandomDeadDropAction
+# - type: entity
+  # id: NFSmugglingFax
+  # parent: BaseStationEventShortDelay
+  # components:
+  # - type: StationEvent
+    # weight: 8 # Fairly common.
+    # duration: 35
+    # earliestStart: 30
+    # minimumPlayers: 1 # Floof - we ball
+    # reoccurrenceDelay: 50
+  # - type: RandomFaxRule
+    # minFaxes: 1
+    # maxFaxes: 2
+    # name: deaddrop-faxed-hint-name
+    # prototypeId: PaperDeadDropFax
+    # content: deaddrop-faxed-hint-content # Default contents, will be edited.
+    # stampedBy:
+    # - stampedName: deaddrop-faxed-hint-signature
+      # stampedColor: "#850000"
+    # stampState: paper_stamp-syndicate
+    # preFaxActions:
+    # - !type:GetRandomDeadDropAction
 
-- type: entity
-  id: NFSmugglingFaxBig
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    weight: 100 # Fairly common.
-    minimumPlayers: 1 # Floof - we ball
-    duration: 35
-  - type: RandomFaxRule
-    minFaxes: 3
-    maxFaxes: 4
-    name: deaddrop-faxed-hint-name
-    prototypeId: PaperDeadDropFax
-    content: deaddrop-faxed-hint-content # Default contents, will be edited.
-    stampedBy:
-    - stampedName: deaddrop-faxed-hint-signature
-      stampedColor: "#850000"
-    stampState: paper_stamp-syndicate
-    preFaxActions:
-    - !type:GetRandomDeadDropAction
+# - type: entity
+  # id: NFSmugglingFaxBig
+  # parent: BaseStationEventShortDelay
+  # components:
+  # - type: StationEvent
+    # weight: 100 # Fairly common.
+    # minimumPlayers: 1 # Floof - we ball
+    # duration: 35
+  # - type: RandomFaxRule
+    # minFaxes: 3
+    # maxFaxes: 4
+    # name: deaddrop-faxed-hint-name
+    # prototypeId: PaperDeadDropFax
+    # content: deaddrop-faxed-hint-content # Default contents, will be edited.
+    # stampedBy:
+    # - stampedName: deaddrop-faxed-hint-signature
+      # stampedColor: "#850000"
+    # stampState: paper_stamp-syndicate
+    # preFaxActions:
+    # - !type:GetRandomDeadDropAction

@@ -14,7 +14,7 @@ public sealed partial class CCVars
     ///     If ghost role lotteries should be made near-instanteous.
     /// </summary>
     public static readonly CVarDef<bool> GhostQuickLottery =
-        CVarDef.Create("ghost.quick_lottery", false, CVar.SERVERONLY);
+        CVarDef.Create("ghost.quick_lottery", true, CVar.SERVERONLY);
 
     /// <summary>
     ///     Whether or not to kill the player's mob on ghosting, when it is in a critical health state.

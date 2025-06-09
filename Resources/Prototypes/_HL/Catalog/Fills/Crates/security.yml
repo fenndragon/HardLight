@@ -1,0 +1,10 @@
+- type: entity
+  id: CrateSecurityIFF
+  parent: CrateSecgear
+  name: security IFF crate
+  description: Contains twelve security IFF light sets. Requires Security access to open.
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckIFFCyan
+        amount: 12

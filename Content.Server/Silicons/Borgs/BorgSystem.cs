@@ -295,7 +295,6 @@ public sealed partial class BorgSystem : SharedBorgSystem
         {
             var access = oldAccess.Tags.ToList();
 
-            access.Clear();
             access.Add($"Captain");
             access.Add($"Maintenance");
             access.Add($"External");

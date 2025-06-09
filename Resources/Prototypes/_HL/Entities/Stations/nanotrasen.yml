@@ -14,7 +14,7 @@
     - BaseStationCargo
     - BaseStationJobsSpawning
     - BaseStationRecords
-    # - BaseStationArrivals # Frontier: prevent test issues from non-Frontier maps
+    - BaseStationArrivals # Frontier: prevent test issues from non-Frontier maps
     # - BaseStationGateway # Frontier: prevent test issues from non-Frontier maps
     # - BaseStationShuttles # Frontier: prevent test issues from non-Frontier maps
     # - BaseStationCentcomm # Frontier: prevent test issues from non-Frontier maps
@@ -22,10 +22,16 @@
     - BaseStationAlertLevels
     - BaseStationMagnet
     - BaseStationExpeditions
-    - BaseStationSiliconLawCrewsimov
+    # - BaseStationSiliconLawCrewsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
     - BaseStationDeliveries
+    - BaseStationSectorServices
+    - NFBaseStationCargo
+    - BaseStationSectorNews
+    - BaseStationSiliconLawFrontierStation
+    - BaseStationRenameWarpPoints
+    - BaseStationMail
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform
@@ -165,11 +171,11 @@
   - BaseStation
   - BaseStationJobsSpawning
   - BaseStationRecords
-  - BaseStationAllEventsEligible
   - BaseStationRenameFaxes
   - BaseStationRenameHolopads
   - BaseStationRenameWarpPoints
   - BaseStationSiliconLawFrontierShips
+  - BaseStationExpeditions
   - BaseStationDeadDropHintExempt # No hints on ship generation
   categories: [ HideSpawnMenu ]
   components:

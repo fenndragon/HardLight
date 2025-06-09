@@ -6,7 +6,7 @@
   maxPlayers: 100
   stations:
     Core:
-      stationProto: StandardFrontierStation
+      stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
           mapNameTemplate: 'HardLight Core Station'

@@ -19,3 +19,47 @@
   - StationAi
   - Borg
   - BasicSilicon
+  - EmergencyShuttleRepealAll
+  - Captain
+  - HeadOfPersonnel
+  - Captain
+  - Contractor
+  - ChiefEngineer
+  - ChiefMedicalOfficer
+  - HeadOfSecurity
+  - ResearchDirector
+  - Frontier # Frontier
+  - Command
+  - Cryogenics
+  - Security
+  - Detective
+  - Armory
+  - Brig
+  - Lawyer
+  - Engineering
+  - Mail # Frontier
+  - Medical
+  - Mercenary # Frontier
+  - Quartermaster
+  - Salvage
+  - Cargo
+  - Research
+  - Service
+  - StationTrafficController # Frontier
+  - StationCaptain # HardLight
+  - Sergeant # Frontier
+  - Bailiff # Frontier
+  - Brigmedic # Frontier
+  - Maintenance
+  - External
+  - Janitor
+  - Theatre
+  - Bar
+  - Chemistry
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - Atmospherics
+  - GenpopEnter
+  - GenpopLeave
+  - StationCaptain #Hardlight

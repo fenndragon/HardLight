@@ -81,6 +81,7 @@
         map: ["base"]
     - type: Input
       context: human
+    - type: BankAccount
     - type: ToggleableGhostRole
       examineTextMindPresent: positronic-brain-installed
       examineTextMindSearching: positronic-brain-still-searching

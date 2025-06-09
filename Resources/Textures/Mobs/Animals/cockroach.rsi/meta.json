@@ -8,13 +8,31 @@
   "copyright": "Taken from https://github.com/tgstation/tgstation/commit/53d1f1477d22a11a99c6c6924977cd431075761b",
   "states": [
     {
-      "name": "alive",
-      "directions": 4
+      "name": "cockroach",
+      "directions": 4,
+      "delays": [
+        [
+          0.25,
+          0.25
+        ],
+        [
+          0.25,
+          0.25
+        ],
+        [
+          0.25,
+          0.25
+        ],
+        [
+          0.25,
+          0.25
+        ]
+      ]
     },
-    {
+	{
       "name": "cockroach_dead"
     },
-    {
+	{
       "name": "cockroach_icon"
     },
     {

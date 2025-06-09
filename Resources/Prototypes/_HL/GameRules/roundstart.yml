@@ -373,11 +373,14 @@
       - !type:NestedSelector
         tableId: CargoGiftsTable
       - !type:NestedSelector
-        tableId: CalmPestEventsTable
-      - !type:NestedSelector
-        tableId: SpicyPestEventsTable
-      - !type:NestedSelector
-        tableId: NFCalmPestEventsTable
+        # tableId: CalmPestEventsTable
+      # - !type:NestedSelector
+        # tableId: SpicyPestEventsTable
+      # - !type:NestedSelector
+        # tableId: NFCalmPestEventsTable
+      # - !type:NestedSelector
+        tableId: NFBasicCalmEventsTable
+
 
 
 - type: entityTable # As stated on scheduler ** THESE DON'T WORK WITH OUR SHUTTLE SETUP **
@@ -452,6 +455,7 @@
 #      prob: 0.90 # Frontier
     - id: SolarPanelDamageVariationPass
     - id: SolarPanelEmptyVariationPass
+    - id: NFBasicBindToStationVariationPass
 
 - type: entity
   id: NFAdventure
@@ -631,8 +635,8 @@
     children:
       - !type:NestedSelector
         tableId: NFBasicCalmEventsTable
-      - !type:NestedSelector
-        tableId: NFCalmPestEventsTable
+      # - !type:NestedSelector
+        # tableId: NFCalmPestEventsTable
 
 - type: entity
   id: NFBasicStationEventScheduler

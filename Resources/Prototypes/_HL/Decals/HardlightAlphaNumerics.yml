@@ -1,0 +1,489 @@
+- type: decal
+  id: LetterA
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterA
+
+- type: decal
+  id: LetterB
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterB
+
+- type: decal
+  id: LetterC
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterC
+
+- type: decal
+  id: LetterD
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterD
+
+- type: decal
+  id: LetterE
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterE
+
+- type: decal
+  id: LetterF
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterF
+
+- type: decal
+  id: LetterG
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterG
+
+- type: decal
+  id: LetterH
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterH
+
+- type: decal
+  id: LetterI
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterI
+
+- type: decal
+  id: LetterJ
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterJ
+
+- type: decal
+  id: LetterK
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterK
+
+- type: decal
+  id: LetterL
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterL
+
+- type: decal
+  id: LetterM
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterM
+
+- type: decal
+  id: LetterN
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterN
+
+- type: decal
+  id: LetterO
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterO
+
+- type: decal
+  id: LetterP
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterP
+
+- type: decal
+  id: LetterQ
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterQ
+
+- type: decal
+  id: LetterR
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterR
+
+- type: decal
+  id: LetterS
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterS
+
+- type: decal
+  id: LetterT
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterT
+
+- type: decal
+  id: LetterU
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterU
+
+- type: decal
+  id: LetterV
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterV
+
+- type: decal
+  id: LetterW
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterW
+
+- type: decal
+  id: LetterX
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterX
+
+- type: decal
+  id: LetterY
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterY
+
+- type: decal
+  id: LetterZ
+  tags: ["hardlight", "hardlight-alphabet"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: LetterZ
+
+- type: decal
+  id: Number0
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number0
+
+- type: decal
+  id: Number1
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number1
+
+- type: decal
+  id: Number2
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number2
+
+- type: decal
+  id: Number3
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number3
+
+- type: decal
+  id: Number4
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number4
+
+- type: decal
+  id: Number5
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number5
+
+- type: decal
+  id: Number6
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number6
+
+- type: decal
+  id: Number7
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number7
+
+- type: decal
+  id: Number8
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number8
+
+- type: decal
+  id: Number9
+  tags: ["hardlight", "hardlight-numbers"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: Number9
+
+- type: decal
+  id: PunctAmpersand
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctAmpersand
+
+- type: decal
+  id: PunctChevron
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctChevron
+
+- type: decal
+  id: PunctComma
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctComma
+
+- type: decal
+  id: PunctDot
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctDot
+
+- type: decal
+  id: PunctEquals
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctEquals
+
+- type: decal
+  id: PunctExclamationmark
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctExclamationmark
+
+- type: decal
+  id: PunctHeart
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctHeart
+
+- type: decal
+  id: PunctMinus
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctMinus
+
+- type: decal
+  id: PunctPercent
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctPercent
+
+- type: decal
+  id: PunctPlus
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctPlus
+
+- type: decal
+  id: PunctPound
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctPound
+
+- type: decal
+  id: PunctQuestionmark
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctQuestionmark
+
+- type: decal
+  id: PunctStar
+  tags: ["hardlight", "hardlight-punct"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _HL/Effects/hardlightdecals.rsi
+    state: PunctStar

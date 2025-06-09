@@ -78,6 +78,7 @@
     - ActionViewLaws
   - type: EmagSiliconLaw
     stunTime: 5
+  - type: BankAccount
   - type: SiliconLawProvider
     laws: Crewsimov
   - type: IonStormTarget
@@ -270,7 +271,7 @@
   # explosion does most of its damage in the center and less at the edges
   - type: Explosive
     explosionType: Minibomb
-    deleteAfterExplosion: false # let damage threshold gib the borg
+    deleteAfterExplosion: true # let damage threshold gib the borg
     totalIntensity: 30
     intensitySlope: 20
     maxIntensity: 20
@@ -293,8 +294,8 @@
     - AllAccess
     tags:
     - Borg
-#  - type: AccessReader
-#    access: [["Command"], ["Research"]]
+  - type: AccessReader
+    access: [["Command"], ["Research"]]
   - type: ShowJobIcons
 
 - type: entity

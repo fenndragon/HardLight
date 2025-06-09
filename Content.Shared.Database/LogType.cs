@@ -504,8 +504,4 @@ public enum LogType
     ShuttleInfoChanged = 208,
     #endregion Frontier Values
     // End Frontier
-
-    #region Hardlight
-    StationPayDeposit = 14001,
-    #endregion
 }

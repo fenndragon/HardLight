@@ -116,14 +116,14 @@ public sealed partial class MapScreen : BoxContainer
         MapFTLState.Text = Loc.GetString($"shuttle-console-ftl-state-{_state.ToString()}");
 
         //frontier - we only allow pre-approved vessels to FTL
-        if (!_entManager.HasComponent<ShuttleFTLComponent>(_shuttleEntity))
-        {
-            MapFTLButton.Visible = false;
-        }
-        else
-        {
-            MapFTLButton.Visible = true;
-        }
+    //    if (!_entManager.HasComponent<ShuttleFTLComponent>(_shuttleEntity))
+    //    {
+    //        MapFTLButton.Visible = false;
+    //    }
+    //    else
+    //    {
+    //        MapFTLButton.Visible = true;
+    //    }
 
         switch (_state)
         {

@@ -2,7 +2,11 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using Content.Server.Cargo.Components;
 using Content.Server.NameIdentifier;
+using Content.Server._NF.Cargo.Systems;
+using Content.Server._NF.Market.Components;
+using Content.Server._NF.Market.Extensions;
 using Content.Shared._NF.Bank; // Frontier
+using Content.Shared._NF.Market.Events;
 using Content.Shared.Access.Components;
 using Content.Shared.Cargo;
 using Content.Shared.Cargo.Components;
@@ -42,7 +46,7 @@ public sealed partial class CargoSystem
         SubscribeLocalEvent<CargoBountyConsoleComponent, BountyPrintLabelMessage>(OnPrintLabelMessage);
         SubscribeLocalEvent<CargoBountyConsoleComponent, BountySkipMessage>(OnSkipBountyMessage);
         SubscribeLocalEvent<CargoBountyLabelComponent, PriceCalculationEvent>(OnGetBountyPrice);
-        SubscribeLocalEvent<EntitySoldEvent>(OnSold);
+        SubscribeLocalEvent<NFEntitySoldEvent>(OnEntitySoldEvent);
         SubscribeLocalEvent<StationCargoBountyDatabaseComponent, MapInitEvent>(OnMapInit);
 
         _stackQuery = GetEntityQuery<StackComponent>();
@@ -164,9 +168,9 @@ public sealed partial class CargoSystem
         component.Calculating = false;
     }
 
-    private void OnSold(ref EntitySoldEvent args)
+    private void OnEntitySoldEvent(ref NFEntitySoldEvent entitySoldEvent)
     {
-        foreach (var sold in args.Sold)
+        foreach (var sold in entitySoldEvent.Sold)
         {
             if (!TryGetBountyLabel(sold, out _, out var component))
                 continue;
@@ -181,7 +185,7 @@ public sealed partial class CargoSystem
                 continue;
             }
 
-            TryRemoveBounty(station, bounty.Value, false);
+            TryRemoveBounty(new Entity<StationCargoBountyDatabaseComponent?>(station, null), bounty.Value, false);
             FillBountyDatabase(station);
             _adminLogger.Add(LogType.Action, LogImpact.Low, $"Bounty \"{bounty.Value.Bounty}\" (id:{bounty.Value.Id}) was fulfilled");
         }

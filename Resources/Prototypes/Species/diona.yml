@@ -16,7 +16,7 @@
 - type: speciesBaseSprites
   id: MobDionaSprites
   sprites:
-    Head:
+    Head: MobDionaHead
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking

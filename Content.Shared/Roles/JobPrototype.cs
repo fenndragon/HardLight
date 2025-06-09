@@ -62,7 +62,7 @@ namespace Content.Shared.Roles
         ///     When true - the station will have anouncement about arrival of this player.
         /// </summary>
         [DataField("joinNotifyCrew")]
-        public bool JoinNotifyCrew { get; private set; } = false;
+        public bool JoinNotifyCrew { get; private set; } = true;
 
         /// <summary>
         ///     When true - the player will recieve a message about importancy of their job.

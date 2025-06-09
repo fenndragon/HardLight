@@ -17,7 +17,7 @@
     - id: KudzuGrowth
     - id: MassHallucinations
     - id: MimicVendorRule
-    - id: MouseMigration
+    # - id: MouseMigration
     - id: PowerGridCheck
     - id: RandomSentience
     - id: SlimesSpawn
@@ -792,3 +792,567 @@
     reoccurrenceDelay: 120 # Frontier: 20<120
     duration: 1
   - type: IonStormRule
+
+- type: entity
+  id: NFBaseStationEventModerateDelay
+  parent: BaseGameRule
+  abstract: true
+  components:
+    - type: GameRule
+      delay:
+        min:  30
+        max:  40
+
+- type: entity
+  id: NFBluespaceCargoCrate
+  parent: NFBaseStationEventModerateDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: bluespace-cargo-event-announcement
+    weight: 5
+    duration: 35
+    reoccurrenceDelay: 120
+  - type: BluespaceCargoRule
+    spawnerPrototype: RandomCargoSpawner
+    flashPrototype: EffectFlashBluespaceQuiet
+    requireSafeAtmosphere: true
+    minimumSpawns: 2
+    maximumSpawns: 5
+
+- type: entity
+  id: NFBluespaceMcCargoCrate
+  parent: NFBaseStationEventModerateDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: bluespace-cargo-event-announcement
+    earliestStart: 20
+    weight: 5
+    duration: 35
+    maximumPlayers: 20
+    reoccurrenceDelay: 180
+  - type: BluespaceCargoRule
+    spawnerPrototype: CrateFoodMcCargo
+    flashPrototype: EffectFlashMcBluespace
+    requireSafeAtmosphere: true
+
+- type: entity
+  id: NFBluespaceSyndicateCrate
+  parent: NFBaseStationEventModerateDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: bluespace-syndicate-crate-event-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    weight: 1
+    duration: 35
+    earliestStart: 90
+    minimumPlayers: 1 # Floof - we ball
+    reoccurrenceDelay: 480 # 8 hours
+  - type: BluespaceCargoRule
+    spawnerPrototype: CrateSyndicateSurplusBundle
+    maximumSpawns: 1
+
+- type: entity
+  id: NFSmugglingFax
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    weight: 8 # Fairly common.
+    duration: 35
+    earliestStart: 30
+    minimumPlayers: 1 # Floof - we ball
+    reoccurrenceDelay: 50
+  - type: RandomFaxRule
+    minFaxes: 1
+    maxFaxes: 2
+    name: deaddrop-faxed-hint-name
+    prototypeId: PaperDeadDropFax
+    content: deaddrop-faxed-hint-content # Default contents, will be edited.
+    stampedBy:
+    - stampedName: deaddrop-faxed-hint-signature
+      stampedColor: "#850000"
+    stampState: paper_stamp-syndicate
+    preFaxActions:
+    - !type:GetRandomDeadDropAction
+
+- type: entity
+  id: NFSmugglingFaxBig
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    weight: 100 # Fairly common.
+    minimumPlayers: 1 # Floof - we ball
+    duration: 35
+  - type: RandomFaxRule
+    minFaxes: 3
+    maxFaxes: 4
+    name: deaddrop-faxed-hint-name
+    prototypeId: PaperDeadDropFax
+    content: deaddrop-faxed-hint-content # Default contents, will be edited.
+    stampedBy:
+    - stampedName: deaddrop-faxed-hint-signature
+      stampedColor: "#850000"
+    stampState: paper_stamp-syndicate
+    preFaxActions:
+    - !type:GetRandomDeadDropAction
+
+- type: entity
+  id: BluespaceSalvage
+  parent: BaseStationEventShortDelay
+  name: NT Bluespace Monitoring # This name shows up in the radio messages.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    startRadioAnnouncement: station-event-bluespace-scrap-start-announcement
+    startRadioAnnouncementChannel: Engineering
+    warningRadioAnnouncement: station-event-bluespace-scrap-warning-announcement
+    warningRadioAnnouncementChannel: Engineering
+    endRadioAnnouncement: station-event-bluespace-scrap-end-announcement
+    endRadioAnnouncementChannel: Engineering
+    weight: 5
+    duration: 1800 # 30 minutes
+    maxDuration: 1800 # 30 minutes
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameDataset: NamesScrap
+        nameDatasetType: Nanotrasen # they're shuttles
+        minCount: 2
+        maxCount: 3
+        minimumDistance: 1000
+        maximumDistance: 2000
+        addComponents:
+        - type: IFF
+          color: "#AAAAAA"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        paths:
+#        - /Maps/_NF/Shuttles/Scrap/canister.yml # Too small
+        - /Maps/_NF/Shuttles/Scrap/disciple.yml
+        - /Maps/_NF/Shuttles/Scrap/nugget.yml
+        - /Maps/_NF/Shuttles/Scrap/orange.yml
+        - /Maps/_NF/Shuttles/Scrap/point.yml
+        - /Maps/_NF/Shuttles/Scrap/tide.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-investigator.yml # Please replace all this maps ones we finish some automated system
+        - /Maps/_NF/Shuttles/Scrap/scrap-hauler.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-crescent.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-barge.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-courserx.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-comet.yml
+        - /Maps/_NF/Shuttles/Scrap/scrap-sprinter.yml
+  - type: ActiveRadio
+    channels:
+    - Engineering
+
+- type: entity
+  id: BluespaceCacheError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-cache-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    warningAnnouncement: station-event-bluespace-cache-warning-announcement
+    endAnnouncement: station-event-bluespace-cache-end-announcement
+    earliestStart: 100
+    weight: 5
+    duration: 1350
+    maxDuration: 1560
+    reoccurrenceDelay: 360 # 6 hours
+    requiredJobs:
+      Sheriff: 1
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SyndicateWeaponsCache
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: Shuttle
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor # Added post-FTL, so anchoring is fine.
+        paths:
+        - /Maps/_NF/Bluespace/cache.yml
+    rewardAccounts:
+      Nfsd: 1.0
+
+- type: entity
+  id: BluespaceVaultError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-vault-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    warningAnnouncement: station-event-bluespace-vault-warning-announcement
+    endAnnouncement: station-event-bluespace-vault-end-announcement
+    earliestStart: 100
+    weight: 5
+    duration: 1020
+    maxDuration: 1350
+    reoccurrenceDelay: 360 # 6 hours
+    requiredJobs:
+      Sheriff: 1
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SecureNTVault
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/vault.yml
+    rewardAccounts:
+      Nfsd: 1.0
+
+- type: entity
+  id: BluespaceVaultSmallError
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-vault-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    warningAnnouncement: station-event-bluespace-vault-warning-announcement
+    endAnnouncement: station-event-bluespace-vault-end-announcement
+    earliestStart: 100
+    maximumPlayers: 30
+    weight: 5
+    duration: 590
+    maxDuration: 780
+    reoccurrenceDelay: 360 # 6 hours
+    requiredJobs:
+      Sheriff: 1
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-SecureNTVault
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/vaultsmall.yml
+    rewardAccounts:
+      Nfsd: 1.0
+
+- type: entity
+  id: BluespaceSyndicateFTLInterception
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    earliestStart: 80
+    minimumPlayers: 15
+    weight: 1
+    duration: 1800
+    maxDuration: 2400
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-UnidentifiedVessel
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/syndieftlintercept.yml
+
+- type: entity
+  id: BluespaceWizardFederationScout
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    earliestStart: 100
+    minimumPlayers: 15
+    weight: 1
+    duration: 900
+    maxDuration: 1200
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-UnidentifiedVessel
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/wizardprobealt.yml
+
+- type: entity
+  id: BluespaceBloodMoon
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    earliestStart: 80
+    minimumPlayers: 15
+    weight: 1
+    duration: 1800
+    maxDuration: 2400
+    reoccurrenceDelay: 360 # 6 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-UnidentifiedVessel
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+          color: "#E10F9B"
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/bloodmoon.yml
+
+- type: entity
+  id: BluespaceCave
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    earliestStart: 20
+    weight: 1
+    duration: 1800
+    maxDuration: 2400
+    maxOccurrences: 1
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-Cave
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        - type: ForceAnchor
+        paths:
+        - /Maps/_NF/Bluespace/cave.yml
+
+- type: entity
+  id: NFBluespaceBrokenMcDelivery
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-bluespace-generic-ftl-start-announcement
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    warningAnnouncement: station-event-bluespace-generic-ftl-warning-announcement
+    endAnnouncement: station-event-bluespace-generic-ftl-end-announcement
+    earliestStart: 20
+    maximumPlayers: 5
+    weight: 5
+    duration: 900
+    maxDuration: 1800
+    reoccurrenceDelay: 240 # once per 4 hours
+  - type: BluespaceErrorRule
+    groups:
+      grid: !type:GridSpawnGroup
+        nameLoc:
+        - station-event-bluespace-name-BrokenMcDelivery
+        minCount: 2
+        maxCount: 3
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents:
+        - type: IFF
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        paths:
+        - /Maps/_NF/Bluespace/mcevent.yml
+
+- type: entity
+  id: BluespaceDungeonBase
+  parent: BaseStationEventShortDelay
+  name: NT Bluespace Monitoring # This name shows up in the radio messages.
+  abstract: true
+  components:
+  - type: StationEvent
+    startRadioAnnouncement: station-event-bluespace-dungeon-start-announcement
+    startRadioAnnouncementChannel: Supply
+    warningRadioAnnouncement: station-event-bluespace-dungeon-warning-announcement
+    warningRadioAnnouncementChannel: Supply
+    endRadioAnnouncement: station-event-bluespace-dungeon-end-announcement
+    endRadioAnnouncementChannel: Supply
+    weight: 5
+    duration: 1800 # 30 minutes
+    maxDuration: 1800 # 30 minutes
+    reoccurrenceDelay: 120 # 2 hours (some variety - at worst, alternates between four dungeon types)
+  - type: ActiveRadio
+    channels:
+    - Supply
+
+- type: entity
+  id: BluespaceDungeonBasalt
+  parent: BluespaceDungeonBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BluespaceErrorRule
+    groups:
+      vgroid: !type:DungeonSpawnGroup
+        nameDataset: NamesBorer
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents: &dungeonComponents
+        - type: Gravity
+          enabled: true
+          inherent: true
+        - type: IFF
+        - type: LinkedLifecycleGridParent
+        - type: ProtectedGrid
+          preventArtifactTriggers: true
+        - type: PreventPilot
+        # FIXME: the dungeon dosen't pass FTL events even though it should FTL in
+        #        and we don't get a MapInitEvent, so this just forces static physics
+        - type: Physics
+          bodyType: Static
+          bodyStatus: OnGround
+        protos:
+        - NFVGRoidBasalt
+
+- type: entity
+  id: BluespaceDungeonSnow
+  parent: BluespaceDungeonBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BluespaceErrorRule
+    groups:
+      vgroid: !type:DungeonSpawnGroup
+        nameDataset: NamesBorer
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents: *dungeonComponents
+        protos:
+        - NFVGRoidSnow
+
+- type: entity
+  id: BluespaceDungeonCave
+  parent: BluespaceDungeonBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BluespaceErrorRule
+    groups:
+      vgroid: !type:DungeonSpawnGroup
+        nameDataset: NamesBorer
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents: *dungeonComponents
+        protos:
+        - NFVGRoidCave
+
+- type: entity
+  id: BluespaceDungeonChromite
+  parent: BluespaceDungeonBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BluespaceErrorRule
+    groups:
+      vgroid: !type:DungeonSpawnGroup
+        nameDataset: NamesBorer
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents: *dungeonComponents
+        protos:
+        - NFVGRoidChromite
+
+- type: entity
+  id: BluespaceDungeonScrap
+  parent: BluespaceDungeonBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BluespaceErrorRule
+    groups:
+      vgroid: !type:DungeonSpawnGroup
+        nameDataset: NamesBorer
+        minimumDistance: 1500
+        maximumDistance: 2500
+        addComponents: *dungeonComponents
+        protos:
+        - NFVGRoidScrap
