@@ -22,9 +22,9 @@
   description: An old-but-gold helmet designed for extravehicular activites.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Helmets/seceva.rsi
+    sprite: Clothing/Head/Helmets/eva_sec.rsi
   - type: Clothing
-    sprite: Clothing/Head/Helmets/seceva.rsi
+    sprite: Clothing/Head/Helmets/eva_sec.rsi
   - type: Tag
     tags:
     - HelmetEVA

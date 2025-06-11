@@ -22,16 +22,13 @@
   description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/seceva.rsi
+    sprite: Clothing/OuterClothing/Suits/eva_sec.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/seceva.rsi
+    sprite: Clothing/OuterClothing/Suits/eva_sec.rsi
   - type: Tag
     tags:
     - SuitEVA
     - MonkeyWearable
-  - type: StaticPrice # Frontier
-    price: 50 # Frontier
-    vendPrice: 3000 # Frontier
 
 #Syndicate EVA
 - type: entity
