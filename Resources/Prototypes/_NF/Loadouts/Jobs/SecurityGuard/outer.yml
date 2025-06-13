@@ -5,7 +5,7 @@
     proto: NFOuterSuitRequired
   price: 0
   equipment:
-    outerClothing: ClothingOuterEVASuitPrivateSec
+    outerClothing: ClothingOuterHardsuitEVASec
 
 - type: loadout
   id: SecurityGuardArmorVest
