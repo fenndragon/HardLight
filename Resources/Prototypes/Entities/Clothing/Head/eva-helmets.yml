@@ -14,6 +14,21 @@
     - HelmetEVA
     - WhitelistChameleon
 
+#Sec EVA Helmet
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: ClothingHeadHelmetEVASec
+  name: Security EVA helmet
+  description: An old-but-gold helmet designed for extravehicular activites. Infamous for making security officers paranoid.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/eva_sec.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/eva_sec.rsi
+  - type: Tag
+    tags:
+    - HelmetEVA
+
 #Large EVA Helmet
 - type: entity
   parent: ClothingHeadEVAHelmetBase
