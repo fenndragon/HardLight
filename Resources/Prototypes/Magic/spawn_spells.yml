@@ -16,3 +16,68 @@
         amount: 3
       offset: 0, 1
       speech: action-speech-spell-summon-magicarp
+
+- type: entity
+  id: ActionSpawnWaterSpell
+  name: Summon Water
+  description: This spell summons a vast body of water.
+  components:
+  - type: WorldTargetAction
+    useDelay: 35
+    range: 4
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: spell_default
+    event: !type:WorldSpawnSpellEvent
+      prototypes:
+      - id: WizardBucketA
+        amount: 1
+      speech: action-speech-spell-summon-magicarp
+
+- type: entity
+  id: ActionSpawnCumSpell
+  name: Summon Fluids
+  description: This spell summons a vast body of fluids.
+  components:
+  - type: WorldTargetAction
+    useDelay: 35
+    range: 4
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: spell_default
+    event: !type:WorldSpawnSpellEvent
+      prototypes:
+      - id: WizardBucketB
+        amount: 1
+      speech: action-speech-spell-summon-magicarp
+
+# Liquid spawning template.
+- type: entity
+  id: WizardBucketA
+  name: magic bucket
+  description: At least, it was a bucket when you bought it.
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 1
+        reagents:
+        - ReagentId: Water
+          Quantity: 3001
+
+- type: entity
+  id: WizardBucketB
+  name: magic bucket
+  description: At least, it was a bucket when you bought it.
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 1
+        reagents:
+        - ReagentId: Cum
+          Quantity: 501
