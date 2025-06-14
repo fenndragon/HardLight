@@ -1,0 +1,179 @@
+# BASE
+- type: entity
+  parent: BaseItem
+  id: WizardDuffelGiftBox
+  name: wizard federation bundle
+  description: Loot boxes? Here?
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  suffix: NPC Loot
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/syndicate.rsi
+    state: icon-ammo
+  - type: Item
+    size: Normal
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+  - type: SpawnItemsOnUse
+    items:
+      - id: SpaceCash10
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
+
+- type: entity
+  parent: WizardDuffelGiftBox
+  id: WizardMessengerGiftBox
+  name: wizard federation bundle
+  description: Loot boxes? Here?
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  suffix: NPC Loot
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    layers:
+    - state: icon-base
+      color: "#6e2673"
+    - state: icon-sling
+      color: "#4b3144"
+    - state: icon-clasp
+      color: "#0f73ab"
+  - type: Clothing
+    sprite: _NF/Clothing/Back/Messenger/color.rsi
+    clothingVisuals:
+      back:
+      - state: base-equipped-BACKPACK
+        color: "#6e2673"
+      - state: sling-equipped-BACKPACK
+        color: "#0f73ab"
+      - state: clasp-equipped-BACKPACK
+        color: "#0f73ab"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: base-inhand-left
+        color: "#6e2673"
+      - state: clasp-inhand-left
+        color: "#0f73ab"
+      right:
+      - state: base-inhand-right
+        color: "#6e2673"
+      - state: clasp-inhand-right
+        color: "#0f73ab"
+
+# WIZARD NPC LOOT
+## Blue
+- type: entity
+  parent: WizardMessengerGiftBox
+  id: ClothingBackpackBlueWizardLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: SpawnDungeonLootSeed
+      - id: SpaceCash2500
+      # Bonus Loot T3
+      - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash500
+        prob: 0.9
+      - id: SpawnDungeonLootMaterialsBasicFull
+        prob: 0.7
+      - id: SpawnDungeonLootMaterialsValuableFull
+        prob: 0.7
+      - id: FoodSpaceshroom
+        prob: 0.7
+      - id: FoodCoffeeBeansRoastedDark
+        prob: 0.4
+      - id: waterpage
+        prob: 0.05
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
+# Red
+- type: entity
+  parent: WizardMessengerGiftBox
+  id: ClothingBackpackRedWizardLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: SpawnDungeonLootSeed
+      - id: SpaceCash2500
+      # Bonus Loot T3
+      - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash500
+        prob: 0.9
+      - id: SpaceCash1000
+        prob: 0.7
+      - id: SpawnDungeonLootMaterialsValuableFull
+        prob: 0.7
+      - id: FoodSpaceshroom
+        prob: 0.7
+      - id: firepage
+        prob: 0.01
+      - id: ReagentContainerRaisin
+        prob: 0.4
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
+# Violet
+- type: entity
+  parent: WizardMessengerGiftBox
+  id: ClothingBackpackVioletWizardLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: SpawnDungeonLootSeed
+      - id: SpaceCash2500
+      # Bonus Loot T3
+      - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash500
+        prob: 0.9
+      - id: SpawnDungeonLootMaterialsBasicFull
+        prob: 0.7
+      - id: SpaceCash1000
+        prob: 0.7
+      - id: FoodSpaceshroom
+        prob: 0.7
+      - id: boogiepage
+        prob: 0.01
+      - id: DrinkBottleOfNothingFull
+        prob: 0.5
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
+# Soap
+- type: entity
+  parent: WizardMessengerGiftBox
+  id: ClothingBackpackSoapWizardLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SpawnItemsOnUse
+    items:
+      - id: SpaceCash2500
+      - id: SpawnDungeonLootSeed
+      # Bonus Loot T3
+      - id: SpaceCash1000
+        prob: 0.9
+      - id: SpaceCash500
+        prob: 0.9
+      - id: SpaceCash1000
+        prob: 0.7
+      - id: SpawnDungeonLootMaterialsValuableFull
+        prob: 0.7
+      - id: FoodSpaceshroom
+        prob: 0.7
+      - id: FoodPieBananaCream
+        prob: 0.5
+      - id: cumpage
+        prob: 0.05
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg

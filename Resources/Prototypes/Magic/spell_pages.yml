@@ -1,0 +1,166 @@
+# Remember to add new spell pages to the npc_wizard_loot.yml to have them spawn on UIV wizards as appropriate.
+
+- type: entity
+  id: BaseMagicAdder
+  name: writing
+  description: Residual magic ink from the creation of a spell book.
+  abstract: true
+  components:
+  - type: SubdermalImplant
+  - type: Tag
+    tags:
+    - SubdermalImplant
+    - HideContextMenu
+
+
+
+# Empty implant template, add the spells actual action, e.g ActionFireball under implantAction, then an id, name and description as normal.
+# Refer to the ID of this when doing the 'implanter' segment below. The description of this is what shows as the green text below the implanter description.
+- type: entity
+  parent: BaseMagicAdder
+  id: template spell
+  name: templatier
+  description:
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction:
+
+- type: entity
+  parent: BaseMagicAdder
+  id: fireballimplant
+  name: spicy magic
+  description: It smells spicy.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionFireballWeak
+
+- type: entity
+  parent: BaseMagicAdder
+  id: oceanimplant
+  name: wet magic
+  description: It smells damp.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionSpawnWaterSpell
+
+- type: entity
+  parent: BaseMagicAdder
+  id: whitestuffimplant
+  name: sticky magic
+  description: It smells damp?
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionSpawnCumSpell
+
+- type: entity
+  parent: BaseMagicAdder
+  id: blueimplant
+  name: blue magic
+  description: It smells brotherly.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ActionVoidApplauseLR
+
+
+# Slightly pared down implanter.
+- type: entity
+  id: BaseMagicPage
+  parent: BaseItem
+  abstract: true
+  components:
+    - type: ItemSlots
+    - type: ContainerContainer
+      containers:
+        implanter_slot: !type:ContainerSlot { }
+    - type: Implanter
+      whitelist:
+        components:
+        - Body # no chair microbomb
+      blacklist:
+        components:
+        - Guardian # no holoparasite macrobomb wombo combo
+        tags:
+        - Unimplantable
+      currentMode: Inject
+      implantOnly: true
+      implanterSlot:
+        name: Implant
+        locked: True
+        priority: 0
+        whitelist:
+          tags:
+            - SubdermalImplant
+    - type: Sprite
+      sprite: Objects/Magic/magicactions.rsi
+      state: spell_default
+      layers:
+        - state: ashed
+          map: [ "implantFull" ]
+          visible: false
+        - state: spell_default
+          map: [ "implantOnly" ]
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.ImplanterVisuals.Full:
+          implantFull:
+            False: {visible: true}
+            True: {visible: false}
+        enum.ImplanterImplantOnlyVisuals.ImplantOnly:
+          implantOnly:
+            True: {state: ashed}
+            False: {state: spell_default}
+
+
+
+# Empty implanter template, add the ID of the implant spell under implant, remove hidespawnmenu then proceed as normal.
+- type: entity
+  id: template_implanter
+  name: torn page
+  description: A torn page from a spell book. It looks brittle.
+  categories: [ HideSpawnMenu ]
+  parent: BaseMagicPage
+  components:
+    - type: Implanter
+      implant: template spell
+
+- type: entity
+  id: firepage
+  name: torn page
+  description: A torn page from a spell book. It looks brittle.
+  parent: BaseMagicPage
+  components:
+    - type: Implanter
+      implant: fireballimplant
+
+- type: entity
+  id: waterpage
+  name: torn page
+  description: A torn page from a spell book. It looks brittle.
+  parent: BaseMagicPage
+  components:
+    - type: Implanter
+      implant: oceanimplant
+
+- type: entity
+  id: cumpage
+  name: torn page
+  description: A torn page from a spell book. It looks brittle.
+  parent: BaseMagicPage
+  components:
+    - type: Implanter
+      implant: whitestuffimplant
+
+- type: entity
+  id: boogiepage
+  name: torn page
+  description: A torn page from a spell book. It looks brittle.
+  parent: BaseMagicPage
+  components:
+    - type: Implanter
+      implant: blueimplant

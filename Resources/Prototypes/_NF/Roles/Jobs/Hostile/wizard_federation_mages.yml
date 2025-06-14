@@ -4,6 +4,7 @@
   equipment:
     head: ClothingHeadHatWizard
     shoes: ClothingShoesWizard
+    back: ClothingBackpackBlueWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedLightBlue
     outerClothing: ClothingOuterWizard
@@ -15,6 +16,7 @@
   equipment:
     head: ClothingHeadHatRedwizard
     shoes: ClothingShoesWizard
+    back: ClothingBackpackRedWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedRed
     outerClothing: ClothingOuterWizardRed
@@ -26,6 +28,7 @@
   equipment:
     head: ClothingHeadHatVioletwizard
     shoes: ClothingShoesWizard
+    back: ClothingBackpackVioletWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedPurple
     outerClothing: ClothingOuterWizardViolet
@@ -37,6 +40,7 @@
   equipment:
     head: ClothingHeadHatRedwizard
     mask: ClothingMaskClown
+    back: ClothingBackpackSoapWizardLoot
     jumpsuit: ClothingUniformJumpsuitClown
     shoes: ClothingShoesClown
     outerClothing: ClothingOuterClownPriest
@@ -51,6 +55,7 @@
   equipment:
     head: ClothingHeadHelmetWizardHelm
     shoes: ClothingShoesWizard
+    back: ClothingBackpackBlueWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedLightBlue
     outerClothing: ClothingOuterArmorMagusblue # Well, it's not a hardsuit but whatever
@@ -62,6 +67,7 @@
   equipment:
     head: ClothingHeadHelmetWizardHelm
     shoes: ClothingShoesWizard
+    back: ClothingBackpackRedWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedRed
     outerClothing: ClothingOuterArmorMagusred # Well, it's not a hardsuit but whatever
@@ -73,6 +79,7 @@
   equipment:
     head: ClothingHeadHelmetWizardHelm
     shoes: ClothingShoesWizard
+    back: ClothingBackpackVioletWizardLoot
     belt: ClothingBeltWand
     neck: ClothingNeckScarfStripedPurple
     outerClothing: ClothingOuterHardsuitWizard
@@ -84,6 +91,7 @@
   equipment:
     head: ClothingHeadHelmetWizardHelm
     mask: ClothingMaskClown
+    back: ClothingBackpackSoapWizardLoot
     jumpsuit: ClothingUniformJumpsuitClown
     shoes: ClothingShoesClown
     neck: ClothingNeckScarfStripedRed

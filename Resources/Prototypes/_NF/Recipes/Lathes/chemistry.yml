@@ -30,3 +30,19 @@
     Plastic: 400
     Steel: 100
     Silver: 25
+
+- type: latheRecipe
+  id: LiddedVial
+  result: LiddedVial
+  completetime: 2
+  materials:
+    Glass: 20
+    Steel: 15
+
+- type: latheRecipe
+  id: LiddedBottle
+  result: LiddedBottle
+  completetime: 2
+  materials:
+    Glass: 20
+    Steel: 15

@@ -95,6 +95,113 @@
         acts: [ "Destruction" ]
   - type: DnaSubstanceTrace
 
+# Lidded bottle, pretend the lid is what stops it mixing.
+- type: entity
+  name: lidded bottle
+  parent: BaseItem
+  id: LiddedBottle
+  description: A small bottle with a screwtop lid.
+  components:
+  - type: Tag
+    tags:
+    - Bottle
+    - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 25
+  - type: SpaceGarbage
+  - type: Sprite
+    sprite: Objects/Specific/Chemistry/bottle.rsi
+    layers:
+    - state: bottle-1
+    - state: bottle-1-1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: bottle-1-
+  - type: Drink
+    solution: beaker
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 30
+        canReact: false
+  - type: MixableSolution
+    solution: beaker
+  - type: RefillableSolution
+    solution: beaker
+  - type: DrainableSolution
+    solution: beaker
+  - type: ExaminableSolution
+    solution: beaker
+  - type: DrawableSolution
+    solution: beaker
+  - type: SolutionTransfer
+    maxTransferAmount: 30
+    canChangeTransferAmount: true
+  - type: SolutionItemStatus
+    solution: beaker
+  - type: UserInterface
+    interfaces:
+      enum.TransferAmountUiKey.Key:
+        type: TransferAmountBoundUserInterface
+  - type: Item
+    size: Tiny
+    sprite: Objects/Specific/Chemistry/vial.rsi
+    shape:
+    - 0,0,0,0
+  - type: MeleeWeapon
+    soundNoDamage:
+      path: "/Audio/Effects/Fluids/splat.ogg"
+    damage:
+      types:
+        Blunt: 0
+  - type: TrashOnSolutionEmpty
+    solution: beaker
+  - type: StaticPrice
+    price: 100
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 15
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 2
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 15
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+          params:
+            volume: -4
+      - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 0
+            max: 1
+        transferForensics: true
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Spillable
+    solution: beaker
+  - type: DnaSubstanceTrace
+  - type: Openable
+    sound:
+      collection: bottleOpenSounds
+    closeable: true
+    closeSound:
+      collection: bottleCloseSounds
+
 - type: entity
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottle01
