@@ -9,34 +9,37 @@
 # Shuttle Notes:
 #
 - type: vessel
-  id: Mosquito
-  name: AI Mosquito
-  description: A sector security vessel designed for boarding parties.
-  price: 14000  # ~4k + post init appraisal
+  id: Syringe
+  name: AI Syringe
+  description: A medical configuration of the Mosquito boarding vessel
+  price: 18000  # ~3k + post init appraisal
   category: Small
   group: Security
   access: Security
-  shuttlePath: /Maps/_HL/Shuttles/ColSec/mosquito.yml
+  shuttlePath: /Maps/_HL/Shuttles/ColSec/syringe.yml
   guidebookPage: Null
   class:
-  - Pursuit
+  - Medical
   engine:
   - APU
 
 - type: gameMap
-  id: Mosquito
-  mapName: 'AI Mosquito'
-  mapPath: /Maps/_HL/Shuttles/ColSec/mosquito.yml
+  id: Syringe
+  mapName: 'AI Syringe'
+  mapPath: /Maps/_HL/Shuttles/ColSec/syringe.yml
   minPlayers: 0
   stations:
-    Mosquito:
+    Syringe:
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Mosquito {1}'
+          mapNameTemplate: 'Syringe {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
           availableJobs: {}
 
+
+=======
+>>>>>>> parent of 6ae640f3cf (Revert "Adds the syringe, a medical varient of the Mosquito")
